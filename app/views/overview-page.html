@@ -2,7 +2,7 @@
 
 {% block pageTitle %}
 
-ASHCROFT LIMITED overview - Find and update company information
+COMPANY LIMITED overview - Find and update company information
  – {{ serviceName }} – GOV.UK
 {% endblock %}
 
@@ -25,8 +25,8 @@ ASHCROFT LIMITED overview - Find and update company information
 
 <a class="govuk-body" href="#">Advanced company search</a>
 
-<h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">ASHCROFT LIMITED</h1>
-<p class"govuk-body">Company number <strong>OE001485</strong></p>
+<h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">COMPANY LIMITED</h1>
+<p class"govuk-body">Company number <strong>01234567</strong></p>
 
 <div class="govuk-button-group">
   {{ govukButton({
@@ -35,8 +35,8 @@ ASHCROFT LIMITED overview - Find and update company information
   }) }}
 
     {{ govukButton({
-    text: "Request an authentication code",
-    href: "../01-sign-in-to-companies-house"
+    text: "File for this company",
+    href: "#e"
   }) }}
 
 </div>
@@ -58,9 +58,7 @@ ASHCROFT LIMITED overview - Find and update company information
 
 
 
-{% set generalOverviewHtml %}
-<h2 class="govuk-heading-l">-</h2>
-{% endset -%}
+
 
 
 
@@ -68,25 +66,21 @@ ASHCROFT LIMITED overview - Find and update company information
 
 <ul class="search-tabs">      
 	<li id="peoples-tab" class="active">
-	   <a id="officers-link" class="govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="#">General overview</a>
+	   <a id="officers-link" class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="#">
+      General overview</a>
 	</li>
 
 	<li id="pscs-tab class="active"">
-    <a id="pscs-link" class="govuk-link" href="#">Accounts</a>                     
+    <a id="pscs-link" class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="#">
+      Accounts</a>                     
   </li>
 </ul>
 
 
-{% set accountOverviewHtml %}
-<h2 class="govuk-heading-l">-</h2>
-{% endset -%}
-
-<a href="#">General</a> <a href="#">Accounts</a>
-<hr>
-<ul class="search-tabs">
 
 
-{{ govukTabs({
+
+{# {{ govukTabs({
   class: "govuk",
   items: [
     {
@@ -105,55 +99,92 @@ ASHCROFT LIMITED overview - Find and update company information
     }
   ]
 }) }}
+ #}
+
+
+{% set accountOverviewHtml %}
+<h2 class="govuk-heading-l">-</h2>
+{% endset -%}
 
 
 
 
-
-
-
-<p class"govuk-body">Correspondence address<br>
-<strong>C/O Moore Chartered Accountants 2nd Floor, Southern House, 76-80 College Road, Harrow, Middlesex, United Kingdom, HA1 4BW 
+<p class"govuk-body">Registered office address<br>
+<strong>
+  Studio 10, Floor 5, Fairgate House, 24 New Oxford Street, London, United Kingdom, WC1A 1HB
 </strong>
 </p>
 
 
 
 <div class="govuk-grid-row govuk-!-margin-top-7">
-  <div class="govuk-grid-column-full">
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-one-half">
-        <p class"govuk-body">Company type<br>
-    <strong>Overseas entity </strong>
+<div class="govuk-grid-column-full">
+
+<div class="govuk-grid-row">
+   <div class="govuk-grid-column-one-half">
+      <p class"govuk-body">Company status<br>
+        <strong>Active</strong>
       </p>
-      </div>
-      <div class="govuk-grid-column-one-half">
-        <p class"govuk-body">Registered on<br>
-      <strong>16 August 2022 </strong>
-      </p>
-      </div>   
-    </div>
-  </div>
+   </div>
 </div>
 
 
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-half">
+        <p class"govuk-body">Company type<br>
+    <strong>Private limited Company</strong>
+      </p>
+      </div>
+      <div class="govuk-grid-column-one-half">
+        <p class"govuk-body">Incorporated on<br>
+      <strong>18 September 2020</strong>
+      </p>
+      </div>   
+    </div>
 
 
 
 
+<div class="govuk-grid-row">
+
+  <div class="govuk-grid-column-one-half">
+    <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">Accounts</h2><br>
+      <p class"govuk-body">Next accounts made up to <strong>30 November 2023</strong><br>
+        due by <strong>30 August 2024</strong>
+      </p>
+      <p class"govuk-body">Last accounts made up to <strong>30 November 2022</strong>
+      </p>
+  </div>
 
 
 
+  <div class="govuk-grid-column-one-half">
+    <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">Confirmation statement</h2><br>
+      <p class"govuk-body">Next statement date <strong>15 November 2023</strong><br>
+        due by <strong>29 November 2023</strong>
+      </p>
+      <p class"govuk-body">Last statement dated <strong>15 November 2022</strong>
+      </p>
+  </div>
+</div>
 
-<h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">Annual statement</h2><br>
-<p class"govuk-body">First statement date <strong>15 August 2023</strong><br>
-due by <strong>29 August 2023</strong>
-</p>
+<div>
+  <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">Nature of business (SIC)</h2><br>
+    <p class"govuk-body">99999 - Dormant Company 
+    </p>
+</div>
+
+</div>
+</div>
+
+
+{# 
 <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">Company details in the country of incorporation</h2><br>
 <p class"govuk-body">Overseas entity address<br>
 <strong>Maynard House 3rd Floor, P O Box 2486, Johnson's Ghut, Tortola, Tortola, Virgin Islands, British
 </strong>
 </p>
+
 
 <div class="govuk-grid-row ">
   <div class="govuk-grid-column-full">
@@ -180,7 +211,7 @@ due by <strong>29 August 2023</strong>
 </strong>
 <p class"govuk-body">Governing law<br>
 <strong>British Virgin Islands
-</strong>
+</strong> #}
 
 
 
