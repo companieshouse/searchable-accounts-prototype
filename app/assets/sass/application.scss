@@ -6,11 +6,17 @@
 // Add extra styles here
 
 
-.ul.search-tabs {
-    list-style-type: none;
-    float: left;
-    padding: 0 8px 10px;
-    margin: 0 20px 0 0;
+// .ul.search-tabs {
+//     list-style-type: none;
+//     float: left;
+//     padding: 0 8px 10px;
+//     margin: 0 20px 0 0;
+// }
+ul.search-tabs {
+    overflow: auto;
+    border-bottom: 1px solid #0b0c0c;
+    margin-bottom: 30px;
+    padding-left: 0;
 }
 
 ul.search-tabs li.active {
@@ -24,17 +30,18 @@ ul.search-tabs li {
     margin: 0 20px 0 0;
 }
 
-ul.search-tabs {
-    overflow: auto;
-    border-bottom: 1px solid #0b0c0c;
-    margin-bottom: 30px;
-}
-
 ul, ol {
     list-style-type: none;
 }
 
 
 .govuk-inset-text {
-    background-color: #5694ca
+    background-color: #5694ca;
+
+}
+
+
+// // toggle between Current only and All officers
+#CurrentOnly {
+    display: none;
 }

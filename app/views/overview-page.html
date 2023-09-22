@@ -1,6 +1,10 @@
 {% extends "layouts/main.html" %}
 
+
+
 {% block pageTitle %}
+
+
 
 COMPANY LIMITED overview - Find and update company information
  – {{ serviceName }} – GOV.UK
@@ -11,8 +15,48 @@ COMPANY LIMITED overview - Find and update company information
 {% endblock %} #}
 
 {% block content %}
+
+
+
+{% block pageScripts %}
+  <script src="/public/javascripts/toggle-officers.js"></script>
+{% endblock %}
+
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
+
+
+<!-- toggle between current only or all officers -->
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="toggleCheckbox-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+      <h3 class="govuk-fieldset__heading">
+        Filter officers
+      </h3>
+    </legend>
+    <div class="govuk-checkboxes" data-module="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="toggleCheckbox" name="toggleCheckbox" type="checkbox" value="current">
+        <label class="govuk-label govuk-checkboxes__label" for="toggleCheckbox">
+          Current officers
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+   
+    
+    <div id="All">
+        <!-- Content for the "All" div -->
+        All Officers
+    </div>
+    <div id="CurrentOnly">
+        <!-- Content for the "CurrentOnly" div -->
+        Current Officers
+    </div>
+
+
+    
 
 
     <form action="" method="post" novalidate>
@@ -54,6 +98,10 @@ COMPANY LIMITED overview - Find and update company information
       Accounts</a>                     
   </li>
 </ul>
+
+
+
+
 
 
 
