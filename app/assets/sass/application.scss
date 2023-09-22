@@ -35,9 +35,9 @@ ul, ol {
 }
 
 
-.govuk-inset-text {
-    background-color: #5694ca;
-
+.chs-inset-text {
+    background-color: #EBF2F9;
+    border-left-color: govuk-colour("blue");
 }
 
 
@@ -45,3 +45,4 @@ ul, ol {
 #CurrentOnly {
     display: none;
 }
+

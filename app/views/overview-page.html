@@ -13,19 +13,181 @@ COMPANY LIMITED overview - Find and update company information
 {# {% block beforeContent %}
   {% include "includes/before-content.html" %}
 {% endblock %} #}
-
+{% block pageScripts %}
+  <script src="/public/javascripts/toggle-officers.js"></script>
+{% endblock %}
 {% block content %}
 
 
 
-{% block pageScripts %}
-  <script src="/public/javascripts/toggle-officers.js"></script>
-{% endblock %}
+
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
 
 
+
+
+
+    
+
+
+    <form action="" method="post" novalidate>
+
+
+<div class="govuk-form-group search-bar-active" for="full">
+  <input class="govuk-input" id="event-name" name="event-name" type="text" value="Search for a company or officer">
+</div>
+
+
+<a class="govuk-body" href="#">Advanced company search</a>
+
+<h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">COMPANY LIMITED</h1>
+<p class="govuk-body">Company number <strong>01234567</strong></p>
+
+<div class="govuk-button-group">
+  {{ govukButton({
+    text: "Follow this company",
+    href: "#"
+  }) }}
+
+    {{ govukButton({
+    text: "File for this company",
+    href: "#e"
+  }) }}
+
+</div>
+
+
+{% set overviewHtml %}
+<ul class="search-tabs">      
+	<li id="peoples-tab" class="active">
+	   <a id="officers-link" class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="#">
+      General overview</a>
+	</li>
+
+	<li id="pscs-tab" class="active">
+    <a id="pscs-link" class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="#accounts">
+      Accounts</a>                     
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="govuk-grid-row govuk-!-margin-top-7">
+    <div class="govuk-grid-column-full">
+      <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">1
+      September 2022 to 31 August 2023</h2><br />
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-half">
+          <p>Balance sheet total<br />
+          <strong>&pound;175,624</strong></p>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-half">
+          <p>Profit and loss<br />
+          <strong>&pound;543,003</strong></p>
+        </div>
+
+        <div class="govuk-grid-column-one-half">
+          <p>Number of employees<br />
+          <strong>11 - 50</strong></p>
+        </div>
+      </div>
+
+      <div class="govuk-inset-text chs-inset-text">
+        This account overview is lorem ipsum dolor sit amet, consectetur elit es
+        adipiscing elit es full accounts on <a href="#"
+             class="govuk-link--no-visited-state">Filing history</a>.
+      </div>
+
+      <p>Registered office address<br />
+      <strong>Studio 10, Floor 5, Fairgate House, 24 New Oxford Street, London, United
+      Kingdom, WC1A 1HB</strong></p>
+
+      <div class="govuk-grid-row govuk-!-margin-top-7">
+        <div class="govuk-grid-column-full">
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+              <p>Company status<br />
+              <strong>Active</strong></p>
+            </div>
+          </div>
+
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+              <p>Company type<br />
+              <strong>Private limited Company</strong></p>
+            </div>
+
+            <div class="govuk-grid-column-one-half">
+              <p>Incorporated on<br />
+              <strong>18 September 2020</strong></p>
+            </div>
+          </div>
+
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-half">
+              <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">
+              Accounts</h2><br />
+
+              <p>Next accounts made up to <strong>30 November 2023</strong><br />
+              due by <strong>30 August 2024</strong></p>
+
+              <p>Last accounts made up to <strong>30 November 2022</strong></p>
+            </div>
+
+            <div class="govuk-grid-column-one-half">
+              <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">
+              Confirmation statement</h2><br />
+
+              <p>Next statement date <strong>15 November 2023</strong><br />
+              due by <strong>29 November 2023</strong></p>
+
+              <p>Last statement dated <strong>15 November 2022</strong></p>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">
+            Nature of business (SIC)</h2><br />
+
+            <p>99999 - Dormant Company</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+{% endset -%}
+
+
+
+{% set filingHistoryHtml %}
+<h2 class="govuk-heading-l">-</h2>
+{% endset -%}
+
+
+
+{% set peopleHtml %}
 <!-- toggle between current only or all officers -->
 <div class="govuk-form-group">
   <fieldset class="govuk-fieldset" aria-describedby="toggleCheckbox-hint">
@@ -54,238 +216,16 @@ COMPANY LIMITED overview - Find and update company information
         <!-- Content for the "CurrentOnly" div -->
         Current Officers
     </div>
-
-
-    
-
-
-    <form action="" method="post" novalidate>
-
-
-<div class="govuk-form-group search-bar-active" for="full">
-  <input class="govuk-input" id="event-name" name="event-name" type="text" value="Search for a company or officer">
-</div>
-
-
-<a class="govuk-body" href="#">Advanced company search</a>
-
-<h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">COMPANY LIMITED</h1>
-<p class"govuk-body">Company number <strong>01234567</strong></p>
-
-<div class="govuk-button-group">
-  {{ govukButton({
-    text: "Follow this company",
-    href: "#"
-  }) }}
-
-    {{ govukButton({
-    text: "File for this company",
-    href: "#e"
-  }) }}
-
-</div>
-
-
-{% set overviewHtml %}
-<ul class="search-tabs">      
-	<li id="peoples-tab" class="active">
-	   <a id="officers-link" class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="#">
-      General overview</a>
-	</li>
-
-	<li id="pscs-tab class="active"">
-    <a id="pscs-link" class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="past-week">
-      Accounts</a>                     
-  </li>
-</ul>
-
-
-
-
-
-
-
-
-
-{# {{ govukTabs({
-  class: "govuk",
-  items: [
-    {
-      label: "Overview",
-      id: "general-overview",
-      panel: {
-        html: generalOverviewHtml
-      }
-    },
-    {
-      label: "Accounts",
-      id: "account-overview",
-      panel: {
-        html: accountOverviewHtml
-      }
-    }
-  ]
-}) }}
- #}
-
-
-{# {% set accountOverviewHtml %}  #}
-
-
-<div class="govuk-grid-row govuk-!-margin-top-7">
-<div class="govuk-grid-column-full">
-    <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">1 September 2022 to 31 August 2023</h2><br>
-
-<div class="govuk-grid-row">
-   <div class="govuk-grid-column-one-half">
-      <p class"govuk-body">Balance sheet total<br>
-        <strong>£175,624</strong>
-      </p>
-   </div>
-</div>
-
-
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-one-half">
-        <p class"govuk-body">Profit and loss<br>
-    <strong>£543,003</strong>
-      </p>
-      </div>
-      <div class="govuk-grid-column-one-half">
-        <p class"govuk-body">Number of employees<br>
-      <strong>11 - 50</strong>
-      </p>
-      </div>   
-    </div>
-
-
-<div class="govuk-inset-text">
-  This account overview is lorem ipsum dolor sit amet, consectetur  elit es adipiscing elit es full accounts on 
-  <a href="#" class="govuk-link--no-visited-state">Filing history</a>.
-</div>
-
-{# {% endset -%}  #}
-
-
-
-
-<p class"govuk-body">Registered office address<br>
-<strong>
-  Studio 10, Floor 5, Fairgate House, 24 New Oxford Street, London, United Kingdom, WC1A 1HB
-</strong>
-</p>
-
-
-
-<div class="govuk-grid-row govuk-!-margin-top-7">
-<div class="govuk-grid-column-full">
-
-<div class="govuk-grid-row">
-   <div class="govuk-grid-column-one-half">
-      <p class"govuk-body">Company status<br>
-        <strong>Active</strong>
-      </p>
-   </div>
-</div>
-
-
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-one-half">
-        <p class"govuk-body">Company type<br>
-    <strong>Private limited Company</strong>
-      </p>
-      </div>
-      <div class="govuk-grid-column-one-half">
-        <p class"govuk-body">Incorporated on<br>
-      <strong>18 September 2020</strong>
-      </p>
-      </div>   
-    </div>
-
-
-
-
-<div class="govuk-grid-row">
-
-  <div class="govuk-grid-column-one-half">
-    <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">Accounts</h2><br>
-      <p class"govuk-body">Next accounts made up to <strong>30 November 2023</strong><br>
-        due by <strong>30 August 2024</strong>
-      </p>
-      <p class"govuk-body">Last accounts made up to <strong>30 November 2022</strong>
-      </p>
-  </div>
-
-
-
-  <div class="govuk-grid-column-one-half">
-    <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">Confirmation statement</h2><br>
-      <p class"govuk-body">Next statement date <strong>15 November 2023</strong><br>
-        due by <strong>29 November 2023</strong>
-      </p>
-      <p class"govuk-body">Last statement dated <strong>15 November 2022</strong>
-      </p>
-  </div>
-</div>
-
-<div>
-  <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">Nature of business (SIC)</h2><br>
-    <p class"govuk-body">99999 - Dormant Company 
-    </p>
-</div>
-
-</div>
-</div>
-
-
-{# 
-<h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">Company details in the country of incorporation</h2><br>
-<p class"govuk-body">Overseas entity address<br>
-<strong>Maynard House 3rd Floor, P O Box 2486, Johnson's Ghut, Tortola, Tortola, Virgin Islands, British
-</strong>
-</p>
-
-
-<div class="govuk-grid-row ">
-  <div class="govuk-grid-column-full">
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-one-third">
-        <p class"govuk-body">Incorporated in<br>
-      <strong>VIRGIN ISLANDS, BRITISH</strong>
-      </div>
-      <div class="govuk-grid-column-one-third">
-        <p class"govuk-body">Registration number<br>
-      <strong>1789717</strong>
-      </div>
-            <div class="govuk-grid-column-one-third">
-        <p class"govuk-body">Legal form<br>
-      <strong>Business Company</strong>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<p class"govuk-body">Parent registry<br>
-<strong>Registry Of Corporate Affairs - British Virgin Islands
-</strong>
-<p class"govuk-body">Governing law<br>
-<strong>British Virgin Islands
-</strong> #}
-
-
-
 {% endset -%}
-{% set pastWeekHtml %}
+
+
+
+{% set moreHtml %}
 <h2 class="govuk-heading-l">-</h2>
 {% endset -%}
-{% set pastMonthHtml %}
-<h2 class="govuk-heading-l">-</h2>
-{% endset -%}
-{% set pastYearHtml %}
-<h2 class="govuk-heading-l">-</h2>
 
-{% endset -%}
+
+
 {{ govukTabs({
   items: [
     {
@@ -297,23 +237,23 @@ COMPANY LIMITED overview - Find and update company information
     },
     {
       label: "Filing history",
-      id: "past-week",
+      id: "filingHistory",
       panel: {
-        html: pastWeekHtml
+        html: filingHistoryHtml
       }
     },
     {
       label: "People",
-      id: "past-month",
+      id: "people",
       panel: {
-        html: pastMonthHtml
+        html: peopleHtml
       }
     },
     {
       label: "More",
-      id: "past-year",
+      id: "more",
       panel: {
-        html: pastYearHtml
+        html: moreHtml
       }
     }
   ]
