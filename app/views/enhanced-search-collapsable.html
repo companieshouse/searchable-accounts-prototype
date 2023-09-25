@@ -4,6 +4,9 @@
   Advanced company search - GOV.UK
 {% endblock %}
 
+{% block pageScripts %}
+  <script src="/public/javascripts/accordion-elements.js"></script>
+{% endblock %}
 {% block beforeContent %}
   <a class="govuk-back-link" href="https://beta.companieshouse.gov.uk/">Back to Companies House service</a>
 {% endblock %}
@@ -19,6 +22,43 @@
         <h1 class="govuk-heading-l">Advanced company search</h1>
 
         <p class="govuk-body"> Fill in one or more fields to search the Companies House register.</p>
+
+
+</head>
+<body>
+  <a id="open-all-link" href="#">Open all</a>
+  <div class="accordion" onclick="toggleAccordion(this)">
+    <a href="#">Row 1</a>
+    <span class="toggle-symbol govuk-bold"><strong c>+</strong></span>
+  </div>
+  <div class="content">Content for Row 1</div>
+  <div class="accordion" onclick="toggleAccordion(this)">
+    <a href="#">Row 2</a>
+    <span class="toggle-symbol">+</span>
+  </div>
+  <div class="content">Content for Row 2</div>
+  <div class="accordion" onclick="toggleAccordion(this)">
+    <a href="#">Row 3</a>
+    <span class="toggle-symbol">+</span>
+  </div>
+  <div class="content">Content for Row 3</div>
+  <div class="accordion" onclick="toggleAccordion(this)">
+    <a href="#">Row 4</a>
+    <span class="toggle-symbol">+</span>
+  </div>
+  <div class="content">Content for Row 4</div>
+  
+  <script>
+  
+  </script>
+
+
+
+
+
+
+
+
 
 
         {{ govukAccordion({

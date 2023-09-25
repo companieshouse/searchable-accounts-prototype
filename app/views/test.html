@@ -1,0 +1,100 @@
+{% extends "layouts/main.html" %}
+
+{% set pageName="Home" %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">/Users/monicatuffs/Documents/GitHub/chs-prototype/app/views/search/enhanced-search-collapsable.html
+
+    {% include "govuk-prototype-kit/includes/homepage-top.njk" %}
+
+    <h1 class="govuk-heading-xl">
+      {{ serviceName }}
+    </h1>
+
+
+  <style>
+    .accordion {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    .content {
+      display: none;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <a id="open-all-link" href="#">Open all</a>
+  <div class="accordion" onclick="toggleAccordion(this)">
+    <a href="#">Row 1</a>
+    <span class="toggle-symbol">+</span>
+  </div>
+  <div class="content">Content for Row 1</div>
+  <div class="accordion" onclick="toggleAccordion(this)">
+    <a href="#">Row 2</a>
+    <span class="toggle-symbol">+</span>
+  </div>
+  <div class="content">Content for Row 2</div>
+  <div class="accordion" onclick="toggleAccordion(this)">
+    <a href="#">Row 3</a>
+    <span class="toggle-symbol">+</span>
+  </div>
+  <div class="content">Content for Row 3</div>
+  <div class="accordion" onclick="toggleAccordion(this)">
+    <a href="#">Row 4</a>
+    <span class="toggle-symbol">+</span>
+  </div>
+  <div class="content">Content for Row 4</div>
+  
+  <script>
+    function toggleAccordion(accordion) {
+      const content = accordion.nextElementSibling;
+      const symbol = accordion.querySelector('.toggle-symbol');
+      if (content.style.display === 'block') {
+        content.style.display = 'none';
+        symbol.textContent = '+';
+      } else {
+        content.style.display = 'block';
+        symbol.textContent = '-';
+      }
+    }
+
+    document.getElementById('open-all-link').addEventListener('click', function (e) {
+      e.preventDefault();
+      const accordions = document.querySelectorAll('.accordion');
+      const openAllLink = document.getElementById('open-all-link');
+      if (openAllLink.textContent === 'Open all') {
+        accordions.forEach((accordion) => {
+          const content = accordion.nextElementSibling;
+          const symbol = accordion.querySelector('.toggle-symbol');
+          content.style.display = 'block';
+          symbol.textContent = '-';
+        });
+        openAllLink.textContent = 'Close all';
+      } else {
+        accordions.forEach((accordion) => {
+          const content = accordion.nextElementSibling;
+          const symbol = accordion.querySelector('.toggle-symbol');
+          content.style.display = 'none';
+          symbol.textContent = '+';
+        });
+        openAllLink.textContent = 'Open all';
+      }
+    });
+  </script>
+</body>
+</html>
+
+
+
+    {% include "govuk-prototype-kit/includes/homepage-bottom.njk" %}
+  </div>
+</div>
+
+{% endblock %}
