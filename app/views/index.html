@@ -5,18 +5,42 @@
 {% block content %}
 
 <div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">/Users/monicatuffs/Documents/GitHub/chs-prototype/app/views/search/enhanced-search-collapsable.html
+  <div class="govuk-grid-column-two-thirds">
 
-    {% include "govuk-prototype-kit/includes/homepage-top.njk" %}
 
     <h1 class="govuk-heading-xl">
       {{ serviceName }}
     </h1>
 
-<
-    <a></a>
+       {{ govukTag({
+  classes: "govuk-tag--blue govuk-!-margin-bottom-4",
+  text: "VERSION 1"
+  }) }}
 
-    {% include "govuk-prototype-kit/includes/homepage-bottom.njk" %}
+
+<h2 class="govuk-heading-m">Searchable accounts</h2>
+
+      <ul class="govuk-list govuk-list--bullet">      
+     <li>
+        <a class="govuk-link govuk-link--no-visited-state" href="advanced-search">
+          Advanced company search
+     </li>
+      <li>
+        <a class="govuk-link govuk-link--no-visited-state" href="advanced-search-results">
+          TBA Advanced company search results 
+        </a>
+     </li>
+
+          <li>
+        <a class="govuk-link govuk-link--no-visited-state" href="overview-page">
+         Company overview page
+        </a>
+     </li>
+        
+</ul>
+
+    {# {% include "govuk-prototype-kit/includes/homepage-top.njk" %} #}
+
   </div>
 </div>
 
