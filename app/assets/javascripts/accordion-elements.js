@@ -41,3 +41,5 @@ document.getElementById('open-all-link').addEventListener('click', function (e) 
         openAllLink.textContent = 'Open all';
     }
 });
+
+

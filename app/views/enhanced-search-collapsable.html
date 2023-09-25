@@ -28,11 +28,32 @@
 <body>
   <a id="open-all-link" href="#">Open all</a>
   <div class="accordion" onclick="toggleAccordion(this)">
-    <a href="#">Row 1</a>
-    <span class="toggle-symbol govuk-bold"><strong c>+</strong></span>
+    <a href="#" class="govuk-!-font-weight-bold govuk-link--no-underline govuk-link--no-visited-state">
+    Company name</a>
+    <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
   </div>
-  <div class="content">Content for Row 1</div>
+
+  <div class="content">
+   <div class='govuk-form-group' style='padding-bottom:10px;'>
+                    <h1 class='govuk-label-wrapper'><label class='accordion-label govuk-label--s' for='contains-company-name'>
+                        Company names that contain
+                      </label>
+                    </h1>
+                    <input class='govuk-input' id='contains-company-name' name='contains-company-name' type='text'>
+                  </div>
+
+
+
+                <div class='govuk-form-group' style='margin-top: govuk-spacing(5)'>
+                    <h1 class='govuk-label-wrapper'><label class='accordion-label govuk-label--s' for='excludes-company-name'>
+                        Company names that exclude
+                      </label>
+                    </h1>
+                    <input class='govuk-input' id='excludes-company-name' name='excludes-company-name' type='text'>
+                  </div></div>
   <div class="accordion" onclick="toggleAccordion(this)">
+
+
     <a href="#">Row 2</a>
     <span class="toggle-symbol">+</span>
   </div>
@@ -47,6 +68,8 @@
     <span class="toggle-symbol">+</span>
   </div>
   <div class="content">Content for Row 4</div>
+  
+
   
   <script>
   

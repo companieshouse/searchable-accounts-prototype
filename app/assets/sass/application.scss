@@ -55,8 +55,17 @@ ul, ol {
     cursor: pointer;
     border-bottom: 1px solid #ddd;
     padding: 10px 0;
-  }
-  .content {
+}
+
+.content {
     display: none;
     padding: 10px;
-  }
+}
+
+.accordion.open .content {
+    display: block;
+}
+
+.accordion.open .toggle-symbol {
+    content: '-';
+}
