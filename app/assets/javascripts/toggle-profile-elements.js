@@ -3,6 +3,9 @@
 // https://prototype-kit.service.gov.uk/docs/adding-css-javascript-and-images
 //
 
+
+// NOT FOR PRODUCTION - this code is not accessible
+
 window.GOVUKPrototypeKit.documentReady(() => {
 
     function toggleDivs(selectedDivId) {
