@@ -14,7 +14,7 @@ COMPANY LIMITED overview - Find and update company information
   {% include "includes/before-content.html" %}
 {% endblock %} #}
 {% block pageScripts %}
-  <script src="/public/javascripts/toggle-officers.js"></script>
+  <script src="/public/javascripts/toggle-profile-elements.js"></script>
 {% endblock %}
 {% block content %}
 
@@ -61,13 +61,13 @@ COMPANY LIMITED overview - Find and update company information
 
 {% set overviewHtml %}
 <ul class="search-tabs">      
-	<li id="peoples-tab" class="active">
-	   <a id="officers-link" class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="#">
+	<li id="general-overview-toggle" class="active">
+	   <a class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="#">
       General overview</a>
 	</li>
 
-	<li id="pscs-tab" class="active">
-    <a id="pscs-link" class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="#accounts">
+	<li id="accounts-toggle">
+    <a class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="#">
       Accounts</a>                     
   </li>
 </ul>
@@ -83,38 +83,15 @@ COMPANY LIMITED overview - Find and update company information
 
 
   <div class="govuk-grid-row govuk-!-margin-top-7">
-    <div class="govuk-grid-column-full">
-      <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">1
-      September 2022 to 31 August 2023</h2><br />
-
-      <div class="govuk-grid-row">
-        <div class="govuk-grid-column-one-half">
-          <p>Balance sheet total<br />
-          <strong>&pound;175,624</strong></p>
-        </div>
-      </div>
-
-      <div class="govuk-grid-row">
-        <div class="govuk-grid-column-one-half">
-          <p>Profit and loss<br />
-          <strong>&pound;543,003</strong></p>
-        </div>
-
-        <div class="govuk-grid-column-one-half">
-          <p>Number of employees<br />
-          <strong>11 - 50</strong></p>
-        </div>
-      </div>
-
-      <div class="govuk-inset-text chs-inset-text">
-        This account overview is lorem ipsum dolor sit amet, consectetur elit es
-        adipiscing elit es full accounts on <a href="#"
-             class="govuk-link--no-visited-state">Filing history</a>.
-      </div>
-
+    
+   <div class="govuk-grid-column-full" id="general-overview">
+    <div class="govuk-grid-row">
+            <div class="govuk-grid-column-two-thirds">
       <p>Registered office address<br />
       <strong>Studio 10, Floor 5, Fairgate House, 24 New Oxford Street, London, United
       Kingdom, WC1A 1HB</strong></p>
+      </div>
+      </div>
 
       <div class="govuk-grid-row govuk-!-margin-top-7">
         <div class="govuk-grid-column-full">
@@ -168,6 +145,40 @@ COMPANY LIMITED overview - Find and update company information
         </div>
       </div>
     </div>
+
+<div class="govuk-grid-column-full" id="accounts">
+      <h2 class="govuk-heading-m govuk-!-margin-bottom-0 ">
+        1
+      September 2022 to 31 August 2023</h2><br />
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-half">
+          <p>Balance sheet total<br />
+          <strong>&pound;175,624</strong></p>
+        </div>
+      </div>
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-half">
+          <p>Profit and loss<br />
+          <strong>&pound;543,003</strong></p>
+        </div>
+
+        <div class="govuk-grid-column-one-half">
+          <p>Number of employees<br />
+          <strong>11 - 50</strong></p>
+        </div>
+      </div>
+
+      <div class="govuk-inset-text chs-inset-text">
+        This account overview is lorem ipsum dolor sit amet, consectetur elit es
+        adipiscing elit es full accounts on <a href="#"
+             class="govuk-link--no-visited-state">Filing history</a>.
+      </div>
+</div>
+
+
+
   </div>
 
 
