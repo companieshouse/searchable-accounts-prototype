@@ -157,7 +157,7 @@ COMPANY LIMITED overview - Find and update company information
       </div>
 
       <div class="govuk-inset-text chs-inset-text">
-       This overview uses data from the company’s filings. We cannot access the data for all companies, so it may not be accurate. To see the full accounts filed for this company, use the <a href="#"
+       This overview uses data from the company's filings. We cannot access the data for all companies, so it may not be accurate. To see the full accounts filed for this company, use the <a href="#"
              class="govuk-link--no-visited-state">filing history</a>.
       </div>
 </div>
@@ -178,7 +178,36 @@ COMPANY LIMITED overview - Find and update company information
 
 
 {% set filingHistoryHtml %}
-<h2 class="govuk-heading-l">-</h2>
+
+
+<table class="govuk-table">
+  <caption class="govuk-table__caption govuk-table__caption--m">Months and rates</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Date</th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric">Description</th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric">View / Download</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header">26 Jan 2021</th>
+      <td class="govuk-table__cell govuk-table__cell--numeric">£85</td>
+      <td class="govuk-table__cell govuk-table__cell--numeric">£95</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header">February</th>
+      <td class="govuk-table__cell govuk-table__cell--numeric">£75</td>
+      <td class="govuk-table__cell govuk-table__cell--numeric">£55</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header">March</th>
+      <td class="govuk-table__cell govuk-table__cell--numeric">£165</td>
+      <td class="govuk-table__cell govuk-table__cell--numeric">£125</td>
+    </tr>
+  </tbody>
+</table>
+
 {% endset -%}
 
 
@@ -240,18 +269,7 @@ COMPANY LIMITED overview - Find and update company information
     <div class="govuk-grid-column-three-quarters">
       <p class='govuk-body'>Use this service to order a company certificate with certified information about the company. A certificate can be used to prove that a company is incorporated, and that no action is being taken to remove the company from the register.
  </p>
-   <!--   <p class='govuk-body'>You may need to order a certificate if you're looking to conduct business overseas. It might be needed by the official register of the foreign territory (the equivalent of Companies House).
-</p> -->
-    <!--  {{ govukDetails({
-        summaryText: "What you'll need",
-        html: "<p class='govuk-body'>To use the service, you'll need:</p>
-        <ul class='govuk-list govuk-list--bullet'>
-          <li>to choose the company information you want to be included on the certificate</li>
-          <li>a credit or debit card for payment</li>
-        </ul>
-        <p class='govuk-body'>To order a paper certificate, you'll also need the address you want the certificate to be delivered to (UK or international).</p>
-        "
-    }) }} -->
+
     {{ govukButton({
       text: "Order company certificate",
       href:"order-certified-certificate",
@@ -266,20 +284,7 @@ COMPANY LIMITED overview - Find and update company information
     <div class="govuk-grid-column-three-quarters">
       <p class='govuk-body'>Use this service to order a certified copy of a document from the company's filing history. You can also use this service to order an incorporation package, which includes the documents that were issued when the company was formed.
       </p>
-<!--
-      <p class='govuk-body'>You may need to order a certified document for opening a bank account, loan applications, or if you're selling your company.
-      </p> -->
-<!--
-      {{ govukDetails({
-      summaryText: "What you'll need",
-      html: "<p class='govuk-body'>To use the service, you'll need:</p>
-      <ul class='govuk-list govuk-list--bullet'>
-        <li>to choose the document you want to be certified</li>
-        <li>a credit or debit card for payment</li>
-      </ul>
-      <p class='govuk-body'>To order paper documents, you'll also need the address you want the document to be delivered to (UK or international).</p>"
-      }) }}
--->
+
   {{ govukButton({
   text: "Order certified document",
   classes: "govuk-button--secondary",
