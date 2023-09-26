@@ -43,6 +43,7 @@ ul, ol {
 }
 
 
+
 // // toggle between Current only and All officers and General Overview and accounts
 #CurrentOnly, #accounts {
     display: none;
@@ -74,3 +75,14 @@ ul, ol {
 .accordion.open .toggle-symbol {
     content: '-';
 }
+
+
+#open-all-link {
+    float: right;
+    display: block;
+}
+.open-all-link-container {
+    margin-bottom: 3em;    
+}
+
+
