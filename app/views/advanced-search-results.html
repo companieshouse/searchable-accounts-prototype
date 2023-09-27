@@ -7,8 +7,34 @@
 {% block content %}
 
 
+        <h1 class="govuk-heading-l">Advanced company search</h1>
 
+        <p class="govuk-body"> Fill in one or more fields to search the Companies House register.</p>
 
+<div class="govuk-button-group">
+  {{ govukButton({
+    text: "Update results"
+      }) }}
 
+  {{ govukButton({
+    text: "Clear search",
+    classes: "govuk-button--secondary"
+  }) }}
+</div>
+
+<hr>
+<div>
+  <p class="govuk-body-l govuk-!-font-weight-bold govuk-body-link govuk-link--no-visited-state"><strong>
+  <a href="overview-page">COMPANY LIMITED</a></strong></p>
+  <p>
+
+Dissolved<br>
+
+Private limited company<br>
+12802758 - Incorporated on 10 August 2020<br>
+Dissolved on 18 January 2022<br>
+40 Thorn Street, Derby, England DE23 6LZ<br>
+SIC codes - 96090<br>
+</p>
 
 {% endblock %}
