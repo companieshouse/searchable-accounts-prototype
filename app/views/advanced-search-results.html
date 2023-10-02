@@ -30,6 +30,18 @@
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-one-third">
     {% include "app/includes/search-fields.html" %} 
+
+    <div class="govuk-button-group govuk-!-margin-top-3">
+      {{ govukButton({
+        text: "Update results"
+          }) }}
+
+      {{ govukButton({
+        text: "Clear search",
+        classes: "govuk-button--secondary"
+      }) }}
+    </div>
+
   </div>
 
   
@@ -57,9 +69,11 @@
       <p class="govuk-body">
         Private limited company<br>
         12802758 - Incorporated on 10 August 2020<br>
-        Dissolved on 18 January 2022<br>
         40 Thorn Street, Derby, England DE23 6LZ<br>
-        SIC codes - 74909 
+        SIC codes - 74909 <br>
+        150 employees<br>
+        Balance sheet total: £15m<br>
+        Profit and loss: £25m<br>
       </p>
 
 
@@ -73,8 +87,8 @@
         Private limited company<br>
         12802758 - Incorporated on 10 August 2020<br>
         Dissolved on 18 January 2022<br>
-        40 Thorn Street, Derby, England DE23 6LZ<br>
-        SIC codes - 74909 
+        12 Queen Square, Bristol, England, BS1 4ND<br>
+        SIC codes - 99999
       </p>
 
 
@@ -86,9 +100,11 @@
       <p class="govuk-body">
         Private limited company<br>
         12802758 - Incorporated on 10 August 2020<br>
-        Dissolved on 18 January 2022<br>
-        40 Thorn Street, Derby, England DE23 6LZ<br>
-        SIC codes - 74909 
+        2nd Floor, Barrack Rd, Newcastle upon Tyne NE1 4ST<br>
+        SIC codes - 34936<br>
+        150 employees<br>
+        Balance sheet total: £15m<br>
+        Profit and loss: £25m<br>
       </p>
 
 
