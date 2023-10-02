@@ -178,6 +178,82 @@ ABC LIMITED overview - Find and update company information
 {# ******  FILING HISTORY TAB ***** #}
 {% set filingHistoryHtml %}
 
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-quarter">
+      <p class="govuk-heading-m">Filter by category</h2>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation">
+          <strong>Show filing type</strong>
+        </label>
+      </div><!-- checkboxes -->
+    </div><!-- one-third -->
+
+{# ****** CHECKBOXES ***** #}
+    <div class="govuk-grid-column-one-quarter">
+      <div class="govuk-form-group">
+        <fieldset class="govuk-fieldset">
+          </legend>
+          <div class="govuk-checkboxes govuk-checkboxes--small" data-module="govuk-checkboxes">
+            
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
+              <label class="govuk-label govuk-checkboxes__label" for="organisation">
+                Accounts
+              </label>
+            </div>
+
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
+              <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
+                Capital
+              </label>
+            </div>
+
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+              <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
+                Charges
+              </label>
+            </div>
+
+          </div><!-- checkboxes -->
+        </fieldset>
+      </div> <!-- form group -->
+    </div> <!-- one-third -->
+
+  <div class="govuk-grid-column-one-half">
+      <div class="govuk-form-group">
+        <fieldset class="govuk-fieldset">
+          </legend>
+          <div class="govuk-checkboxes govuk-checkboxes--small" data-module="govuk-checkboxes">
+            
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
+              <label class="govuk-label govuk-checkboxes__label" for="organisation">
+                Confirmation statements / Annual returns
+              </label>
+            </div>
+
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
+              <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
+                Incorporation
+              </label>
+            </div>
+
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+              <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
+                Officers
+              </label>
+            </div>
+
+          </div><!-- checkboxes -->
+        </fieldset>
+      </div> <!-- form group -->
+    </div> <!-- one-third -->
+</div>
 
 
 
