@@ -2,7 +2,7 @@
 
 {% block pageTitle %}
 
-COMPANY LIMITED overview - Find and update company information
+ABC LIMITED overview - Find and update company information
  - {{ serviceName }} – GOV.UK
 {% endblock %}
 
@@ -29,7 +29,7 @@ COMPANY LIMITED overview - Find and update company information
 
 <a class="govuk-body" href="#">Advanced company search</a>
 
-<h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">COMPANY LIMITED</h1>
+<h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">ABC LIMITED</h1>
 <p class="govuk-body">Company number <strong>01234567</strong></p>
 
 <div class="govuk-button-group">
@@ -140,19 +140,19 @@ COMPANY LIMITED overview - Find and update company information
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-half">
           <p>Balance sheet total<br />
-          <strong>&pound;175,624</strong></p>
+          <strong>&pound;15m</strong></p>
         </div>
       </div>
 
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-half">
           <p>Profit and loss<br />
-          <strong>&pound;543,003</strong></p>
+          <strong>&pound;25m</strong></p>
         </div>
 
         <div class="govuk-grid-column-one-half">
           <p>Number of employees<br />
-          <strong>147</strong></p>
+          <strong>150</strong></p>
         </div>
       </div>
 
@@ -161,49 +161,52 @@ COMPANY LIMITED overview - Find and update company information
              class="govuk-link--no-visited-state">filing history</a>.
       </div>
 </div>
-
-
-
   </div>
-
-
-
-
-
-
-
 
 {% endset -%}
 
 
 
+
+
+
+
+
+
+
+
+{# ******  FILING HISTORY TAB ***** #}
 {% set filingHistoryHtml %}
 
 
+
+
+
+
+{# ** TABLE ** #}
 <table class="govuk-table">
-  <caption class="govuk-table__caption govuk-table__caption--m">Months and rates</caption>
   <thead class="govuk-table__head">
     <tr class="govuk-table__row">
       <th scope="col" class="govuk-table__header">Date</th>
-      <th scope="col" class="govuk-table__header govuk-table__header--numeric">Description</th>
-      <th scope="col" class="govuk-table__header govuk-table__header--numeric">View / Download</th>
+      <th scope="col" class="govuk-table__header">Description</th>
+      <th scope="col" class="govuk-table__header">View / Download</th>
     </tr>
   </thead>
   <tbody class="govuk-table__body">
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">26 Jan 2021</th>
-      <td class="govuk-table__cell govuk-table__cell--numeric">£85</td>
-      <td class="govuk-table__cell govuk-table__cell--numeric">£95</td>
+      <th scope="row" class="govuk-table__cell govuk-body">26 Sep 2023</th>
+      <td class="govuk-table__cell"><strong>Company accounts </strong>made up to 31 December 2022</td>
+      <td class="govuk-table__cell"><a href="#">View PDF</a> (3 pages)</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">February</th>
-      <td class="govuk-table__cell govuk-table__cell--numeric">£75</td>
-      <td class="govuk-table__cell govuk-table__cell--numeric">£55</td>
+      <th scope="row" class="govuk-table__cell govuk-body">28 Jun 2023</th>
+      <td class="govuk-table__cell"><strong>Notification</strong> of Alpha Ltd as a person with significant control on 5 April 2023</td>
+      <td class="govuk-table__cell"><a href="#">View PDF</a> (2 pages)</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">March</th>
-      <td class="govuk-table__cell govuk-table__cell--numeric">£165</td>
-      <td class="govuk-table__cell govuk-table__cell--numeric">£125</td>
+      <th scope="row" class="govuk-table__cell govuk-body">02 May 2023</th>
+      <td class="govuk-table__cell"><strong>Confirmation statement</strong> made on 20 May 2022 with no updates</td>
+      <td class="govuk-table__cell"><a href="#">View PDF</a> (3 pages)</td>
     </tr>
   </tbody>
 </table>
@@ -212,6 +215,9 @@ COMPANY LIMITED overview - Find and update company information
 
 
 
+
+
+{# ******  PEOPLE TAB ***** #}
 {% set peopleHtml %}
 <!-- toggle between current only or all officers -->
 <div class="govuk-form-group">
