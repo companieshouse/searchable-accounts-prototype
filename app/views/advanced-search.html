@@ -41,8 +41,11 @@
 
 <div class="accordion-wrapper">
   <div class="accordion" onclick="toggleAccordion(this)">
-    <a href="#" class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-link--no-underline govuk-link--no-visited-state">
-    Company name</a>
+    <h2 class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-link--no-underline govuk-link--no-visited-state govuk-!-margin-bottom-1">
+      <a href="#">
+        Company name
+      </a>
+    </h2>
     <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
   </div> <!--div class="accordion"-->
 
@@ -51,21 +54,22 @@
 
   <div class="content">
     <div class="govuk-form-group">
-      <h1 class="govuk-label-wrapper"><label class="accordion-label govuk-body-m" for="contains-company-name">
+      <p class="govuk-body-m">
+     <label class="govuk-label-wrapper accordion-label" for="contains-company-name">  
       Company names that contain
-      </label>
-      </h1>
+     </label> 
+      </p>
       <input class="govuk-input" id="contains-company-name" name="contains-company-name" type="text">
     </div> <!--div class="govuk-form-group"-->
 
+
     <div class="govuk-form-group">
-      <h1 class="govuk-label-wrapper"><label class="accordion-label govuk-body-m" for="excludes-company-name">
+      <p class="govuk-label-wrapper"><label class="accordion-label govuk-body-m" for="excludes-company-name">
       Company names that exclude
       </label>
-      </h1>
+      </p>
       <input class="govuk-input" id="excludes-company-name" name="excludes-company-name" type="text">
     </div> <!--div class="govuk-form-group"-->
-
   </div> <!--div class="content"-->
 </div> <!--adiv class="accordion-wrapper"-->
 
@@ -88,10 +92,10 @@
 
   <div class="content">
 <div class="govuk-form-group">
-      <h1 class="govuk-label-wrapper"><label class="accordion-label govuk-body-m" for="full-or-partial-address">
+      <h2 class="govuk-label-wrapper"><label class="accordion-label govuk-body-m" for="full-or-partial-address" aria="Enter a full or partial address">
       Enter a full or partial address
       </label>
-      </h1>
+      </h2>
       <input class="govuk-input" id="full-or-partial-address" name="full-or-partial-address" type="text">
     </div> <!--div class="govuk-form-group"-->
 </div> 
@@ -113,10 +117,10 @@
 
   <div class="content">
     <div class="govuk-form-group">
-      <h1 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="incorporation-date-from" aria-describedby="companies incorporated">
+      <h2 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="incorporation-date-from" aria-describedby="companies incorporated">
          From
           </label>
-        </h1>
+        </h2>
      <div id="incorporation-date-from-hint" class="govuk-hint">
        For example, 27/3/2007
        </div>
@@ -125,10 +129,10 @@
 
 
       <div class="govuk-form-group">
-       <h1 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="incorporation-date-to" aria-describedby="companies incorporated">
+       <h2 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="incorporation-date-to" aria-describedby="companies incorporated">
         To
        </label>
-    </h1>
+    </h2>
   <div id="incorporation-date-to-hint" class="govuk-hint">
     For example, 27/3/2007
    </div>
@@ -596,9 +600,9 @@
 <div class="govuk-form-group">
   <fieldset class="govuk-fieldset" role="group" aria-describedby="passport-issued-hint">
     <legend class="govuk-fieldset__legend govuk-body-m">
-      <h1 class="govuk-fieldset__heading">
+      <h2 class="govuk-fieldset__heading">
         From
-      </h1>
+      </h2>
     </legend>
     <div id="passport-issued-hint" class="govuk-hint">
       For example, 27 3 2007
@@ -635,9 +639,9 @@
     <div class="govuk-form-group">
   <fieldset class="govuk-fieldset" role="group" aria-describedby="passport-issued-hint">
     <legend class="govuk-fieldset__legend govuk-body-m">
-      <h1 class="govuk-fieldset__heading">
+      <h2 class="govuk-fieldset__heading">
         To
-      </h1>
+      </h2>
     </legend>
     <div id="passport-issued-hint" class="govuk-hint">
       For example, 27 3 2007
@@ -691,9 +695,15 @@
   <div class="content">
     <p class="govuk-body"> This uses data from company filings, which are not verified. We cannot access this data for all companies so the search results may not be complete or accurate. </p>
  <div class="govuk-!-display-inline govuk-form-group">
-      <h2 class="govuk-label-wrapper"><label class="accordion-label govuk-hint" for="contains-company-name">
-      Minimum
+
+   </label>
+
+    <p class="govuk-label-wrapper">
+      <label class="govuk-label accordion-label govuk-hint" for="cost">
+        Minimum 
+        <span class="govuk-visually-hidden">balance sheet total</span>
       </label>
+    </p>
     <div class="govuk-input__wrapper govuk-!-margin-top-2">
       <div class="govuk-input__prefix" aria-hidden="true">£</div>
     <input class="govuk-input govuk-input--width-5" id="cost" name="cost" type="text" spellcheck="false">
@@ -793,24 +803,30 @@
 <p class="govuk-body"> This uses data from company filings, which are not verified. We cannot access this data for all companies so the search results may not be complete or accurate. </p>
 <!--<p class="govuk-hint">Minus numbers explanation lorem ipsum</p> -->
 
- <div class="govuk-!-display-inline govuk-form-group">
-      <h2 class="govuk-label-wrapper"><label class="accordion-label govuk-hint" for="contains-company-name">
+<div class="govuk-!-display-inline govuk-form-group">
+    <p class="govuk-label-wrapper">
+      <label class="accordion-label govuk-hint" for="contains-company-name">
       Minimum
       </label>
-    <div class="govuk-input__wrapper govuk-!-margin-top-2">
-      <div class="govuk-input__prefix" aria-hidden="true">£</div>
-    <input class="govuk-input govuk-input--width-5" id="cost" name="cost" type="text" spellcheck="false">
-  </div> 
+    </p>
 
-   <div class="govuk-!-display-inline govuk-form-group">
-      <h2 class="govuk-label-wrapper"><label class="accordion-label govuk-hint" for="contains-company-name">
-      Maximum
-      </label>
-    <div class="govuk-input__wrapper govuk-!-margin-top-2 govuk-!-margin-bottom-6">
+  <div class="govuk-input__wrapper govuk-!-margin-top-2">
       <div class="govuk-input__prefix" aria-hidden="true">£</div>
-    <input class="govuk-input govuk-input--width-5" id="cost" name="cost" type="text" spellcheck="false">
-  </div> 
-    </div>  
+        <input class="govuk-input govuk-input--width-5" id="cost" name="cost" type="text" spellcheck="false">
+      </div> 
+
+    <div class="govuk-!-display-inline govuk-form-group">
+      <p class="govuk-label-wrapper">
+        <label class="accordion-label govuk-hint" for="contains-company-name">
+        Maximum
+        </label>
+      </p>
+
+      <div class="govuk-input__wrapper govuk-!-margin-top-2 govuk-!-margin-bottom-6">
+        <div class="govuk-input__prefix" aria-hidden="true">£</div>
+          <input class="govuk-input govuk-input--width-5" id="cost" name="cost" type="text" spellcheck="false">
+        </div> 
+      </div>  
     </div>
   </div>
 </div> <!--adiv class="accordion-wrapper"-->
@@ -846,20 +862,20 @@
               content: {
                 html: "
                   <div class='govuk-form-group' style='padding-bottom:10px;'>
-                    <h1 class='govuk-label-wrapper'><label class='accordion-label govuk-label--l' for='contains-company-name'>
+                    <h2 class='govuk-label-wrapper'><label class='accordion-label govuk-label--l' for='contains-company-name'>
                         Company names that contain
                       </label>
-                    </h1>
+                    </h2>
                     <input class='govuk-input' id='contains-company-name' name='contains-company-name' type='text'>
                   </div>
 
 
 
                 <div class='govuk-form-group' style='margin-top: govuk-spacing(5)'>
-                    <h1 class='govuk-label-wrapper'><label class='accordion-label govuk-label--l' for='excludes-company-name'>
+                    <h2 class='govuk-label-wrapper'><label class='accordion-label govuk-label--l' for='excludes-company-name'>
                         Company names that exclude
                       </label>
-                    </h1>
+                    </h2>
                     <input class='govuk-input' id='excludes-company-name' name='excludes-company-name' type='text'>
                   </div>"
 
@@ -870,7 +886,7 @@
                 text: "Registered office address"
               },
               content: {
-                html: '<h1 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="ro-address">
+                html: '<h2 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="ro-address">
                     Enter a full or partial address
                   </label><input class="govuk-input govuk-input--width-20" id="ro-address" name="ro-address" type="text">'
               }
@@ -881,10 +897,10 @@
               },
               content: {
                 html: '<div class="govuk-form-group">
-                            <h1 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="incorporation-date-from" aria-describedby="companies incorporated">
+                            <h2 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="incorporation-date-from" aria-describedby="companies incorporated">
                                 From
                               </label>
-                            </h1>
+                            </h2>
                             <div id="incorporation-date-from-hint" class="accordion-hint">
                               For example, 27/3/2007
                             </div>
@@ -892,10 +908,10 @@
                           </div>
 
                           <div class="govuk-form-group">
-                            <h1 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="incorporation-date-to" aria-describedby="companies incorporated">
+                            <h2 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="incorporation-date-to" aria-describedby="companies incorporated">
                                 To
                               </label>
-                            </h1>
+                            </h2>
                             <div id="incorporation-date-to-hint" class="accordion-hint">
                               For example, 27/3/2007
                             </div>
@@ -1276,10 +1292,10 @@
                             We can only show companies dissolved since 01/01/2010. </span>
 
 
-                            <h1 class="govuk-label-wrapper "><label class="accordion-label govuk-label--s" style="padding-top:10px;" for="dissolved-date-from" >
+                            <h2 class="govuk-label-wrapper "><label class="accordion-label govuk-label--s" style="padding-top:10px;" for="dissolved-date-from" >
                                Companies dissolved after
                               </label>
-                            </h1>
+                            </h2>
                             <div id="dissolved-date-from-hint" class="accordion-hint">
                               For example, 21/3/2011
 
@@ -1288,10 +1304,10 @@
                           </div>
 
                           <div class="govuk-form-group">
-                            <h1 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="dissolved-date-to">
+                            <h2 class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="dissolved-date-to">
                                 Companies dissolved before
                               </label>
-                            </h1>
+                            </h2>
                             <div id="dissolved-date-to-hint" class="accordion-hint">
                               For example, 21/3/2011
                             </div>
