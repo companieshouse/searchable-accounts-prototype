@@ -1,0 +1,122 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  GOV.UK page template – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+
+        <h1 class="govuk-heading-l">Advanced company search</h1>
+
+        <p class="govuk-body"> Fill in one or more fields to search the Companies House register.</p>
+
+<div class="govuk-button-group">
+  {{ govukButton({
+    text: "Update results"
+      }) }}
+
+  {{ govukButton({
+    text: "Clear search",
+    classes: "govuk-button--secondary"
+  }) }}
+</div>
+
+<hr>
+
+
+
+{# ******* Advanced search left column ****** #}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-third">
+    {% include "app/includes/search-fields.html" %} 
+
+    <div class="govuk-button-group govuk-!-margin-top-3">
+      {{ govukButton({
+        text: "Update results"
+          }) }}
+
+      {{ govukButton({
+        text: "Clear search",
+        classes: "govuk-button--secondary"
+      }) }}
+    </div>
+
+  </div>
+
+  
+
+{# ******* Number of results and button right column ****** #}
+  <div class="govuk-grid-column-two-thirds">
+    <div class="govuk-grid-column-one-half">
+      <p class="govuk-body-l govuk-!-font-weight-bold">3,159 results</p>
+    </div>  
+
+    <div class="govuk-grid-column-one-half" align="right">
+      <button class="govuk-button" data-module="govuk-button">
+        Download results
+      </button>
+        <p class="search-hint govuk-body-s">Results are downloaded as a CSV file. Only the first 5,000 results can be downloaded.</p>
+  </div>  
+
+
+
+{# ******* Search results right column ****** #}
+  <hr class="govuk-!-margin-bottom-3">
+   <p class="govuk-body-l govuk-!-font-weight-bold govuk-body-link govuk-link--no-visited-state govuk-!-margin-bottom-0"><strong>
+    <a href="overview-page">ABC LIMITED</a></strong></p>
+    <p class="govuk-body-m govuk-!-font-weight-bold">Active</p>
+      <p class="govuk-body">
+        Private limited company<br>
+        12802758 - Incorporated on 18 September 2020<br>
+        Studio 10, Floor 5, Fairgate House, 24 New Oxford Street, London, United Kingdom, WC1A 1HB<br>
+        SIC codes - 74909 <br>
+        {# 150 employees<br>
+        Balance sheet total: £15 million<br>
+        Profit and loss: £25 million<br> #}
+      </p>
+
+
+
+
+   <hr class="govuk-!-margin-bottom-3">
+   <p class="govuk-body-l govuk-!-font-weight-bold govuk-body-link govuk-link--no-visited-state govuk-!-margin-bottom-0"><strong>
+    <a href="javascript:void(0)">ABC INTERNATIONAL LIMITED</a></strong></p>
+    <p class="govuk-body-m govuk-!-font-weight-bold">Dissolved</p>
+      <p class="govuk-body">
+        Private limited company<br>
+        12802758 - Incorporated on 10 August 2020<br>
+        Dissolved on 18 January 2022<br>
+        12 Queen Square, Bristol, England, BS1 4ND<br>
+        SIC codes - 99999
+        {# 150 employees<br>
+        Balance sheet total: £15 million<br>
+        Profit and loss: £25 million<br> #}
+      </p>
+
+
+
+   <hr class="govuk-!-margin-bottom-3">
+   <p class="govuk-body-l govuk-!-font-weight-bold govuk-body-link govuk-link--no-visited-state govuk-!-margin-bottom-0"><strong>
+    <a href="javascript:void(0)">ABC COMMODITIES LTD</a></strong></p>
+    <p class="govuk-body-m govuk-!-font-weight-bold">Active</p>
+      <p class="govuk-body">
+        Private limited company<br>
+        12802758 - Incorporated on 10 August 2020<br>
+        2nd Floor, Barrack Rd, Newcastle upon Tyne NE1 4ST<br>
+        SIC codes - 34936<br>
+        {#150 employees<br>
+        Balance sheet total: £15 million<br>
+        Profit and loss: £25 million<br> #}
+      </p>
+
+
+
+
+
+
+
+
+    </div> <!-- two-thirds -->
+</div> <!-- govuk-grid-row -->
+{% endblock %}
