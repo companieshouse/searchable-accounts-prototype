@@ -14,32 +14,153 @@
 
        {{ govukTag({
   classes: "govuk-tag--blue govuk-!-margin-bottom-4",
-  text: "VERSION 1"
+  text: "VERSION 2"
   }) }}
 
 
 <h2 class="govuk-heading-m">Searchable accounts</h2>
 
-      <ul class="govuk-list govuk-list--bullet">      
-     <li>
-        <a class="govuk-link govuk-link--no-visited-state" href="advanced-search">
-          Advanced company search
-     </li>
-      <li>
-        <a class="govuk-link govuk-link--no-visited-state" href="advanced-search-results">
-          TBA Advanced company search results 
-        </a>
-     </li>
+<ul class="govuk-list govuk-list--bullet">      
+  <li>
+    <a class="govuk-link govuk-link--no-visited-state" href="advanced-search">
+      Advanced company search
+    </a>
+  </li>
+  
+  <li>
+    <a class="govuk-link govuk-link--no-visited-state" href="advanced-search-results">
+    Advanced company search results 
+    </a>
+  </li>
 
-          <li>
-        <a class="govuk-link govuk-link--no-visited-state" href="overview-page">
-         Company overview page
-        </a>
-     </li>
-        
+  <li>
+      <a class="govuk-link govuk-link--no-visited-state" href="overview-page">
+      Company overview page
+      </a>
+  </li>
 </ul>
 
-    {# {% include "govuk-prototype-kit/includes/homepage-top.njk" %} #}
+
+
+<div class="govuk-grid-column-full">
+
+  <dl class="govuk-summary-list">
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      Version history
+    </dt>
+  </div>
+
+            {# Tags - copy and paste correct tag(s)
+              <strong class="govuk-tag govuk-tag--green govuk-!-margin-bottom-4">policy</strong>
+              <strong class="govuk-tag govuk-tag--blue">tech</strong>
+              <strong class="govuk-tag govuk-tag--red">More research needed</strong>
+              <strong class="govuk-tag govuk-tag--yellow">user research</strong>
+              <strong class="govuk-tag govuk-tag--pink">design</strong> 
+            </div> #}
+
+
+<div class="govuk-summary-list__row">
+  <dt class="govuk-summary-list__key">
+    <a class="govuk-link govuk-body-m govuk-link--no-visited-state" 
+      href="https://companieshouse.atlassian.net/wiki/spaces/ROE2/pages/4296310807/Iterations+following+Round+3+of+Remove+user+testing" target="_blank">
+      <strong>Confluence documentation of changes</strong>
+   </a>
+  {# <p class="govuk-body">Confluence</p> #}
+  </dt>
+<dd class="govuk-summary-list__value">
+<p class="govuk-body">
+<strong>High level changes made in this version</strong><br>
+<ul class="govuk-list govuk-list--bullet">
+<li>Move tab</li>
+
+<li>Screen: TBA</li>
+<strong class="govuk-tag govuk-tag--green govuk-!-margin-bottom-4">policy</strong>
+<strong class="govuk-tag govuk-tag--blue">tech</strong> 
+{# <strong class="govuk-tag govuk-tag--red">More research needed</strong> #}
+
+<li>Screen: TBA</li>
+<strong class="govuk-tag govuk-tag--yellow">user research</strong>
+<strong class="govuk-tag govuk-tag--blue">tech</strong> 
+
+<li>Statement screens - users unsure why being asked</li>
+<strong class="govuk-tag govuk-tag--yellow">user research</strong>
+
+<li>TBA </li>
+{# 
+<li>Lorem ipsum</li>
+<strong class="govuk-tag govuk-tag--green govuk-!-margin-bottom-4">policy</strong>
+
+<li>Lorem ipsum</li> #}
+
+
+
+</ul>
+</dd>
+</div>
+
+
+
+   <h2 class="govuk-heading-l govuk-!-margin-top-8">
+      Research
+    </h2>
+      
+      
+            <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Round of testing
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list">
+            <li>Round 1 informed this prototype</li>
+        </dd>
+      </div>
+
+            <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Session dates
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list">
+            <li>12-14 September</li>
+        </dd>
+      </div>
+      
+
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Participants
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list">
+            <li>5</li>
+            <li>Procurement data assurance lead, company accountant, researcher, other GOV dept, industry analyst </li>
+        </dd>
+      </div>
+
+       <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Testing focus
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <ul class="govuk-list">
+            <li>Guidance page</li>
+            <li>Rejection and refund information</li>
+            <li>Two filter screens for disposals</li>
+        </dd>
+      </div>
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">
+          Insights
+        </dt>
+        <dd class="govuk-summary-list__value">
+          <a href="https://app.mural.co/t/companieshouse8589/m/companieshouse8589/1694166936615/6a80c90c88cd077c6a95cf94cd9cd9fd8410ee53?sender=uc287fb0c65a61d3da2202202"
+          target="_blank">Round 3 research findings Mural</a> <br>
+          <a href="#"
+          target="_blank">Round 3 user download - TBA</a>
+        </dd>
+      </div>
 
   </div>
 </div>
