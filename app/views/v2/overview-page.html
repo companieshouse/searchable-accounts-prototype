@@ -30,7 +30,7 @@ ABC LIMITED overview - Find and update company information
 <a class="govuk-body" href="#">Advanced company search</a>
 
 <h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">ABC LIMITED</h1>
-<p class="govuk-body">Company number <strong>01234567</strong></p>
+<p class="govuk-body">Company number <strong>12802758</strong></p>
 
 <div class="govuk-button-group">
   {{ govukButton({
@@ -58,13 +58,6 @@ ABC LIMITED overview - Find and update company information
       Filing overview</a>                     
   </li>
 </ul>
-
-
-
-
-
-
-
 
 
 
@@ -165,6 +158,22 @@ ABC LIMITED overview - Find and update company information
 
 {% endset -%}
 
+
+
+
+
+
+
+
+{# ******  ACCOUNTS TAB ***** #}
+{% set accountsTabHtml %}
+
+
+
+
+
+
+{% endset -%}
 
 
 
@@ -481,6 +490,13 @@ ABC LIMITED overview - Find and update company information
       id: "overview",
       panel: {
         html: overviewHtml
+      }
+    },
+    {
+      label: "Accounts",
+      id: "accountsTab",
+      panel: {
+        html: accountsTabHtml
       }
     },
     {

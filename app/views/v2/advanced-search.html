@@ -708,7 +708,7 @@
    </label>
 
     <p class="govuk-label-wrapper">
-      <label class="govuk-label accordion-label govuk-hint" for="cost">
+      <label class="accordion-label govuk-hint" for="cost">
         Minimum 
         <span class="govuk-visually-hidden">balance sheet total</span>
       </label>
@@ -717,18 +717,12 @@
       <div class="govuk-input__prefix" aria-hidden="true">£</div>
     <input class="govuk-input govuk-input--width-5" id="cost" name="cost" type="text" spellcheck="false">
   </div> 
- </div> 
+ </div> <!--div class="govuk-form-group"-->
 
- <div class="govuk-checkboxes__item govuk-checkboxes--small">
-    <input class="govuk-checkboxes__input" id="dissolved-companies" name="dissolved-companies" type="checkbox" value="dissolved-companies">
-      <label class="govuk-label govuk-checkboxes__label" for="dissolved-companies">
-        Make this a negative value
-       </label>
-  </div><!--div class="govuk-form-group"-->
 
 
   {#  Second £ input #}
- <div class="govuk-form-group">
+ <div class="govuk-form-group govuk-!-margin-top-3">
     <p class="govuk-label-wrapper">
       <label class="accordion-label govuk-hint" for="maximum-balance-sheet">
       Maximum
@@ -739,12 +733,7 @@
        <input class="govuk-input govuk-input--width-5" id="cost" name="cost" type="text" spellcheck="false">
       </div> 
 
-      <div class="govuk-checkboxes__item govuk-checkboxes--small">
-        <input class="govuk-checkboxes__input" id="dissolved-companies" name="dissolved-companies" type="checkbox" value="dissolved-companies">
-        <label class="govuk-label govuk-checkboxes__label" for="dissolved-companies">
-        Make this a negative value
-        </label>
-      </div>
+
     </div> 
  </div> <!--div class="govuk-form-group"-->
 </div> <!--adiv class="accordion-wrapper"-->
@@ -826,7 +815,7 @@
       </div> 
 
     <div class="govuk-!-display-inline govuk-form-group">
-      <p class="govuk-label-wrapper">
+      <p class="govuk-label-wrapper govuk-!-margin-top-2">
         <label class="accordion-label govuk-hint" for="maximum-profit-and-loss">
         Maximum
         </label>
