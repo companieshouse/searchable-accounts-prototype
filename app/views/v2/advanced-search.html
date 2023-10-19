@@ -694,30 +694,29 @@
 
 {# ******* Balance sheet total ****** #}
 <div class="accordion-wrapper">
-    <div class="accordion" onclick="toggleAccordion(this)">
+  <div class="accordion" onclick="toggleAccordion(this)">
      <a href="#" class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-link--no-underline govuk-link--no-visited-state">
       Balance sheet total</a>
-    <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
+     <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
   </div>
 
   {#  First £ input #}
   <div class="content">
-    <p class="govuk-body">This uses data from the latest accounts filed for a company. The results may not be complete as the data is not available for all companies and errors can mean some data is incorrect. </p>
- <div class="govuk-!-display-inline govuk-form-group">
+    {% include "app/includes/search-caveat.html" %} 
 
-   </label>
+    <div class="govuk-!-display-inline govuk-form-group">
 
-    <p class="govuk-label-wrapper">
-      <label class="accordion-label govuk-hint" for="cost">
-        Minimum 
-        <span class="govuk-visually-hidden">balance sheet total</span>
-      </label>
-    </p>
-    <div class="govuk-input__wrapper govuk-!-margin-top-2">
-      <div class="govuk-input__prefix" aria-hidden="true">£</div>
-    <input class="govuk-input govuk-input--width-5" id="cost" name="cost" type="text" spellcheck="false">
-  </div> 
- </div> <!--div class="govuk-form-group"-->
+      <p class="govuk-label-wrapper">
+        <label class="accordion-label govuk-hint" for="cost">
+          Minimum 
+          <span class="govuk-visually-hidden">balance sheet total</span>
+        </label>
+      </p>
+      <div class="govuk-input__wrapper govuk-!-margin-top-2">
+        <div class="govuk-input__prefix" aria-hidden="true">£</div>
+        <input class="govuk-input govuk-input--width-5" id="cost" name="cost" type="text" spellcheck="false">
+      </div> 
+    </div> <!--div class="govuk-form-group"-->
 
 
 
@@ -751,8 +750,7 @@
   <div class="content">
 
 
-<p class="govuk-body"> This uses data from the latest accounts filed for a company. The results may not be complete as the data is not available for all companies and errors can mean some data is incorrect. </p>
-<!--<p class="govuk-hint">Lorem ipsum</p> -->
+  {% include "app/includes/search-caveat.html" %} 
 
 
 <div class="govuk-checkboxes__item govuk-checkboxes--small">
@@ -799,8 +797,7 @@
   </div>
   <div class="content">
 
-<p class="govuk-body">This uses data from the latest accounts filed for a company. The results may not be complete as the data is not available for all companies and errors can mean some data is incorrect.</p>
-<!--<p class="govuk-hint">Minus numbers explanation lorem ipsum</p> -->
+{% include "app/includes/search-caveat.html" %} 
 
 <div class="govuk-!-display-inline govuk-form-group">
     <p class="govuk-label-wrapper">
