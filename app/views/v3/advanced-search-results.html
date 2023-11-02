@@ -55,12 +55,28 @@
   </div>  
 
   <div class="govuk-grid-column-one-half" align="right">
-    <button class="govuk-button" data-module="govuk-button">
-      Download results
+ <a href="/public/images/ABC-Companies-House-search-results.csv" id="downloadLink" style="display: none;"></a>
+    <button class="govuk-button" data-module="govuk-button" id="downloadButton">
+        Download results
     </button>
     <p class="search-hint govuk-body-s">Results are downloaded as a CSV file. Only the first 5,000 results can be downloaded.</p>
   </div>  
  </div>  
+
+
+    <script>
+        // Function to trigger the download
+        function downloadFile() {
+            // Get the link and simulate a click event
+            var link = document.getElementById('downloadLink');
+            link.click();
+        }
+
+        // Attach the click event handler to the button
+        document.getElementById('downloadButton').addEventListener('click', downloadFile);
+    </script>
+
+      {# <td class="govuk-table__cell"><a href="/public/images/ABC-Companies-House-search-results.csv" target="_blank">View PDF</a> (3 pages) <br><a href="#">Download iXBRL</a> </td> #}
 
 
 
