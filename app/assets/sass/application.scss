@@ -58,6 +58,16 @@ ul, ol {
 
 }
 
+
+.accordion-financial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+
+}
+
 .accordion-wrapper {
     border-bottom: 1px solid #ddd;
 
@@ -83,6 +93,11 @@ ul, ol {
 .open-all-link-container {
     margin-bottom: 3em;    
 }
+
+#open-all-link-financial {
+    float: right;
+}
+
 
 
 .search-hint {

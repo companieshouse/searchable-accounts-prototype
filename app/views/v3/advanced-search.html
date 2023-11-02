@@ -6,6 +6,7 @@
 
 {% block pageScripts %}
   <script src="/public/javascripts/accordion-elements.js"></script>
+    <script src="/public/javascripts/accordion-elements-financial.js"></script>
 {% endblock %}
 {% block beforeContent %}
   <a class="govuk-back-link" href="https://beta.companieshouse.gov.uk/">Back to Companies House service</a>
@@ -31,6 +32,9 @@
 <p>
   <a id="open-all-link" href="#">Open all</a>
 </p> #}
+
+<h2 class="govuk-heading-m">Company information</h1>
+
 
 <p class="open-all-link-container"> <a id="open-all-link" href="#">Open all</a></p>
 
@@ -692,9 +696,21 @@
 
 
 
+
+
+
+<h2 class="govuk-heading-m govuk-!-margin-top-9">Financial information</h1>
+<p class="govuk-body"> 
+    This uses data from the latest accounts filed for a company. The results may not be complete as the data is not available for all companies.
+</p>
+<p class="open-all-link-container"> <a id="open-all-link-financial" href="#">Open all</a></p>
+
+
+
+
 {# ******* Balance sheet total ****** #}
 <div class="accordion-wrapper">
-  <div class="accordion" onclick="toggleAccordion(this)">
+  <div class="accordion-financial" onclick="toggleAccordion(this)">
      <a href="#" class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-link--no-underline govuk-link--no-visited-state">
       Balance sheet total</a>
      <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
@@ -702,7 +718,6 @@
 
   {#  First £ input #}
   <div class="content">
-    {% include "app/includes/search-caveat.html" %} 
 
     <div class="govuk-!-display-inline govuk-form-group">
 
@@ -742,15 +757,13 @@
 
 {# ******* Number of employees ****** #}
 <div class="accordion-wrapper">
-  <div class="accordion" onclick="toggleAccordion(this)">
+  <div class="accordion-financial" onclick="toggleAccordion(this)">
      <a href="#" class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-link--no-underline govuk-link--no-visited-state">
       Number of employees</a>
     <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
   </div>
   <div class="content">
 
-
-  {% include "app/includes/search-caveat.html" %} 
 
 
 <div class="govuk-checkboxes__item govuk-checkboxes--small">
@@ -790,14 +803,13 @@
 {# ******* Profit and loss ****** #}
 <div class="accordion-wrapper">
   
-  <div class="accordion" onclick="toggleAccordion(this)">
+  <div class="accordion-financial" onclick="toggleAccordion(this)">
      <a href="#" class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-link--no-underline govuk-link--no-visited-state">
      Profit and loss</a>
     <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
   </div>
   <div class="content">
 
-{% include "app/includes/search-caveat.html" %} 
 
 <div class="govuk-!-display-inline govuk-form-group">
     <p class="govuk-label-wrapper">
@@ -844,11 +856,15 @@
        
         </div>
 
-        <div class ="govuk-!-margin-top-9">
+        {# <div class ="govuk-!-margin-top-9">
           <a href="advanced-search-results-scenario-one">User testing: scenario 1</a>
           <br><br>
           <a href="advanced-search-results-scenario-two">User testing: scenario 2</a>
-        </div>
+        </div> #}
+
+
+
+        
     </div>
   </div>
 
