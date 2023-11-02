@@ -1,15 +1,15 @@
 {% extends "layouts/main.html" %}
 
 {% block pageTitle %}
-  GOV.UK page template – {{ serviceName }} – GOV.UK Prototype Kit
+  GOV.UK page template - {{ serviceName }} - GOV.UK Prototype Kit
 {% endblock %}
 
 {% block content %}
 
 
-        <h1 class="govuk-heading-l">Advanced company search</h1>
+ <h1 class="govuk-heading-l">Advanced company search</h1>
 
-        <p class="govuk-body"> Fill in one or more fields to search the Companies House register.</p>
+   <p class="govuk-body"> Fill in one or more fields to search the Companies House register.</p>
 
 <div class="govuk-button-group">
   {{ govukButton({
@@ -50,6 +50,7 @@
   <div class="govuk-grid-column-two-thirds">
     <div class="govuk-grid-column-one-half">
       <p class="govuk-body-l govuk-!-font-weight-bold">3,159 results</p>
+    {% include "app/includes/search-results-caveat.html" %} 
     </div>  
 
     <div class="govuk-grid-column-one-half" align="right">
@@ -59,7 +60,7 @@
         <p class="search-hint govuk-body-s">Results are downloaded as a CSV file. Only the first 5,000 results can be downloaded.</p>
   </div>  
 
-{% include "app/includes/search-results-caveat.html" %} 
+
 
 
 
