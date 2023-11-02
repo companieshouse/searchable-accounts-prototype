@@ -40,21 +40,17 @@
         text: "Clear search",
         classes: "govuk-button--secondary"
       }) }}
-    </div>
-
   </div>
+</div>
 
   
 
 {# ******* Number of results and button right column ****** #}
 <div class="govuk-grid-column-two-thirds">
   <div class="govuk-grid-column-one-half">
-    <p class="govuk-body-l govuk-!-font-weight-bold">
-      3,159 results
-    </p>
-    <p class="govuk-body-m govuk-!-font-weight-bold">
-        These results may not be complete as your search uses data that is not available for all companies. 
-        Financial overview data is taken automatically from the company accounts and may be missing or incorrect. 
+    <p class="govuk-body-l govuk-!-font-weight-bold">3,159 results</p>
+    <p class="govuk-body-m">
+        These results from the financial information may not be complete as your search uses data that is not available for all companies. 
     </p>
   </div>  
 
@@ -64,12 +60,16 @@
     </button>
     <p class="search-hint govuk-body-s">Results are downloaded as a CSV file. Only the first 5,000 results can be downloaded.</p>
   </div>  
-</div>
+ </div>  
+
 
 {# 
     {% include "app/includes/search-results-caveat.html" %}  #}
 
+
+
 {# ******* Search results right column ****** #}
+<div class="govuk-grid-column-two-thirds">
   <hr class="govuk-!-margin-bottom-3">
    <p class="govuk-body-l govuk-!-font-weight-bold govuk-body-link govuk-link--no-visited-state govuk-!-margin-bottom-0"><strong>
     <a href="overview-page">ABC LIMITED</a></strong></p>
