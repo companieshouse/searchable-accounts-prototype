@@ -54,7 +54,7 @@ ABC LIMITED overview - Find and update company information
 
 
 {% set overviewHtml %}
-
+ 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
     <div class="govuk-grid-row">
@@ -131,20 +131,16 @@ ABC LIMITED overview - Find and update company information
 {# ******  FINANCIAL OVERVIEW TAB ***** #}
 {% set accountsTabHtml %}
 
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-full">
+  <div class="govuk-grid-row">
+<div class="govuk-grid-column-full">
 
-    <!-- Notes for content - have moved blue caveat into /includes as it sits on different pages for tesing-->
-     {% include "app/includes/blue-banner.html" %}
+<!-- Notes for content - have moved blue caveat into /includes as it sits on different pages for tesing-->
+
+     {% include "app/includes/blue-banner.html" %} 
+
+
       <p class="govuk-body-m">Overview of accounts from <strong>1 July 2022</strong> to <strong>30 June 2023</strong></p>
 
-    <div class="govuk-grid-column-two-thirds govuk-!-margin-bottom-2">
-      <details class="govuk-details" data-module="govuk-details">
-        <summary class="govuk-details__summary">
-          <span class="govuk-details__summary-text">
-            Why some data may be missing from the accounts overview
-          </span>
-        </summary>
 
 
       <div class="govuk-grid-row govuk-!-margin-top-8">
@@ -157,7 +153,7 @@ ABC LIMITED overview - Find and update company information
           <details class="govuk-details" data-module="govuk-details">
             <summary class="govuk-details__summary">
               <span class="govuk-details__summary-text">
-                What is the number of employees?
+                Number of employees
               </span>
             </summary>
             <div class="govuk-details__text">
@@ -179,11 +175,11 @@ ABC LIMITED overview - Find and update company information
           <details class="govuk-details" data-module="govuk-details">
             <summary class="govuk-details__summary">
               <span class="govuk-details__summary-text">
-                What is the balance sheet total?
+                Balance sheet total
               </span>
             </summary>
             <div class="govuk-details__text">
-               This shows the value of the company's assets minus its liabilities at the end of its financial year.
+               This shows the value of the company's assets minus its liabilities at the end of its financial year. 
                 <br><br>
                The company's assets are things the company owns, such as buildings and stock. Liabilities are debts the company owes.
             </div>
@@ -205,7 +201,7 @@ ABC LIMITED overview - Find and update company information
           <details class="govuk-details" data-module="govuk-details">
             <summary class="govuk-details__summary">
               <span class="govuk-details__summary-text">
-                What is profit and loss?
+                Profit and loss
               </span>
             </summary>
             <div class="govuk-details__text">
@@ -229,82 +225,23 @@ ABC LIMITED overview - Find and update company information
     </p>
   <ul class="govuk-list govuk-list--bullet">
   <li>
-we cannot access the accounts data automatically – for example, if the company has filed on paper
+    we have not been able to access the accounts data automatically - for example, if the company has filed on paper
   </li>
   <li>
-    it’s a new company that has not filed accounts yet
+    the company is not required to file the information - for example, small companies and micro-entities do not have to file profit and loss data
   </li>
   <li>
-    the company is not required to file the information – <a href="https://www.gov.uk/government/publications/life-of-a-company-annual-requirements/life-of-a-company-part-1-accounts">read the Companies House accounts guidance</a> to check what information companies must include on their accounts
+    it's a new company - companies do not file accounts for the first 2 years they are active
   </li>
 </ul>
-
+  <a href="https://www.gov.uk/annual-accounts">Read the guidance on preparing annual accounts</a> for more information about what companies must include on accounts.
   </div>
-    </div></div>
 
 </details>
 
-<div class="govuk-grid-column-full">
-      <div class="govuk-grid-row">
-        <div class="govuk-grid-column-one-half">
-          <p>Number of employees</br />
-          <strong>150</strong></p>
-
-            <details class="govuk-details" data-module="govuk-details">
-            <summary class="govuk-details__summary">
-              <span class="govuk-details__summary-text">
-                Number of employees
-              </span>
-            </summary>
-            <div class="govuk-details__text">
-                This is the average number of people a company employs during a financial year.
-            </div>
-          </details>
-        </div>
-
-
-        <div class="govuk-grid-column-one-half">
-          <p>Balance sheet total<br />
-          <strong>&pound;15,023,164</strong></p>
-           <details class="govuk-details" data-module="govuk-details">
-            <summary class="govuk-details__summary">
-              <span class="govuk-details__summary-text">
-                Balance sheet total
-              </span>
-            </summary>
-            <div class="govuk-details__text">
-               This shows the value of the company's assets minus its liabilities at the end of its financial year.
-                <br><br>
-               The company's assets are things the company owns, such as buildings and stock. Liabilities are debts the company owes.
-            </div>
-          </details>
-        </div>
-        </div>
-
 </div>
-
-
-  <div class="govuk-grid-column-full">
-    <div class="govuk-grid-row govuk-!-margin-top-4">
-        <div class="govuk-grid-column-one-half">
-          <p>Profit and loss<br />
-          <strong>&pound;25,987,003</strong></p>
-
-           <details class="govuk-details" data-module="govuk-details">
-            <summary class="govuk-details__summary">
-              <span class="govuk-details__summary-text">
-                Profit and loss
-              </span>
-            </summary>
-            <div class="govuk-details__text">
-            This shows how much a company has made from sales minus how much it spent on running costs at the end of its financial year.
-          </div>
-          </details>
-        </div>
-        </div>
-
-  </div>
-</div> <!--govuk-grid-row-->
+</div>
+</div>
 
 
 {% endset -%}
@@ -338,7 +275,7 @@ we cannot access the accounts data automatically – for example, if the company
         <fieldset class="govuk-fieldset">
           </legend>
           <div class="govuk-checkboxes govuk-checkboxes--small" data-module="govuk-checkboxes">
-
+            
             <div class="govuk-checkboxes__item">
               <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
               <label class="govuk-label govuk-checkboxes__label" for="organisation">
@@ -370,7 +307,7 @@ we cannot access the accounts data automatically – for example, if the company
         <fieldset class="govuk-fieldset">
           </legend>
           <div class="govuk-checkboxes govuk-checkboxes--small" data-module="govuk-checkboxes">
-
+            
             <div class="govuk-checkboxes__item">
               <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
               <label class="govuk-label govuk-checkboxes__label" for="organisation">
@@ -467,7 +404,7 @@ we cannot access the accounts data automatically – for example, if the company
 
 {# ******  PEOPLE TAB ***** #}
 {% set peopleHtml %}
-<ul class="search-tabs">
+<ul class="search-tabs">      
 	<li id="general-overview-toggle" class="active">
 	   <a class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="javascript:void(0)">
       Officers</a>
@@ -475,7 +412,7 @@ we cannot access the accounts data automatically – for example, if the company
 
 	<li id="accounts-toggle">
     <a class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="javascript:void(0)">
-      Persons with significant control</a>
+      Persons with significant control</a>                     
   </li>
 </ul>
 
@@ -499,8 +436,8 @@ we cannot access the accounts data automatically – for example, if the company
     </div>
   </fieldset>
 </div>
-
-
+   
+    
 <div id="All">
   <!-- Content for the "All" div -->
   <p class="govuk-heading-s">2 officers / 1 resignations</h2>
@@ -551,12 +488,12 @@ we cannot access the accounts data automatically – for example, if the company
         <strong>31 May 2022</strong></p>
       </div>
 
-
+      
     </div><!-- class="govuk-grid-row"-->
 
 </div><!-- id="All"-->
 
-
+    
     <div id="CurrentOnly">
 <!-- Content for the "CurrentOnly" div -->
       <p class="govuk-heading-s">1 current officer</h2>
@@ -578,7 +515,7 @@ we cannot access the accounts data automatically – for example, if the company
         <p>Appointed on<br>
         <strong>25 February 2016</strong></p>
       </div>
-
+      
     </div><!-- class="govuk-grid-row"-->
 </div><!-- id="All"-->
 {% endset -%}
@@ -682,12 +619,11 @@ we cannot access the accounts data automatically – for example, if the company
   ]
 }) }}
 
-
-
+    
+    
     </form>
 
     </div>
   </div>
-
 
 {% endblock %}
