@@ -16,18 +16,25 @@ ABC LIMITED overview - Find and update company information
 {% block content %}
 
 
-<div class="govuk-grid-row">
+<div class="govuk-grid-row ">
   <div class="govuk-grid-column-full">
-
+    <p>
+    <a class="govuk-body-s govuk-!-margin-top-0" href="https://resources.companieshouse.gov.uk/serviceInformation.shtml#compInfo" target="_blank">
+      Companies House does not verify the accuracy of the information filed</a>
+    <p>
     <form action="" method="post" novalidate>
 
 
-<div class="govuk-form-group search-bar-active" for="full">
-  <input class="govuk-input" id="event-name" name="event-name" type="text" value="Search for a company or officer">
+<div class="govuk-form-group search-bar-active govuk-!-margin-top-3" for="full">
+  <div class="govuk-grid-row search-input-div">
+    <input class="govuk-input" id="event-name" name="event-name" type="text" value="Search for a company or officer">
+      {# <button class="govuk-button search-button" data-module="govuk-button">
+    </button> #}
+  </div>
 </div>
 
 
-<a class="govuk-body" href="#">Advanced company search</a>
+<a class="govuk-body" href="advanced-search">Advanced company search</a>
 
 <h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">ABC LIMITED</h1>
 <p class="govuk-body">Company number <strong>12802758</strong></p>
@@ -142,7 +149,7 @@ ABC LIMITED overview - Find and update company information
           <strong>150</strong></p>
         </div>
 
-<div class="govuk-grid-column-two-thirds">
+<div class="govuk-grid-column-two-thirds govuk-!-margin-bottom-8">
           <details class="govuk-details" data-module="govuk-details">
             <summary class="govuk-details__summary">
               <span class="govuk-details__summary-text">
@@ -155,10 +162,10 @@ ABC LIMITED overview - Find and update company information
         </div>
       </div>
 
-<hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+{# <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible"> #}
 
 
-      <div class="govuk-grid-row">
+      <div class="govuk-grid-row govuk-!-margin-bottom-8">
         <div class="govuk-grid-column-one-third">
           <p>Balance sheet total<br />
           <strong>&pound;15,023,164</strong></p>
@@ -182,7 +189,7 @@ ABC LIMITED overview - Find and update company information
 
 
 
-<hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+{# <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible"> #}
 
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-third">
@@ -203,12 +210,36 @@ ABC LIMITED overview - Find and update company information
         </div>
       </div>
 
-<hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+{# <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">  #}
 
+<div class="govuk-grid-column-two-thirds">
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Why some data may be missing from the accounts overview
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+    <p class="govuk-body">
+      This data is not available for all companies. This could be for different reasons, including if:
+    </p>
+  <ul class="govuk-list govuk-list--bullet">
+  <li>
+    we have not been able to access the accounts data automatically - for example, if the company has filed on paper
+  </li>
+  <li>
+    the company is not required to file the information - for example, small companies and micro-entities do not have to file profit and loss data
+  </li>
+  <li>
+    it's a new company - companies do not file accounts for the first 2 years they are active
+  </li>
+</ul>
+  <a href="https://www.gov.uk/annual-accounts">Read the guidance on preparing annual accounts</a> for more information about what companies must include on accounts.
+  </div>
 
+</details>
 
-
-
+</div>
 </div>
 </div>
 

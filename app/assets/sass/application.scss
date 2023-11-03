@@ -14,6 +14,31 @@
 // 
 
 
+.search-input-div {
+    border: 10px solid 	#b1b4b6;
+    margin-bottom: 30px;
+    padding-left: 3;
+}
+
+
+.search-input {
+    overflow: auto;
+    border: 1px solid #0b0c0c;
+    margin-bottom: 30px;
+    padding-left: 3;
+}
+
+.search-button {
+    height: 50px;
+    width: 50px;
+    text-indent: -5000px;
+    color: #fff;
+    background-color: #005ea5;
+    background-image: url(/public/images/search-button.png);
+    background-repeat: no-repeat;
+    background-position: -12.5% 50%;
+}
+
 ul.search-tabs {
     overflow: auto;
     border-bottom: 1px solid #0b0c0c;

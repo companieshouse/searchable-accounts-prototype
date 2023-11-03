@@ -1,33 +1,36 @@
 {% extends "layouts/main.html" %}
 
 {% block pageTitle %}
-
 ABC LIMITED overview - Find and update company information
- - {{ serviceName }} – GOV.UK
+ - {{ serviceName }} - GOV.UK
 {% endblock %}
 
-{# {% block beforeContent %}
-  {% include "includes/before-content.html" %}
-{% endblock %} #}
+
 
 {% block pageScripts %}
   <script src="/public/javascripts/toggle-profile-elements.js"></script>
 {% endblock %}
 {% block content %}
 
-
-<div class="govuk-grid-row">
+<div class="govuk-grid-row ">
   <div class="govuk-grid-column-full">
-
+    <p>
+    <a class="govuk-body-s govuk-!-margin-top-0" href="https://resources.companieshouse.gov.uk/serviceInformation.shtml#compInfo" target="_blank">
+      Companies House does not verify the accuracy of the information filed</a>
+    <p>
     <form action="" method="post" novalidate>
 
 
-<div class="govuk-form-group search-bar-active" for="full">
-  <input class="govuk-input" id="event-name" name="event-name" type="text" value="Search for a company or officer">
+<div class="govuk-form-group search-bar-active govuk-!-margin-top-3" for="full">
+  <div class="govuk-grid-row search-input-div">
+    <input class="govuk-input" id="event-name" name="event-name" type="text" value="Search for a company or officer">
+      {# <button class="govuk-button search-button" data-module="govuk-button">
+    </button> #}
+  </div>
 </div>
 
+<a class="govuk-body" href="advanced-search">Advanced company search</a>
 
-<a class="govuk-body" href="#">Advanced company search</a>
 
 <h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">ABC LIMITED</h1>
 <p class="govuk-body">Company number <strong>12802758</strong></p>
