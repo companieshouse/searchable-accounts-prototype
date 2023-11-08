@@ -1,235 +1,235 @@
 company_name,company_number,company_status,company_type,company_subtype,dissolution_date,incorporation_date,removed_date,registered_date,nature_of_business,registered_office_address,balance_sheet_total,number_of_employees
-ABC LIMITED,12789015,Dissolved,Private limited by guarantee without share capital,,24/05/2022,03/08/2020,,,93120,14 Whinmoor Road High Green Sheffield S35 4LJ,"15,023,164",150
+ABC LIMITED,12789015,Dissolved,Private limited by guarantee without share capital,,24/05/2022,03/08/2020,,,93120,14 Whinmoor Road High Green Sheffield S35 4LJ,"5,478",1
 ABC INTERNATIONAL LIMITED,12798818,Dissolved,Private limited company,,11/01/2022,07/08/2020,,,73110,16a Melbourn Street Royston SG8 7BZ,"195,346",5
-ABC COMMODITIES LTD,SC623626,Dissolved,Private limited company,,05/01/2021,08/03/2019,,,16230 42990,17 Egilsay Terrace Glasgow G22 7PQ,"45,038,354",684
-PROPERTY ABC LTD,SC644149,Dissolved,Private limited company,,13/04/2021,10/10/2019,,,68310,1 Bullwood Road Dunoon PA23 7QJ,"1,473,409",109
-ABC WELDING SERVICES LIMITED,SC658318,Dissolved,Private limited company,,01/02/2022,26/03/2020,,,96090,2a New Dock Lane Custom House Place Greenock PA15 1EJ,"97,124",1
-ABC MOBILITY LIMITED,NI648646,Dissolved,Private limited company,,26/03/2019,13/10/2017,,,87300,63 Old Newry Road Banbridge Old Newry Road Banbridge BT32 4LH,"103,264",2
-ABC IMPORTS LIMITED,4632013,Dissolved,Private limited company,,08/06/2010,09/01/2003,,,5118,34e Stratern Road Bradgate Heights Leicester LE3 9RY,"25,094,357",57
-ABC TRAINING & DEVELOPMENT LIMITED,4814319,Dissolved,Private limited company,,22/02/2011,27/06/2003,,,7487,Insol House 39 Station Road Lutterworth LE17 4AP,"40,236,095",84
-ABC VEHICLE CONTRACTS LIMITED,4831748,Dissolved,Private limited company,,22/02/2011,14/07/2003,,,5010 6521 7110 7499,Westwood 7 Lever Hall Road Bolton BL2 6DJ,"1,907,124",11
-ABC LIMOUSINES LIMITED,4885750,Dissolved,Private limited company,,29/03/2011,03/09/2003,,,7110,111 Stafford Road Croydon Surrey CR0 4NH,"45,038,354",229
-COM RESTORE (ABC) LIMITED,1848785,Dissolved,Private limited company,,21/06/2011,17/09/1984,,,7222,1-5 Moorgate London EC2R 6AB,"50,236,095",97
-ABC NURSERY SUPPLIES LIMITED,2399391,Dissolved,Private limited company,,18/07/2011,29/06/1989,,,5141,Unit 1 Stadium Industrial Estate Cradock Road Luton LU4 0JF,"67,236,095",90
-ABC 999 LIMITED,2530155,Dissolved,Private limited company,,09/10/2012,13/08/1990,,,2215,"Suites 4 & 5 Leyland Business Park, Centurion Way Farington PR25 3GR","15,023,164",150
-ABC DEMOLITION (UK) LIMITED,3280569,Dissolved,Private limited company,,28/04/2013,19/11/1996,,,4511,Emerald House 20-22 Anchor Road Aldridge WS9 8PH,"195,346",5
-ABC PLANT HIRE (ESSEX) LIMITED,3383762,Dissolved,Private limited company,,22/06/2010,09/06/1997,,,7121,"Ashlea Latchingdon Road, Cold Norton Chelmsford CM3 6JG","45,038,354",684
-ABC BUSINESS SERVICES LIMITED,3532181,Dissolved,Private limited company,,17/01/2013,20/03/1998,,,6522 7110 7487,WILDER COE LLP Oxford House Campus 6 Caxton Way Stevenage SG1 2XD,"1,473,409",109
+ABC COMMODITIES LTD,SC623626,Dissolved,Private limited company,,05/01/2021,08/03/2019,,,16230 42990,17 Egilsay Terrace Glasgow G22 7PQ,"45,038,354",3
+PROPERTY ABC LTD,SC644149,Dissolved,Private limited company,,13/04/2021,10/10/2019,,,68310,1 Bullwood Road Dunoon PA23 7QJ,"1,473,409",9
+ABC WELDING SERVICES LIMITED,SC658318,Dissolved,Private limited company,,01/02/2022,26/03/2020,,,96090,2a New Dock Lane Custom House Place Greenock PA15 1EJ,"97,124",4
+ABC MOBILITY LIMITED,NI648646,Dissolved,Private limited company,,26/03/2019,13/10/2017,,,87300,63 Old Newry Road Banbridge Old Newry Road Banbridge BT32 4LH,"103,264",3
+ABC IMPORTS LIMITED,4632013,Dissolved,Private limited company,,08/06/2010,09/01/2003,,,5118,34e Stratern Road Bradgate Heights Leicester LE3 9RY,"25,094,357",7
+ABC TRAINING & DEVELOPMENT LIMITED,4814319,Dissolved,Private limited company,,22/02/2011,27/06/2003,,,7487,Insol House 39 Station Road Lutterworth LE17 4AP,"40,236,095",1
+ABC VEHICLE CONTRACTS LIMITED,4831748,Dissolved,Private limited company,,22/02/2011,14/07/2003,,,5010 6521 7110 7499,Westwood 7 Lever Hall Road Bolton BL2 6DJ,"1,907,124",8
+ABC LIMOUSINES LIMITED,4885750,Dissolved,Private limited company,,29/03/2011,03/09/2003,,,7110,111 Stafford Road Croydon Surrey CR0 4NH,"45,038,354",6
+COM RESTORE (ABC) LIMITED,1848785,Dissolved,Private limited company,,21/06/2011,17/09/1984,,,7222,1-5 Moorgate London EC2R 6AB,"50,236,095",2
+ABC NURSERY SUPPLIES LIMITED,2399391,Dissolved,Private limited company,,18/07/2011,29/06/1989,,,5141,Unit 1 Stadium Industrial Estate Cradock Road Luton LU4 0JF,"67,236,095",4
+ABC 999 LIMITED,2530155,Dissolved,Private limited company,,09/10/2012,13/08/1990,,,2215,"Suites 4 & 5 Leyland Business Park, Centurion Way Farington PR25 3GR","15,023,164",5
+ABC DEMOLITION (UK) LIMITED,3280569,Dissolved,Private limited company,,28/04/2013,19/11/1996,,,4511,Emerald House 20-22 Anchor Road Aldridge WS9 8PH,"195,346",6
+ABC PLANT HIRE (ESSEX) LIMITED,3383762,Dissolved,Private limited company,,22/06/2010,09/06/1997,,,7121,"Ashlea Latchingdon Road, Cold Norton Chelmsford CM3 6JG","45,038,354",4
+ABC BUSINESS SERVICES LIMITED,3532181,Dissolved,Private limited company,,17/01/2013,20/03/1998,,,6522 7110 7487,WILDER COE LLP Oxford House Campus 6 Caxton Way Stevenage SG1 2XD,"1,473,409",1
 ABC METAL SERVICES LIMITED,3844258,Dissolved,Private limited company,,26/11/2010,20/09/1999,,,2811,West Point 501 Chester Road Old Trafford Manchester M16 9HU,"97,124",1
-ABC LIFT SERVICES LIMITED,3865580,Dissolved,Private limited company,,01/10/2013,26/10/1999,,,4525,Portwall Place Portwall Lane Bristol BS1 6NA,"103,264",2
-ABC ARCHITECTS LTD,3880853,Dissolved,Private limited company,,31/07/2012,22/11/1999,,,7420,5-6 College Mews Saint Ann's Hill London SW18 2SJ,"25,094,357",57
-ABC MANGUARD LIMITED,4007255,Dissolved,Private limited company,,10/05/2010,05/06/2000,,,7460,9 Ensign House Admirals Way Marsh Wall London E14 9XQ,"40,236,095",84
-ABC AXWORTHYS LIMITED,4163080,Dissolved,Private limited company,,29/05/2012,19/02/2001,,,5247,Ranger House Etruria Road Stoke On Trent ST1 5NH,"1,907,124",11
-ABC CARD CONTROL LIMITED,4237452,Dissolved,Private limited company,,28/01/2014,19/06/2001,,,99999,797 Liverpool Road Ainsdale Southport Merseyside PR8 3NU,"45,038,354",229
-ABC 996 LIMITED,4215542,Dissolved,Private limited company,,09/10/2012,11/05/2001,,,7499,"Suites 4 & 5 Leyland Business Park, Centurion Way Farington, Leyland PR25 3GR","50,236,095",97
-ABC LOANS LTD,4298022,Dissolved,Private limited company,,23/02/2010,03/10/2001,,,6523,St Peters House 101 Dorset Road Bexhill-On-Sea TN40 2HU,"67,236,095",90
-ABC CLAIMS LIMITED,4352197,Dissolved,Private limited company,,05/09/2013,14/01/2002,,,6603,Oxford Chambers Oxford Road Guiseley Leeds LS20 9AT,"15,023,164",150
-ABC GLOBAL IMPORT/EXPORT L.P.,SL015443,Active,Limited partnership,,,04/02/2014,,, ,44 Main Street Douglas ML11 0QW,"195,346",5
-ABC GLOBAL LOGISTICS LLP,SO304454,Dissolved,Limited liability partnership,,09/02/2016,29/05/2013,,, ,84 Park Road Rosyth KY11 2JL,"45,038,354",684
-ABC ACCOUNTING SERVICES LIMITED,2250326,Dissolved,Private limited company,,06/12/2011,03/05/1988,,,7412,88 Tregundy Road Perranporth Cornwall TR6 0LL,"1,473,409",109
+ABC LIFT SERVICES LIMITED,3865580,Dissolved,Private limited company,,01/10/2013,26/10/1999,,,4525,Portwall Place Portwall Lane Bristol BS1 6NA,"103,264",3
+ABC ARCHITECTS LTD,3880853,Dissolved,Private limited company,,31/07/2012,22/11/1999,,,7420,5-6 College Mews Saint Ann's Hill London SW18 2SJ,"25,094,357",3
+ABC MANGUARD LIMITED,4007255,Dissolved,Private limited company,,10/05/2010,05/06/2000,,,7460,9 Ensign House Admirals Way Marsh Wall London E14 9XQ,"40,236,095",4
+ABC AXWORTHYS LIMITED,4163080,Dissolved,Private limited company,,29/05/2012,19/02/2001,,,5247,Ranger House Etruria Road Stoke On Trent ST1 5NH,"1,907,124",5
+ABC CARD CONTROL LIMITED,4237452,Dissolved,Private limited company,,28/01/2014,19/06/2001,,,99999,797 Liverpool Road Ainsdale Southport Merseyside PR8 3NU,"45,038,354",1
+ABC 996 LIMITED,4215542,Dissolved,Private limited company,,09/10/2012,11/05/2001,,,7499,"Suites 4 & 5 Leyland Business Park, Centurion Way Farington, Leyland PR25 3GR","50,236,095",5
+ABC LOANS LTD,4298022,Dissolved,Private limited company,,23/02/2010,03/10/2001,,,6523,St Peters House 101 Dorset Road Bexhill-On-Sea TN40 2HU,"67,236,095",3
+ABC CLAIMS LIMITED,4352197,Dissolved,Private limited company,,05/09/2013,14/01/2002,,,6603,Oxford Chambers Oxford Road Guiseley Leeds LS20 9AT,"15,023,164",9
+ABC GLOBAL IMPORT/EXPORT L.P.,SL015443,Active,Limited partnership,,,04/02/2014,,, ,44 Main Street Douglas ML11 0QW,"195,346",4
+ABC GLOBAL LOGISTICS LLP,SO304454,Dissolved,Limited liability partnership,,09/02/2016,29/05/2013,,, ,84 Park Road Rosyth KY11 2JL,"45,038,354",3
+ABC ACCOUNTING SERVICES LIMITED,2250326,Dissolved,Private limited company,,06/12/2011,03/05/1988,,,7412,88 Tregundy Road Perranporth Cornwall TR6 0LL,"1,473,409",7
 ABC CAB CO LIMITED,2969262,Dissolved,Private limited company,,05/12/2013,19/09/1994,,,6022,51 Cambridge Place Cambridge CB2 1NS,"97,124",1
-ABC-SIFA LTD,5282467,Dissolved,Private limited company,,24/05/2011,10/11/2004,,,7487,Ground Floor West 68 South Lambeth Road London SW8 1RL,"103,264",2
-ABC KITCHENS LIMITED,5337187,Dissolved,Private limited company,,08/01/2013,19/01/2005,,,47599,2a Alton House Office Park Gatehouse Way Aylesbury HP19 8YF,"25,094,357",57
-ABC ROOFING (DORSET) LIMITED,5368194,Dissolved,Private limited company,,19/07/2011,17/02/2005,,,4522,2 Moorland Crescent Upton Poole Dorset BH16 5LB,"40,236,095",84
-ABC INDUSTRIAL LIMITED,4122121,Dissolved,Private limited company,,24/09/2013,11/12/2000,,,25990,Unit 11 Wharfside Business Park Irlam Wharf Road Irlam Manchester M44 5PN,"1,907,124",11
-ABC ENVIRONMENTAL LIMITED,4240605,Dissolved,Private limited company,,28/09/2010,25/06/2001,,,7310,Innovation Centre Highfield Drive Churchfields St Leonards On Sea TN38 9UH,"45,038,354",229
-ABC PLAY ( CYMRU ) LTD,9671489,Dissolved,Private limited company,,07/06/2016,06/07/2015,,, ,Unit 7a Hepworth Park Coed Cae Lane Pontyclun CF72 9DX,"50,236,095",97
-ABC INTERNATIONAL LTD,9674835,Dissolved,Private limited company,,13/12/2016,07/07/2015,,, ,40 Bloomsbury Way London WC1A 2SE,"67,236,095",90
-STEAM ABC SERVICES LTD,12529232,Dissolved,Private limited company,,28/09/2021,20/03/2020,,,96090,41 Suffolk Road Barking IG11 7QP,"15,023,164",150
-ABC PROFESSIONAL SERVICES LIMITED,12549738,Dissolved,Private limited company,,04/05/2021,07/04/2020,,,62020,Langrigg Warcop Appleby-In-Westmorland CA16 6PT,"195,346",5
-ABC CONSULTANCY SERVICES LIMITED,12007011,Dissolved,Private limited company,,24/05/2022,20/05/2019,,,70229,Mannat 24 Grasholm Way Slough SL3 8WF,"45,038,354",684
-ABC AUDIT LIMITED,12039557,Dissolved,Private limited company,,13/10/2020,07/06/2019,,,99999,1 Rushmills Northampton NN4 7YB,"1,473,409",109
-ABC DISCOS LIMITED,11720673,Dissolved,Private limited company,,27/10/2020,10/12/2018,,,59200 96090,7 Miller Road Burton Latimer Kettering NN15 5SP,"97,124",1
-ABC RESERVATIONS LTD,11720916,Dissolved,Private limited company,,03/11/2020,11/12/2018,,,96090,64 Haig Road West Plaistow E13 9LH,"103,264",2
-ABC MOTORS LTD,11721325,Dissolved,Private limited company,,03/11/2020,11/12/2018,,,45112 47910,87-89 Harehills Avenue Leeds LS8 4ET,"25,094,357",57
-ABC INSTRUCTOR CAR HIRE LTD,11722613,Dissolved,Private limited company,,27/10/2020,11/12/2018,,,77110,92 Grindle Road Longford Coventry CV6 6BS,"40,236,095",84
-ABC GROBHANDEL LIMITED,11737515,Dissolved,Private limited company,,27/10/2020,20/12/2018,,,46900,27 Old Gloucester Street London WC1N 3AX,"1,907,124",11
-25 ABC THE BROADWAY LIMITED,11739941,Dissolved,Private limited company,,06/08/2019,24/12/2018,,,98000,Flat C 25 The Broadway London NW7 3DA,"45,038,354",229
-ABC LEICESTERSHIRE LIMITED,11769044,Dissolved,Private limited company,,16/03/2021,16/01/2019,,,99999,1 Rushmills Bedford Road Northampton NN4 7YB,"50,236,095",97
-ABC SUPPORT LIMITED,12413706,Dissolved,Private limited company,,27/07/2021,20/01/2020,,,87200,8 Tennyson Avenue Llanwern Newport NP18 2DY,"67,236,095",90
-ABC INN LLP LTD,12601395,Dissolved,Private limited company,,19/10/2021,14/05/2020,,,56302,20-22 Wenlock Road London N1 7GU,"15,023,164",150
-ABC KIDS WORLD LTD,12617498,Dissolved,Private limited company,,11/05/2021,21/05/2020,,,46900,27 Lockett Street Manchester M8 8EE,"195,346",5
-ABC MASONRY CONSTRUCTION LIMITED,12641032,Dissolved,Private limited company,,09/11/2021,02/06/2020,,,41201 41202,16 Lincoln Close Greenford UB6 8NR,"45,038,354",684
-ABC PROPERTY MANAGEMENT LIMITED,12313610,Dissolved,Private limited company,,29/09/2020,13/11/2019,,,98000,19 Daniels Welch Coffee Hall Milton Keynes MK6 5DA,"1,473,409",109
-ABC CONSTRUCTION & MAINTENANCE LTD,12331483,Dissolved,Private limited company,,29/09/2020,25/11/2019,,,41202,19 Daniels Welch Coffee Hall Milton Keynes MK6 5DA,"97,124",1
-ABC DIGITREE LTD,12346566,Dissolved,Private limited company,,29/06/2021,03/12/2019,,,74100 74202 96090,Floor 3 70 Upper Street Angel London N1 0NY,"103,264",2
-ABC ASSETS LTD,12468352,Dissolved,Private limited company,,06/07/2021,18/02/2020,,,68310,29 Sterling Way Upper Cambourne CB23 6BL,"25,094,357",57
-ABC INVESTMENT (EUROPE) LTD,12476331,Dissolved,Private limited company,,07/09/2021,21/02/2020,,,64999 66190,11 Thameside Henley-On-Thames RG9 1BH,"40,236,095",84
-ABC GYMNASTICS LTD,9773725,Dissolved,Private limited company,,12/10/2021,11/09/2015,,,93130,7 Bolton Road Ashton-In-Makerfield Wigan WN4 8AA,"1,907,124",11
-ABC PETERIC STORAGE LIMITED,9775975,Dissolved,Private limited company,,31/10/2017,14/09/2015,,,74990,238a Kingston Road New Malden KT3 3RN,"45,038,354",229
-ABC SAFETY SERVICES LTD,9792573,Dissolved,Private limited company,,11/01/2022,24/09/2015,,,74909,Ashington Workspace Lintonville Parkway Ashington NE63 9JZ,"50,236,095",97
-YORKSHIRE ABC FESTIVAL COMPANY LTD,9807329,Dissolved,Private limited by guarantee without share capital,,14/03/2017,03/10/2015,,, ,19 Netheroyd Hill Road Huddersfield HD2 2LW,"67,236,095",90
-ABC MARKETING LTD,9808004,Dissolved,Private limited company,,11/04/2017,03/10/2015,,, ,Unit C2 Wyther Lane Leeds LS5 3BT,"15,023,164",150
-ABC ACADEMY LIMITED,9828913,Dissolved,Private limited company,,28/03/2017,16/10/2015,,, ,105 Bruce Grove London N17 6UR,"195,346",5
-ABC TAXIS (NEWCASTLE ) LIMITED,9834186,Dissolved,Private limited company,,11/12/2018,21/10/2015,,,49320,5 Charlotte Square Newcastle Upon Tyne NE1 4XF,"45,038,354",684
-ABC LIFTS LIMITED,10612637,Dissolved,Private limited company,,10/07/2018,10/02/2017,,,71129,161 Parkside Avenue Bexleyheath DA7 6NP,"1,473,409",109
-ABC FACILITY MANAGEMENT LTD,10631984,Dissolved,Private limited company,,31/07/2018,22/02/2017,,,82990,30 Nicholls Avenue Uxbridge UB8 3JL,"97,124",1
-CITY LETTING ABC LIMITED,10663019,Dissolved,Private limited company,,26/06/2018,10/03/2017,,,68209,27 Valley Gardens Gateshead NE9 5EB,"103,264",2
-ALPHA BUSINESS CENTRE ABC LTD,10407711,Dissolved,Private limited company,,20/03/2018,03/10/2016,,,52290,87 Westminster Gardens Barking IG11 0BL,"25,094,357",57
-ABC MANAGEMENT LTD,10448479,Dissolved,Private limited company,,05/09/2017,27/10/2016,,,96090,20 Kiers Court Bolton BL6 6TN,"40,236,095",84
-ABC ENT LTD,10469318,Dissolved,Private limited company,,17/04/2018,08/11/2016,,,82990,20-22 Wenlock Road London N1 7GU,"1,907,124",11
-ABC TOURS LTD,10488684,Dissolved,Private limited company,,27/07/2021,21/11/2016,,,79110 79901,37-39/5 West Heath Drive London NW11 7QG,"45,038,354",229
-ABC TRAINING CENTRE LTD,10755665,Dissolved,Private limited company,,09/07/2019,05/05/2017,,,82990,293a Whitechapel Road London E1 1BY,"50,236,095",97
-ABC RELIABLE PRODUCTS LTD,10800747,Dissolved,Private limited company,,18/09/2018,02/06/2017,,,96090,1153b Christchurch Road Bournemouth BH7 6BW,"67,236,095",90
-ABC TEAM SERVICES LIMITED,10816511,Dissolved,Private limited company,,18/06/2019,13/06/2017,,,41202,9 Bickels Yard 151 - 153 Bermondsey Street London SE1 3HA,"15,023,164",150
-ABC TRAVEL CLINIC LIMITED,10543209,Dissolved,Private limited company,,14/09/2021,30/12/2016,,,86210 86900,75 Holly Lane Smethwick B67 7LD,"195,346",5
-ABC BRICKWORK LTD,10553592,Dissolved,Private limited company,,05/03/2019,09/01/2017,,,43290,2 Yorke Avenue Brierley Hill DY5 3NB,"45,038,354",684
-ABC WORKS LTD.,10591560,Dissolved,Private limited company,,24/12/2019,30/01/2017,,,58190 70229 74909 85600,209 Middelton Road Manchester M8 4LR,"1,473,409",109
-SUPPORT HEALTH ABC LTD,10591786,Dissolved,Private limited company,,03/07/2018,30/01/2017,,,86900,2 Lonsdale Street Accrington BB5 0HL,"97,124",1
-COMPUTER ABC TECH CENTRE LIMITED,10593444,Dissolved,Private limited company,,10/07/2018,31/01/2017,,,62090,34a London Road Bedford MK42 0NS,"103,264",2
-ABC HOME & OFFICE CLEANING SERVICES LIMITED,10304124,Dissolved,Private limited company,,16/01/2018,01/08/2016,,,81210,7 Matthew Clarke House Bowden Lane Market Harborough LE16 7HY,"25,094,357",57
-ABC CARLA LTD,10319155,Dissolved,Private limited company,,15/10/2019,09/08/2016,,,52290,48 Florence Close Grays RM20 4AE,"40,236,095",84
-ABC LANGUAGE SCHOOL LIMITED,10320836,Dissolved,Private limited company,,16/01/2018,09/08/2016,,,85590,27a Rosebery Crescent Jesmond Newcastle-Upon-Tyne NE2 1EU,"1,907,124",11
-ABC MOTORCYCLE CENTRE LTD,10332549,Dissolved,Private limited company,,25/04/2017,16/08/2016,,,85530,87 Beechcroft Road Swindon SN2 7RE,"45,038,354",229
-ABC&T LLP,OC412544,Dissolved,Limited liability partnership,,28/11/2017,28/06/2016,,, ,15 Malvern Street East Rochdale OL11 5EZ,"50,236,095",97
-ALDA ABC LLP,OC414824,Dissolved,Limited liability partnership,,13/10/2020,28/11/2016,,, ,"Regent House, 316 Beulah Hill London SE19 3HF","67,236,095",90
-ACORN BOOK CLUB (ABC),CE018017,,Charitable incorporated organisation,,,,,, ,Not available,"15,023,164",150
+ABC-SIFA LTD,5282467,Dissolved,Private limited company,,24/05/2011,10/11/2004,,,7487,Ground Floor West 68 South Lambeth Road London SW8 1RL,"103,264",8
+ABC KITCHENS LIMITED,5337187,Dissolved,Private limited company,,08/01/2013,19/01/2005,,,47599,2a Alton House Office Park Gatehouse Way Aylesbury HP19 8YF,"25,094,357",6
+ABC ROOFING (DORSET) LIMITED,5368194,Dissolved,Private limited company,,19/07/2011,17/02/2005,,,4522,2 Moorland Crescent Upton Poole Dorset BH16 5LB,"40,236,095",2
+ABC INDUSTRIAL LIMITED,4122121,Dissolved,Private limited company,,24/09/2013,11/12/2000,,,25990,Unit 11 Wharfside Business Park Irlam Wharf Road Irlam Manchester M44 5PN,"1,907,124",4
+ABC ENVIRONMENTAL LIMITED,4240605,Dissolved,Private limited company,,28/09/2010,25/06/2001,,,7310,Innovation Centre Highfield Drive Churchfields St Leonards On Sea TN38 9UH,"45,038,354",5
+ABC PLAY ( CYMRU ) LTD,9671489,Dissolved,Private limited company,,07/06/2016,06/07/2015,,, ,Unit 7a Hepworth Park Coed Cae Lane Pontyclun CF72 9DX,"50,236,095",6
+ABC INTERNATIONAL LTD,9674835,Dissolved,Private limited company,,13/12/2016,07/07/2015,,, ,40 Bloomsbury Way London WC1A 2SE,"67,236,095",4
+STEAM ABC SERVICES LTD,12529232,Dissolved,Private limited company,,28/09/2021,20/03/2020,,,96090,41 Suffolk Road Barking IG11 7QP,"15,023,164",1
+ABC PROFESSIONAL SERVICES LIMITED,12549738,Dissolved,Private limited company,,04/05/2021,07/04/2020,,,62020,Langrigg Warcop Appleby-In-Westmorland CA16 6PT,"195,346",1
+ABC CONSULTANCY SERVICES LIMITED,12007011,Dissolved,Private limited company,,24/05/2022,20/05/2019,,,70229,Mannat 24 Grasholm Way Slough SL3 8WF,"45,038,354",3
+ABC AUDIT LIMITED,12039557,Dissolved,Private limited company,,13/10/2020,07/06/2019,,,99999,1 Rushmills Northampton NN4 7YB,"1,473,409",3
+ABC DISCOS LIMITED,11720673,Dissolved,Private limited company,,27/10/2020,10/12/2018,,,59200 96090,7 Miller Road Burton Latimer Kettering NN15 5SP,"97,124",4
+ABC RESERVATIONS LTD,11720916,Dissolved,Private limited company,,03/11/2020,11/12/2018,,,96090,64 Haig Road West Plaistow E13 9LH,"103,264",5
+ABC MOTORS LTD,11721325,Dissolved,Private limited company,,03/11/2020,11/12/2018,,,45112 47910,87-89 Harehills Avenue Leeds LS8 4ET,"25,094,357",1
+ABC INSTRUCTOR CAR HIRE LTD,11722613,Dissolved,Private limited company,,27/10/2020,11/12/2018,,,77110,92 Grindle Road Longford Coventry CV6 6BS,"40,236,095",5
+ABC GROBHANDEL LIMITED,11737515,Dissolved,Private limited company,,27/10/2020,20/12/2018,,,46900,27 Old Gloucester Street London WC1N 3AX,"1,907,124",3
+25 ABC THE BROADWAY LIMITED,11739941,Dissolved,Private limited company,,06/08/2019,24/12/2018,,,98000,Flat C 25 The Broadway London NW7 3DA,"45,038,354",9
+ABC LEICESTERSHIRE LIMITED,11769044,Dissolved,Private limited company,,16/03/2021,16/01/2019,,,99999,1 Rushmills Bedford Road Northampton NN4 7YB,"50,236,095",4
+ABC SUPPORT LIMITED,12413706,Dissolved,Private limited company,,27/07/2021,20/01/2020,,,87200,8 Tennyson Avenue Llanwern Newport NP18 2DY,"67,236,095",3
+ABC INN LLP LTD,12601395,Dissolved,Private limited company,,19/10/2021,14/05/2020,,,56302,20-22 Wenlock Road London N1 7GU,"15,023,164",7
+ABC KIDS WORLD LTD,12617498,Dissolved,Private limited company,,11/05/2021,21/05/2020,,,46900,27 Lockett Street Manchester M8 8EE,"195,346",1
+ABC MASONRY CONSTRUCTION LIMITED,12641032,Dissolved,Private limited company,,09/11/2021,02/06/2020,,,41201 41202,16 Lincoln Close Greenford UB6 8NR,"45,038,354",8
+ABC PROPERTY MANAGEMENT LIMITED,12313610,Dissolved,Private limited company,,29/09/2020,13/11/2019,,,98000,19 Daniels Welch Coffee Hall Milton Keynes MK6 5DA,"1,473,409",6
+ABC CONSTRUCTION & MAINTENANCE LTD,12331483,Dissolved,Private limited company,,29/09/2020,25/11/2019,,,41202,19 Daniels Welch Coffee Hall Milton Keynes MK6 5DA,"97,124",2
+ABC DIGITREE LTD,12346566,Dissolved,Private limited company,,29/06/2021,03/12/2019,,,74100 74202 96090,Floor 3 70 Upper Street Angel London N1 0NY,"103,264",4
+ABC ASSETS LTD,12468352,Dissolved,Private limited company,,06/07/2021,18/02/2020,,,68310,29 Sterling Way Upper Cambourne CB23 6BL,"25,094,357",5
+ABC INVESTMENT (EUROPE) LTD,12476331,Dissolved,Private limited company,,07/09/2021,21/02/2020,,,64999 66190,11 Thameside Henley-On-Thames RG9 1BH,"40,236,095",6
+ABC GYMNASTICS LTD,9773725,Dissolved,Private limited company,,12/10/2021,11/09/2015,,,93130,7 Bolton Road Ashton-In-Makerfield Wigan WN4 8AA,"1,907,124",4
+ABC PETERIC STORAGE LIMITED,9775975,Dissolved,Private limited company,,31/10/2017,14/09/2015,,,74990,238a Kingston Road New Malden KT3 3RN,"45,038,354",1
+ABC SAFETY SERVICES LTD,9792573,Dissolved,Private limited company,,11/01/2022,24/09/2015,,,74909,Ashington Workspace Lintonville Parkway Ashington NE63 9JZ,"50,236,095",1
+YORKSHIRE ABC FESTIVAL COMPANY LTD,9807329,Dissolved,Private limited by guarantee without share capital,,14/03/2017,03/10/2015,,, ,19 Netheroyd Hill Road Huddersfield HD2 2LW,"67,236,095",3
+ABC MARKETING LTD,9808004,Dissolved,Private limited company,,11/04/2017,03/10/2015,,, ,Unit C2 Wyther Lane Leeds LS5 3BT,"15,023,164",3
+ABC ACADEMY LIMITED,9828913,Dissolved,Private limited company,,28/03/2017,16/10/2015,,, ,105 Bruce Grove London N17 6UR,"195,346",4
+ABC TAXIS (NEWCASTLE ) LIMITED,9834186,Dissolved,Private limited company,,11/12/2018,21/10/2015,,,49320,5 Charlotte Square Newcastle Upon Tyne NE1 4XF,"45,038,354",5
+ABC LIFTS LIMITED,10612637,Dissolved,Private limited company,,10/07/2018,10/02/2017,,,71129,161 Parkside Avenue Bexleyheath DA7 6NP,"1,473,409",1
+ABC FACILITY MANAGEMENT LTD,10631984,Dissolved,Private limited company,,31/07/2018,22/02/2017,,,82990,30 Nicholls Avenue Uxbridge UB8 3JL,"97,124",5
+CITY LETTING ABC LIMITED,10663019,Dissolved,Private limited company,,26/06/2018,10/03/2017,,,68209,27 Valley Gardens Gateshead NE9 5EB,"103,264",3
+ALPHA BUSINESS CENTRE ABC LTD,10407711,Dissolved,Private limited company,,20/03/2018,03/10/2016,,,52290,87 Westminster Gardens Barking IG11 0BL,"25,094,357",9
+ABC MANAGEMENT LTD,10448479,Dissolved,Private limited company,,05/09/2017,27/10/2016,,,96090,20 Kiers Court Bolton BL6 6TN,"40,236,095",4
+ABC ENT LTD,10469318,Dissolved,Private limited company,,17/04/2018,08/11/2016,,,82990,20-22 Wenlock Road London N1 7GU,"1,907,124",3
+ABC TOURS LTD,10488684,Dissolved,Private limited company,,27/07/2021,21/11/2016,,,79110 79901,37-39/5 West Heath Drive London NW11 7QG,"45,038,354",7
+ABC TRAINING CENTRE LTD,10755665,Dissolved,Private limited company,,09/07/2019,05/05/2017,,,82990,293a Whitechapel Road London E1 1BY,"50,236,095",1
+ABC RELIABLE PRODUCTS LTD,10800747,Dissolved,Private limited company,,18/09/2018,02/06/2017,,,96090,1153b Christchurch Road Bournemouth BH7 6BW,"67,236,095",8
+ABC TEAM SERVICES LIMITED,10816511,Dissolved,Private limited company,,18/06/2019,13/06/2017,,,41202,9 Bickels Yard 151 - 153 Bermondsey Street London SE1 3HA,"15,023,164",6
+ABC TRAVEL CLINIC LIMITED,10543209,Dissolved,Private limited company,,14/09/2021,30/12/2016,,,86210 86900,75 Holly Lane Smethwick B67 7LD,"195,346",2
+ABC BRICKWORK LTD,10553592,Dissolved,Private limited company,,05/03/2019,09/01/2017,,,43290,2 Yorke Avenue Brierley Hill DY5 3NB,"45,038,354",4
+ABC WORKS LTD.,10591560,Dissolved,Private limited company,,24/12/2019,30/01/2017,,,58190 70229 74909 85600,209 Middelton Road Manchester M8 4LR,"1,473,409",5
+SUPPORT HEALTH ABC LTD,10591786,Dissolved,Private limited company,,03/07/2018,30/01/2017,,,86900,2 Lonsdale Street Accrington BB5 0HL,"97,124",6
+COMPUTER ABC TECH CENTRE LIMITED,10593444,Dissolved,Private limited company,,10/07/2018,31/01/2017,,,62090,34a London Road Bedford MK42 0NS,"103,264",4
+ABC HOME & OFFICE CLEANING SERVICES LIMITED,10304124,Dissolved,Private limited company,,16/01/2018,01/08/2016,,,81210,7 Matthew Clarke House Bowden Lane Market Harborough LE16 7HY,"25,094,357",1
+ABC CARLA LTD,10319155,Dissolved,Private limited company,,15/10/2019,09/08/2016,,,52290,48 Florence Close Grays RM20 4AE,"40,236,095",1
+ABC LANGUAGE SCHOOL LIMITED,10320836,Dissolved,Private limited company,,16/01/2018,09/08/2016,,,85590,27a Rosebery Crescent Jesmond Newcastle-Upon-Tyne NE2 1EU,"1,907,124",3
+ABC MOTORCYCLE CENTRE LTD,10332549,Dissolved,Private limited company,,25/04/2017,16/08/2016,,,85530,87 Beechcroft Road Swindon SN2 7RE,"45,038,354",3
+ABC&T LLP,OC412544,Dissolved,Limited liability partnership,,28/11/2017,28/06/2016,,, ,15 Malvern Street East Rochdale OL11 5EZ,"50,236,095",4
+ALDA ABC LLP,OC414824,Dissolved,Limited liability partnership,,13/10/2020,28/11/2016,,, ,"Regent House, 316 Beulah Hill London SE19 3HF","67,236,095",5
+ACORN BOOK CLUB (ABC),CE018017,,Charitable incorporated organisation,,,,,, ,Not available,"15,023,164",1
 "ABC NEWS OVERSEAS SALES,INC.",FC013514,Active,Overseas company,,,27/06/1986,,, ,Justin Robert Chichester Walkey 90 Fetter Lane London EC4A 1JP,"195,346",5
-"ABC RESTAURANT GROUP, LLC",FC017011,Converted / Closed,Overseas company,,24/06/2011,01/05/1993,,, ,7380 Sand Lake Road  Suite 600 Orlando Florida  32819 ,"45,038,354",684
-ABC WASHROOM LTD.,SC453775,Dissolved,Private limited company,,23/07/2019,03/07/2013,,,82990,C/O Harris Donald 82 West Nile Street Glasgow G1 2QH,"1,473,409",109
-ABC PROPERTY MANAGEMENT LIMITED,SC520210,Dissolved,Private limited company,,18/06/2019,12/11/2015,,,68320,36 Fells Rigg Livingston EH54 8PA,"97,124",1
-ABC ENGINEERING SERVICES (SCOTLAND) LTD,SC372551,Dissolved,Private limited company,,22/06/2021,08/02/2010,,,9100,South Gariochsford Rothienorman Inverurie AB51 8XX,"103,264",2
-ABC EVENTS (SCOTLAND) LTD.,SC409400,Dissolved,Private limited company,,18/06/2021,14/10/2011,,,82302,Johnston Carmichael Llp 7-11 Melville Street Edinburgh EH3 7PE,"25,094,357",57
-ABC GLASGOW LTD,SC430489,Dissolved,Private limited company,,13/09/2016,15/08/2012,,,47710,Unit 6 Springburn Shopping Centre Springburn Glasgow G21 1TS,"40,236,095",84
-ABC PARTIES LIMITED,SC432406,Dissolved,Private limited company,,02/01/2015,12/09/2012,,,93290,4a Chapel Road Dingwall IV16 9XT,"1,907,124",11
-ABC ASSOCIATES (NI) LIMITED,NI058217,Dissolved,Private limited company,,10/04/2015,21/02/2006,,,74909,159 Creggan Road Carrickmore Omagh BT79 9BL,"45,038,354",229
-ABC LOCAL BUSINESS SERVICES LIMITED,11294144,Dissolved,Private limited company,,28/01/2020,05/04/2018,,,82990,18 Lumb Hall Way Drighlington Bradford BD11 1LL,"50,236,095",97
-ABC PROCUREMENT LTD,11322392,Dissolved,Private limited company,,03/11/2020,23/04/2018,,,70229,26 Dalby Court Dalby Court Peterborough PE1 4TH,"67,236,095",90
-PROSPECTS ABC C.I.C.,10830907,Dissolved,Private limited company,Community Interest Company (CIC),03/09/2019,22/06/2017,,,93120,121 Rykneld Road Littleover Derby DE23 4AJ,"15,023,164",150
-ABC POLISH SHOP LTD,10852917,Dissolved,Private limited company,,11/12/2018,06/07/2017,,,82990,562 Liverpool Road Irlam Manchester M44 6ZA,"195,346",5
-ABC WORKFORCE LTD,11361095,Dissolved,Private limited company,,22/10/2019,14/05/2018,,,43910,20-22 Wenlock Road London N1 7GU,"45,038,354",684
-ABC NE LIMITED,11364098,Dissolved,Private limited company,,22/10/2019,16/05/2018,,,39000,37 Cottonwood Biddick Woods Houghton Le Spring DH4 7TA,"1,473,409",109
+"ABC RESTAURANT GROUP, LLC",FC017011,Converted / Closed,Overseas company,,24/06/2011,01/05/1993,,, ,7380 Sand Lake Road  Suite 600 Orlando Florida  32819 ,"45,038,354",3
+ABC WASHROOM LTD.,SC453775,Dissolved,Private limited company,,23/07/2019,03/07/2013,,,82990,C/O Harris Donald 82 West Nile Street Glasgow G1 2QH,"1,473,409",9
+ABC PROPERTY MANAGEMENT LIMITED,SC520210,Dissolved,Private limited company,,18/06/2019,12/11/2015,,,68320,36 Fells Rigg Livingston EH54 8PA,"97,124",4
+ABC ENGINEERING SERVICES (SCOTLAND) LTD,SC372551,Dissolved,Private limited company,,22/06/2021,08/02/2010,,,9100,South Gariochsford Rothienorman Inverurie AB51 8XX,"103,264",3
+ABC EVENTS (SCOTLAND) LTD.,SC409400,Dissolved,Private limited company,,18/06/2021,14/10/2011,,,82302,Johnston Carmichael Llp 7-11 Melville Street Edinburgh EH3 7PE,"25,094,357",7
+ABC GLASGOW LTD,SC430489,Dissolved,Private limited company,,13/09/2016,15/08/2012,,,47710,Unit 6 Springburn Shopping Centre Springburn Glasgow G21 1TS,"40,236,095",1
+ABC PARTIES LIMITED,SC432406,Dissolved,Private limited company,,02/01/2015,12/09/2012,,,93290,4a Chapel Road Dingwall IV16 9XT,"1,907,124",8
+ABC ASSOCIATES (NI) LIMITED,NI058217,Dissolved,Private limited company,,10/04/2015,21/02/2006,,,74909,159 Creggan Road Carrickmore Omagh BT79 9BL,"45,038,354",6
+ABC LOCAL BUSINESS SERVICES LIMITED,11294144,Dissolved,Private limited company,,28/01/2020,05/04/2018,,,82990,18 Lumb Hall Way Drighlington Bradford BD11 1LL,"50,236,095",2
+ABC PROCUREMENT LTD,11322392,Dissolved,Private limited company,,03/11/2020,23/04/2018,,,70229,26 Dalby Court Dalby Court Peterborough PE1 4TH,"67,236,095",4
+PROSPECTS ABC C.I.C.,10830907,Dissolved,Private limited company,Community Interest Company (CIC),03/09/2019,22/06/2017,,,93120,121 Rykneld Road Littleover Derby DE23 4AJ,"15,023,164",5
+ABC POLISH SHOP LTD,10852917,Dissolved,Private limited company,,11/12/2018,06/07/2017,,,82990,562 Liverpool Road Irlam Manchester M44 6ZA,"195,346",6
+ABC WORKFORCE LTD,11361095,Dissolved,Private limited company,,22/10/2019,14/05/2018,,,43910,20-22 Wenlock Road London N1 7GU,"45,038,354",4
+ABC NE LIMITED,11364098,Dissolved,Private limited company,,22/10/2019,16/05/2018,,,39000,37 Cottonwood Biddick Woods Houghton Le Spring DH4 7TA,"1,473,409",1
 KINGS ABC PLAY LTD,10898150,Dissolved,Private limited by guarantee without share capital,,08/01/2019,03/08/2017,,,82990,Sheldon Community Centre Sheldon Heath Road Birmingham B26 2RU,"97,124",1
-CHARCOAL GRILL ABC LTD,10899944,Dissolved,Private limited company,,14/05/2019,04/08/2017,,,56103,50 Bridge Street Troedyrhiw Merthyr Tydfil CF48 4DX,"103,264",2
-ABC TAX LIMITED,10937320,Dissolved,Private limited company,,21/05/2019,30/08/2017,,,62020,71-75 Shelton Street Covent Garden London WC2H 9JQ,"25,094,357",57
-ABC ADVERTISING LTD,11419263,Dissolved,Private limited company,,19/11/2019,18/06/2018,,,73110,Apartment 3 The Battalions 2a Portchester Place Bournemouth BH8 8JF,"40,236,095",84
-ABC SPORTS THERAPY LTD,11436968,Dissolved,Private limited company,,03/12/2019,28/06/2018,,,86900 93199,9 Barnes Road Wootton Bedford MK43 9FB,"1,907,124",11
-ABC PPE LTD,11043116,Dissolved,Private limited company,,09/04/2019,01/11/2017,,,47910,Westinghouse Point Westinghouse Road Manchester M17 1QP,"45,038,354",229
-ABC PLUMBING AND BUILDING LTD,11044201,Dissolved,Private limited company,,29/01/2019,02/11/2017,,,43999,203 West Street Fareham PO16 0EN,"50,236,095",97
-TRIBUNE ABC LIMITED,11074709,Dissolved,Private limited company,,07/01/2020,21/11/2017,,,43390 81222,Causeway Cottage The Causeway Steventon Abingdon OX13 6SQ,"67,236,095",90
-ABC 121 CLEANING COMPANY LTD,11077824,Dissolved,Private limited company,,30/04/2019,22/11/2017,,,81210 81299,3 Marcus Stratford London E15 3JT,"15,023,164",150
-CROFTS ABC LIMITED,10985617,Dissolved,Private limited company,,05/03/2019,28/09/2017,,,68310,22 Barbican Way New Waltham Grimsby DN36 4YN,"195,346",5
-ABC NEW MAINTENANCE SERVICES LTD,11151966,Dissolved,Private limited company,,23/07/2019,16/01/2018,,,96090,140 Kingsley Road Hounslow London TW3 4AD,"45,038,354",684
-ABC HIRE LTD,11155610,Dissolved,Private limited company,,25/06/2019,17/01/2018,,,77110,45 Masefield Avenue Southall UB1 2NE,"1,473,409",109
+CHARCOAL GRILL ABC LTD,10899944,Dissolved,Private limited company,,14/05/2019,04/08/2017,,,56103,50 Bridge Street Troedyrhiw Merthyr Tydfil CF48 4DX,"103,264",3
+ABC TAX LIMITED,10937320,Dissolved,Private limited company,,21/05/2019,30/08/2017,,,62020,71-75 Shelton Street Covent Garden London WC2H 9JQ,"25,094,357",3
+ABC ADVERTISING LTD,11419263,Dissolved,Private limited company,,19/11/2019,18/06/2018,,,73110,Apartment 3 The Battalions 2a Portchester Place Bournemouth BH8 8JF,"40,236,095",4
+ABC SPORTS THERAPY LTD,11436968,Dissolved,Private limited company,,03/12/2019,28/06/2018,,,86900 93199,9 Barnes Road Wootton Bedford MK43 9FB,"1,907,124",5
+ABC PPE LTD,11043116,Dissolved,Private limited company,,09/04/2019,01/11/2017,,,47910,Westinghouse Point Westinghouse Road Manchester M17 1QP,"45,038,354",1
+ABC PLUMBING AND BUILDING LTD,11044201,Dissolved,Private limited company,,29/01/2019,02/11/2017,,,43999,203 West Street Fareham PO16 0EN,"50,236,095",5
+TRIBUNE ABC LIMITED,11074709,Dissolved,Private limited company,,07/01/2020,21/11/2017,,,43390 81222,Causeway Cottage The Causeway Steventon Abingdon OX13 6SQ,"67,236,095",3
+ABC 121 CLEANING COMPANY LTD,11077824,Dissolved,Private limited company,,30/04/2019,22/11/2017,,,81210 81299,3 Marcus Stratford London E15 3JT,"15,023,164",9
+CROFTS ABC LIMITED,10985617,Dissolved,Private limited company,,05/03/2019,28/09/2017,,,68310,22 Barbican Way New Waltham Grimsby DN36 4YN,"195,346",4
+ABC NEW MAINTENANCE SERVICES LTD,11151966,Dissolved,Private limited company,,23/07/2019,16/01/2018,,,96090,140 Kingsley Road Hounslow London TW3 4AD,"45,038,354",3
+ABC HIRE LTD,11155610,Dissolved,Private limited company,,25/06/2019,17/01/2018,,,77110,45 Masefield Avenue Southall UB1 2NE,"1,473,409",7
 ANAIT BAKHCHINIAN COMPANY (ABC) LIMITED,11168941,Dissolved,Private limited company,,02/07/2019,25/01/2018,,,96090,3 Churchill Close Weymouth DT4 9LZ,"97,124",1
-ABC TAXIS OF AYLESBURY LTD,9953268,Dissolved,Private limited company,,23/11/2021,15/01/2016,,,49320,107 New Street Aylesbury HP20 2NY,"103,264",2
-ABC TRAVEL OF AYLESBURY LTD,9965226,Dissolved,Private limited company,,04/07/2017,22/01/2016,,, ,29 Buckingham Road Aylesbury HP19 9PT,"25,094,357",57
-ABC SECURITY LIMITED,10013027,Dissolved,Private limited company,,25/07/2017,18/02/2016,,, ,52 Leicester Way Leicester Way Jarrow NE32 4XL,"40,236,095",84
-ABC AUTORITE LIMITED,10030803,Dissolved,Private limited company,,27/10/2020,29/02/2016,,,45200,Unit B Bramble Road Swindon SN2 8DS,"1,907,124",11
-ABC ASSOCIATES LIMITED,9567888,Dissolved,Private limited company,,13/06/2017,29/04/2015,,,62020,12-16 Ordnance Street Chatham ME4 6SL,"45,038,354",229
-ABC BABYWEARING NORTH WALES LTD,9585964,Dissolved,Private limited company,,07/05/2019,12/05/2015,,,91011,Gelli Pengelli Wyn Estate Caernarfon LL55 1EA,"50,236,095",97
-ABC-123 ACCOUNTING AND CONSULTANCY SERVICES LTD,10087552,Dissolved,Private limited company,,27/10/2020,29/03/2016,,,96090,37 Edinburgh Street Gprse Hill Swindon SN2 8DD,"67,236,095",90
-ABC WOOLTON DAY NURSERY LIMITED,10092972,Dissolved,Private limited company,,04/09/2018,31/03/2016,,,88910,Oriel House 2-8 Oriel Road Bootle L20 7EP,"15,023,164",150
-ABC PANELS LTD,10095072,Dissolved,Private limited company,,19/10/2021,31/03/2016,,,27120,52 Byfield Road Scunthorpe DN17 1RL,"195,346",5
-ADVANCE ABC LIMITED,10108684,Dissolved,Private limited company,,25/05/2021,07/04/2016,,,82990,43 Vale Road Mitcham CR4 1NP,"45,038,354",684
-ABC SURVEYORS LIMITED,9864968,Dissolved,Private limited company,,21/01/2020,10/11/2015,,,74902,C/O Lsr Management Unit C2a Comet Studios Penn Street Amersham HP7 0PX,"1,473,409",109
-ABC PRINTING LIMITED,9880785,Dissolved,Private limited company,,25/02/2020,19/11/2015,,,18129,Languatec Events 13 Vallance Road London E1 5HS,"97,124",1
-ABC ADVISORY SOLUTIONS LIMITED,9889209,Dissolved,Private limited company,,28/11/2017,25/11/2015,,,69109,10 Cairns Road London SW11 1ES,"103,264",2
-ABC BUSINESS COMMUNITIES LIMITED,9915202,Dissolved,Private limited company,,30/05/2017,14/12/2015,,, ,102 Victor Road Middlesex Teddington TW11 3AS,"25,094,357",57
-ABC LOCAL LTD,10082088,Dissolved,Private limited company,,05/12/2017,23/03/2016,,,47110,84-86 Spring Bank Hull HU3 1AA,"40,236,095",84
-ABC REPORTS LIMITED,10089146,Dissolved,Private limited company,,24/08/2021,29/03/2016,,,62090,27 Campbell Court Embry Road London SE9 6BT,"1,907,124",11
-ABC BOUNCY & ENTERTAINMENT LTD,10101488,Dissolved,Private limited company,,12/09/2017,04/04/2016,,, ,78 Waverley Avenue Doncaster DN4 0SB,"45,038,354",229
-ABC CAR HIRE LTD,10111101,Dissolved,Private limited company,,12/09/2017,07/04/2016,,, ,285 Lady Margaret Road Southall UB1 2PX,"50,236,095",97
-PIKE THREE THREE ABC INTERNATIONAL HOLDINGS LTD,10135002,Dissolved,Private limited company,,02/01/2018,20/04/2016,,,99999,Rm101 Maple House 118 High Street Purley London CR8 2AD,"67,236,095",90
-ABC HELSELAB LIMITED,10003199,Dissolved,Private limited company,,20/10/2020,12/02/2016,,,99999,Stron House 100 Pall Mall London SW1Y 5EA,"15,023,164",150
-ABC LEISURE LIMITED,9877184,Dissolved,Private limited company,,27/06/2017,18/11/2015,,, ,22 Wood Street Wakefield WF1 2DE,"195,346",5
-ABC BARS LIMITED,9907578,Dissolved,Private limited company,,03/04/2018,08/12/2015,,,56302,Flat 9 13 Leinster Gardens London W2 6DR,"45,038,354",684
-ABC PARCELS LIMITED,11573767,Dissolved,Private limited company,,25/02/2020,18/09/2018,,,53202,94 Fulham Palace Road London W6 9PL,"1,473,409",109
-LUCKY GIDDA ABC LTD,11573959,Dissolved,Private limited company,,20/07/2021,18/09/2018,,,86900,2 Tenby Street Birmingham B1 3EL,"97,124",1
-ABC DELIVERY LIMITED,11785797,Dissolved,Private limited company,,22/09/2020,24/01/2019,,,52290,27 The Avenue Cliftonville Northampton NN1 5BT,"103,264",2
-ABC ACCOUNTANTS & FINANCIAL ADVISERS LTD,11802923,Dissolved,Private limited company,,22/06/2021,01/02/2019,,,82990,D48 Moorside Business Park Eastgates Colchester CO1 2ZF,"25,094,357",57
-ABC WEALTH MANAGEMENT LIMITED,11846045,Dissolved,Private limited company,,05/01/2021,25/02/2019,,,85590,2 Cambrian Crescent Marshfield Cardiff CF3 2TD,"40,236,095",84
-ABC TRANS (LINCS) LTD,12144954,Dissolved,Private limited company,,06/10/2020,07/08/2019,,,41202,32 The Crescent Spalding PE11 1AF,"1,907,124",11
-SKIN DEDICATION ABC (AESTHETICS & BEAUTY COURSES) LTD,12145504,Dissolved,Private limited company,,23/03/2021,08/08/2019,,,85422,20-22 Wenlock Road London N1 7GU,"45,038,354",229
-ABC HR SOLUTIONS LIMITED,11957588,Dissolved,Private limited company,,26/01/2021,23/04/2019,,,78300,Nostrebor Pikes Pool Lane Finstall Bromsgrove B60 1LQ,"50,236,095",97
-ABC DIVISION LTD,11985871,Dissolved,Private limited company,,10/11/2020,08/05/2019,,,49410,57 Park Road Ratby Leicester LE6 0JL,"67,236,095",90
-ABC (SOS) LIMITED,11205344,Dissolved,Private limited company,,13/10/2020,14/02/2018,,,45200 59113,Church Court Stourbridge Road Halesowen B63 3TT,"15,023,164",150
-ABC-Z CLEANING LTD,11213314,Dissolved,Private limited company,,23/07/2019,19/02/2018,,,81210,26 Adelaide Road Hounslow TW5 9AG,"195,346",5
-ABC JOINERS LTD,13089721,Dissolved,Private limited company,,24/05/2022,18/12/2020,,,43210 43320,Flat 10  17a Shelley Road Rotherham S65 2NF,"45,038,354",684
-ABC 229079 LTD,13115407,Dissolved,Private limited company,,10/05/2022,06/01/2021,,,62012,Applewood Alcocks Lane Kingswood Tadworth KT20 6BB,"1,473,409",109
-ABC MARKETING & PAYMENTS SOLUTIONS LIMITED,13051107,Dissolved,Private limited company,,10/05/2022,30/11/2020,,,66110,"203-205 The Vale, The Vale, Acton London W3 7QS","97,124",1
-ABC SOUTHWARK HOUSING COOPERATIVE LIMITED,IP24009R,Active,Registered society,,,,,, ,Not available,"103,264",2
-ABC OUTDOOR LIMITED,NI020709,Dissolved,Private limited company,,03/04/2016,17/07/1987,,,73110,27 College Gardens Belfast BT9 6BS,"25,094,357",57
-ABC (NI) LTD,NI040919,Dissolved,Private limited company,,05/11/2019,26/05/2001,,,31020,103 Glen Road Maghera BT46 5JG,"40,236,095",84
-ABC INNS LTD,12607132,Dissolved,Private limited company,,05/07/2022,18/05/2020,,,56101,Crown Station Road Chinnor OX39 4EX,"1,907,124",11
-ABC SECURITY LTD,12608955,Dissolved,Private limited company,,19/10/2021,18/05/2020,,,80100,10 Hilton Grove Bradford BD7 2DL,"45,038,354",229
-ABC DRIVER HIRE LTD,12630785,Dissolved,Private limited company,,07/06/2022,28/05/2020,,,49319 49320 49390 52213,30 Roydon Lane Launceston PL15 8NG,"50,236,095",97
-ABC INN5 LTD,12635024,Dissolved,Private limited company,,02/11/2021,30/05/2020,,,55100,20-22 Wenlock Road London N1 7GU,"67,236,095",90
-ABC 2020 LTD,12299747,Dissolved,Private limited company,,13/10/2020,05/11/2019,,,56290 70229,538 Kingsland Road London E8 4AH,"15,023,164",150
-ABC POLISH SATURDAY SCHOOL IN POOLE,CE007231,,Charitable incorporated organisation,,,,,, ,Not available,"195,346",5
-DOUBLE JAB ABC,CE010004,,Charitable incorporated organisation,,,,,, ,Not available,"45,038,354",684
-ABC DOORS 2020 LIMITED,12395458,Dissolved,Private limited company,,05/04/2022,09/01/2020,,,99999,Unit 6 Irlam Wharf Road Irlam Manchester M44 5PN,"1,473,409",109
-ABC CLINIC 2 LTD,12423335,Dissolved,Private limited company,,27/07/2021,24/01/2020,,,46450,The Leaves Tyler's Road Roydon CM19 5LJ,"97,124",1
-ABC CLINIC 3 LTD,12423373,Dissolved,Private limited company,,27/07/2021,24/01/2020,,,46450,The Leaves Tyler's Road Roydon CM19 5LJ,"103,264",2
-ABC PARTNER HOLDING LTD,12845117,Dissolved,Private limited company,,01/02/2022,28/08/2020,,,46310 46320 46330 46341,12845117: COMPANIES HOUSE DEFAULT ADDRESS Cardiff CF14 8LH,"25,094,357",57
-ABC BUILDING AND CLEANING LTD LTD,12869652,Dissolved,Private limited company,,15/02/2022,09/09/2020,,,43390,Flat 1 Countess Court Earls Meade Luton LU2 7JE,"40,236,095",84
-ABC CREATIONS LTD,11518693,Dissolved,Private limited company,,19/02/2019,15/08/2018,,,47910,24/25 Kensington Gardens Square Flat G1 London W2 4BE,"1,907,124",11
-CORRECT POSTURE ABC LTD,11630408,Dissolved,Private limited company,,22/03/2022,18/10/2018,,,86900,468a Stratford Road Sparkhill Birmingham B11 4AE,"45,038,354",229
-ABC INTELLECTUAL PROPERTY LIMITED,11646664,Dissolved,Private limited company,,31/03/2020,29/10/2018,,,69102 69109,2 Cambrian Crescent Marshfield Cardiff CF3 2TD,"50,236,095",97
-ABC PRESENTS LTD,11648245,Dissolved,Private limited company,,31/03/2020,29/10/2018,,,82990,35 Amersham Road New Cross London SE14 6QQ,"67,236,095",90
-ABC CORP LIMITED,11682105,Dissolved,Private limited company,,28/09/2021,16/11/2018,,,59140,Cavern Court 1st Floor 8 Mathew Street Liverpool L2 6RE,"15,023,164",150
+ABC TAXIS OF AYLESBURY LTD,9953268,Dissolved,Private limited company,,23/11/2021,15/01/2016,,,49320,107 New Street Aylesbury HP20 2NY,"103,264",8
+ABC TRAVEL OF AYLESBURY LTD,9965226,Dissolved,Private limited company,,04/07/2017,22/01/2016,,, ,29 Buckingham Road Aylesbury HP19 9PT,"25,094,357",6
+ABC SECURITY LIMITED,10013027,Dissolved,Private limited company,,25/07/2017,18/02/2016,,, ,52 Leicester Way Leicester Way Jarrow NE32 4XL,"40,236,095",2
+ABC AUTORITE LIMITED,10030803,Dissolved,Private limited company,,27/10/2020,29/02/2016,,,45200,Unit B Bramble Road Swindon SN2 8DS,"1,907,124",4
+ABC ASSOCIATES LIMITED,9567888,Dissolved,Private limited company,,13/06/2017,29/04/2015,,,62020,12-16 Ordnance Street Chatham ME4 6SL,"45,038,354",5
+ABC BABYWEARING NORTH WALES LTD,9585964,Dissolved,Private limited company,,07/05/2019,12/05/2015,,,91011,Gelli Pengelli Wyn Estate Caernarfon LL55 1EA,"50,236,095",6
+ABC-123 ACCOUNTING AND CONSULTANCY SERVICES LTD,10087552,Dissolved,Private limited company,,27/10/2020,29/03/2016,,,96090,37 Edinburgh Street Gprse Hill Swindon SN2 8DD,"67,236,095",4
+ABC WOOLTON DAY NURSERY LIMITED,10092972,Dissolved,Private limited company,,04/09/2018,31/03/2016,,,88910,Oriel House 2-8 Oriel Road Bootle L20 7EP,"15,023,164",1
+ABC PANELS LTD,10095072,Dissolved,Private limited company,,19/10/2021,31/03/2016,,,27120,52 Byfield Road Scunthorpe DN17 1RL,"195,346",1
+ADVANCE ABC LIMITED,10108684,Dissolved,Private limited company,,25/05/2021,07/04/2016,,,82990,43 Vale Road Mitcham CR4 1NP,"45,038,354",3
+ABC SURVEYORS LIMITED,9864968,Dissolved,Private limited company,,21/01/2020,10/11/2015,,,74902,C/O Lsr Management Unit C2a Comet Studios Penn Street Amersham HP7 0PX,"1,473,409",3
+ABC PRINTING LIMITED,9880785,Dissolved,Private limited company,,25/02/2020,19/11/2015,,,18129,Languatec Events 13 Vallance Road London E1 5HS,"97,124",4
+ABC ADVISORY SOLUTIONS LIMITED,9889209,Dissolved,Private limited company,,28/11/2017,25/11/2015,,,69109,10 Cairns Road London SW11 1ES,"103,264",5
+ABC BUSINESS COMMUNITIES LIMITED,9915202,Dissolved,Private limited company,,30/05/2017,14/12/2015,,, ,102 Victor Road Middlesex Teddington TW11 3AS,"25,094,357",1
+ABC LOCAL LTD,10082088,Dissolved,Private limited company,,05/12/2017,23/03/2016,,,47110,84-86 Spring Bank Hull HU3 1AA,"40,236,095",5
+ABC REPORTS LIMITED,10089146,Dissolved,Private limited company,,24/08/2021,29/03/2016,,,62090,27 Campbell Court Embry Road London SE9 6BT,"1,907,124",3
+ABC BOUNCY & ENTERTAINMENT LTD,10101488,Dissolved,Private limited company,,12/09/2017,04/04/2016,,, ,78 Waverley Avenue Doncaster DN4 0SB,"45,038,354",9
+ABC CAR HIRE LTD,10111101,Dissolved,Private limited company,,12/09/2017,07/04/2016,,, ,285 Lady Margaret Road Southall UB1 2PX,"50,236,095",4
+PIKE THREE THREE ABC INTERNATIONAL HOLDINGS LTD,10135002,Dissolved,Private limited company,,02/01/2018,20/04/2016,,,99999,Rm101 Maple House 118 High Street Purley London CR8 2AD,"67,236,095",3
+ABC HELSELAB LIMITED,10003199,Dissolved,Private limited company,,20/10/2020,12/02/2016,,,99999,Stron House 100 Pall Mall London SW1Y 5EA,"15,023,164",7
+ABC LEISURE LIMITED,9877184,Dissolved,Private limited company,,27/06/2017,18/11/2015,,, ,22 Wood Street Wakefield WF1 2DE,"195,346",1
+ABC BARS LIMITED,9907578,Dissolved,Private limited company,,03/04/2018,08/12/2015,,,56302,Flat 9 13 Leinster Gardens London W2 6DR,"45,038,354",8
+ABC PARCELS LIMITED,11573767,Dissolved,Private limited company,,25/02/2020,18/09/2018,,,53202,94 Fulham Palace Road London W6 9PL,"1,473,409",6
+LUCKY GIDDA ABC LTD,11573959,Dissolved,Private limited company,,20/07/2021,18/09/2018,,,86900,2 Tenby Street Birmingham B1 3EL,"97,124",2
+ABC DELIVERY LIMITED,11785797,Dissolved,Private limited company,,22/09/2020,24/01/2019,,,52290,27 The Avenue Cliftonville Northampton NN1 5BT,"103,264",4
+ABC ACCOUNTANTS & FINANCIAL ADVISERS LTD,11802923,Dissolved,Private limited company,,22/06/2021,01/02/2019,,,82990,D48 Moorside Business Park Eastgates Colchester CO1 2ZF,"25,094,357",5
+ABC WEALTH MANAGEMENT LIMITED,11846045,Dissolved,Private limited company,,05/01/2021,25/02/2019,,,85590,2 Cambrian Crescent Marshfield Cardiff CF3 2TD,"40,236,095",6
+ABC TRANS (LINCS) LTD,12144954,Dissolved,Private limited company,,06/10/2020,07/08/2019,,,41202,32 The Crescent Spalding PE11 1AF,"1,907,124",4
+SKIN DEDICATION ABC (AESTHETICS & BEAUTY COURSES) LTD,12145504,Dissolved,Private limited company,,23/03/2021,08/08/2019,,,85422,20-22 Wenlock Road London N1 7GU,"45,038,354",1
+ABC HR SOLUTIONS LIMITED,11957588,Dissolved,Private limited company,,26/01/2021,23/04/2019,,,78300,Nostrebor Pikes Pool Lane Finstall Bromsgrove B60 1LQ,"50,236,095",1
+ABC DIVISION LTD,11985871,Dissolved,Private limited company,,10/11/2020,08/05/2019,,,49410,57 Park Road Ratby Leicester LE6 0JL,"67,236,095",3
+ABC (SOS) LIMITED,11205344,Dissolved,Private limited company,,13/10/2020,14/02/2018,,,45200 59113,Church Court Stourbridge Road Halesowen B63 3TT,"15,023,164",3
+ABC-Z CLEANING LTD,11213314,Dissolved,Private limited company,,23/07/2019,19/02/2018,,,81210,26 Adelaide Road Hounslow TW5 9AG,"195,346",4
+ABC JOINERS LTD,13089721,Dissolved,Private limited company,,24/05/2022,18/12/2020,,,43210 43320,Flat 10  17a Shelley Road Rotherham S65 2NF,"45,038,354",5
+ABC 229079 LTD,13115407,Dissolved,Private limited company,,10/05/2022,06/01/2021,,,62012,Applewood Alcocks Lane Kingswood Tadworth KT20 6BB,"1,473,409",1
+ABC MARKETING & PAYMENTS SOLUTIONS LIMITED,13051107,Dissolved,Private limited company,,10/05/2022,30/11/2020,,,66110,"203-205 The Vale, The Vale, Acton London W3 7QS","97,124",5
+ABC SOUTHWARK HOUSING COOPERATIVE LIMITED,IP24009R,Active,Registered society,,,,,, ,Not available,"103,264",3
+ABC OUTDOOR LIMITED,NI020709,Dissolved,Private limited company,,03/04/2016,17/07/1987,,,73110,27 College Gardens Belfast BT9 6BS,"25,094,357",9
+ABC (NI) LTD,NI040919,Dissolved,Private limited company,,05/11/2019,26/05/2001,,,31020,103 Glen Road Maghera BT46 5JG,"40,236,095",4
+ABC INNS LTD,12607132,Dissolved,Private limited company,,05/07/2022,18/05/2020,,,56101,Crown Station Road Chinnor OX39 4EX,"1,907,124",3
+ABC SECURITY LTD,12608955,Dissolved,Private limited company,,19/10/2021,18/05/2020,,,80100,10 Hilton Grove Bradford BD7 2DL,"45,038,354",7
+ABC DRIVER HIRE LTD,12630785,Dissolved,Private limited company,,07/06/2022,28/05/2020,,,49319 49320 49390 52213,30 Roydon Lane Launceston PL15 8NG,"50,236,095",1
+ABC INN5 LTD,12635024,Dissolved,Private limited company,,02/11/2021,30/05/2020,,,55100,20-22 Wenlock Road London N1 7GU,"67,236,095",8
+ABC 2020 LTD,12299747,Dissolved,Private limited company,,13/10/2020,05/11/2019,,,56290 70229,538 Kingsland Road London E8 4AH,"15,023,164",6
+ABC POLISH SATURDAY SCHOOL IN POOLE,CE007231,,Charitable incorporated organisation,,,,,, ,Not available,"195,346",2
+DOUBLE JAB ABC,CE010004,,Charitable incorporated organisation,,,,,, ,Not available,"45,038,354",4
+ABC DOORS 2020 LIMITED,12395458,Dissolved,Private limited company,,05/04/2022,09/01/2020,,,99999,Unit 6 Irlam Wharf Road Irlam Manchester M44 5PN,"1,473,409",5
+ABC CLINIC 2 LTD,12423335,Dissolved,Private limited company,,27/07/2021,24/01/2020,,,46450,The Leaves Tyler's Road Roydon CM19 5LJ,"97,124",6
+ABC CLINIC 3 LTD,12423373,Dissolved,Private limited company,,27/07/2021,24/01/2020,,,46450,The Leaves Tyler's Road Roydon CM19 5LJ,"103,264",4
+ABC PARTNER HOLDING LTD,12845117,Dissolved,Private limited company,,01/02/2022,28/08/2020,,,46310 46320 46330 46341,12845117: COMPANIES HOUSE DEFAULT ADDRESS Cardiff CF14 8LH,"25,094,357",1
+ABC BUILDING AND CLEANING LTD LTD,12869652,Dissolved,Private limited company,,15/02/2022,09/09/2020,,,43390,Flat 1 Countess Court Earls Meade Luton LU2 7JE,"40,236,095",1
+ABC CREATIONS LTD,11518693,Dissolved,Private limited company,,19/02/2019,15/08/2018,,,47910,24/25 Kensington Gardens Square Flat G1 London W2 4BE,"1,907,124",3
+CORRECT POSTURE ABC LTD,11630408,Dissolved,Private limited company,,22/03/2022,18/10/2018,,,86900,468a Stratford Road Sparkhill Birmingham B11 4AE,"45,038,354",3
+ABC INTELLECTUAL PROPERTY LIMITED,11646664,Dissolved,Private limited company,,31/03/2020,29/10/2018,,,69102 69109,2 Cambrian Crescent Marshfield Cardiff CF3 2TD,"50,236,095",4
+ABC PRESENTS LTD,11648245,Dissolved,Private limited company,,31/03/2020,29/10/2018,,,82990,35 Amersham Road New Cross London SE14 6QQ,"67,236,095",5
+ABC CORP LIMITED,11682105,Dissolved,Private limited company,,28/09/2021,16/11/2018,,,59140,Cavern Court 1st Floor 8 Mathew Street Liverpool L2 6RE,"15,023,164",1
 ABC HOLIDAYS LTD,11682574,Dissolved,Private limited company,,20/10/2020,16/11/2018,,,55209,51 Station Road Station Road London E12 5BP,"195,346",5
-ABC NETSELLER LTD,11636613,Dissolved,Private limited company,,31/03/2020,23/10/2018,,,47910,Flat 2 Burlington House 41 Wandle Road London SW17 7DL,"45,038,354",684
-C & P ABC LIMITED,11687147,Dissolved,Private limited company,,12/10/2021,20/11/2018,,,99999,1 Rushmills Northampton NN4 7YB,"1,473,409",109
-ABC FUNERALS LTD,11523863,Dissolved,Private limited company,,06/10/2020,17/08/2018,,,96030,"30 The Drive, Potters Bar, Hertforshire 30 The Drive Potters Bar EN6 2AP","97,124",1
-ABC SUPPLY CHAIN CONSULTANCY LIMITED,11525850,Dissolved,Private limited company,,23/03/2021,20/08/2018,,,70229,7 St Petersgate Stockport SK1 1EB,"103,264",2
-ABC IP LIMITED,11578896,Dissolved,Private limited company,,23/03/2021,20/09/2018,,,69102 69109,2 Cambrian Crescent Marshfield Cardiff CF3 2TD,"25,094,357",57
-MJ ABC CONSTRUCTION LTD,11579703,Dissolved,Private limited company,,17/05/2022,20/09/2018,,,43220,15 Fellmead Road Northampton NN3 5HX,"40,236,095",84
-ABC TRADEMARKS LIMITED,11580086,Dissolved,Private limited company,,23/03/2021,20/09/2018,,,69102 69109,2 Cambrian Crescent Marshfield Cardiff CF3 2TD,"1,907,124",11
-ABC RAINBOW DAY NURSERIES (WESTCLIFF) LIMITED,11588980,Dissolved,Private limited company,,22/01/2019,26/09/2018,,,85100,15 High Street Brackley NN13 7DH,"45,038,354",229
-ABC TRANSFERS LTD,11455166,Dissolved,Private limited company,,17/12/2019,09/07/2018,,,79110,5 Durban Gardens Dagenham RM10 9XU,"50,236,095",97
-ABC (ANOTHER BAD CREATION) LTD,11808767,Dissolved,Private limited company,,19/04/2022,06/02/2019,,,59111 59112 59120 90030,71-75 Shelton Street London WC2H 9JQ,"67,236,095",90
-ABC HOUSING LTD,11817719,Dissolved,Private limited company,,19/01/2021,11/02/2019,,,16230,20-22 Wenlock Road London N1 7GU,"15,023,164",150
-ABC TO Z SERVICES LTD,11836524,Dissolved,Private limited company,,05/01/2021,20/02/2019,,,45112 45200 45400 46439,49 Roll Garden Ilford IG2 6TW,"195,346",5
-ABC REFURBISHMENTS LTD,11894057,Dissolved,Private limited company,,12/01/2021,20/03/2019,,,43341 49420 81210 95220,7 Channing Street Kettering NN16 0RT,"45,038,354",684
-MAX ABC LIMITED,SC537002,Dissolved,Private limited by guarantee without share capital,,19/09/2017,02/06/2016,,, ,3 Belgrave Place Edinburgh EH4 3AN,"1,473,409",109
+ABC NETSELLER LTD,11636613,Dissolved,Private limited company,,31/03/2020,23/10/2018,,,47910,Flat 2 Burlington House 41 Wandle Road London SW17 7DL,"45,038,354",3
+C & P ABC LIMITED,11687147,Dissolved,Private limited company,,12/10/2021,20/11/2018,,,99999,1 Rushmills Northampton NN4 7YB,"1,473,409",9
+ABC FUNERALS LTD,11523863,Dissolved,Private limited company,,06/10/2020,17/08/2018,,,96030,"30 The Drive, Potters Bar, Hertforshire 30 The Drive Potters Bar EN6 2AP","97,124",4
+ABC SUPPLY CHAIN CONSULTANCY LIMITED,11525850,Dissolved,Private limited company,,23/03/2021,20/08/2018,,,70229,7 St Petersgate Stockport SK1 1EB,"103,264",3
+ABC IP LIMITED,11578896,Dissolved,Private limited company,,23/03/2021,20/09/2018,,,69102 69109,2 Cambrian Crescent Marshfield Cardiff CF3 2TD,"25,094,357",7
+MJ ABC CONSTRUCTION LTD,11579703,Dissolved,Private limited company,,17/05/2022,20/09/2018,,,43220,15 Fellmead Road Northampton NN3 5HX,"40,236,095",1
+ABC TRADEMARKS LIMITED,11580086,Dissolved,Private limited company,,23/03/2021,20/09/2018,,,69102 69109,2 Cambrian Crescent Marshfield Cardiff CF3 2TD,"1,907,124",8
+ABC RAINBOW DAY NURSERIES (WESTCLIFF) LIMITED,11588980,Dissolved,Private limited company,,22/01/2019,26/09/2018,,,85100,15 High Street Brackley NN13 7DH,"45,038,354",6
+ABC TRANSFERS LTD,11455166,Dissolved,Private limited company,,17/12/2019,09/07/2018,,,79110,5 Durban Gardens Dagenham RM10 9XU,"50,236,095",2
+ABC (ANOTHER BAD CREATION) LTD,11808767,Dissolved,Private limited company,,19/04/2022,06/02/2019,,,59111 59112 59120 90030,71-75 Shelton Street London WC2H 9JQ,"67,236,095",4
+ABC HOUSING LTD,11817719,Dissolved,Private limited company,,19/01/2021,11/02/2019,,,16230,20-22 Wenlock Road London N1 7GU,"15,023,164",5
+ABC TO Z SERVICES LTD,11836524,Dissolved,Private limited company,,05/01/2021,20/02/2019,,,45112 45200 45400 46439,49 Roll Garden Ilford IG2 6TW,"195,346",6
+ABC REFURBISHMENTS LTD,11894057,Dissolved,Private limited company,,12/01/2021,20/03/2019,,,43341 49420 81210 95220,7 Channing Street Kettering NN16 0RT,"45,038,354",4
+MAX ABC LIMITED,SC537002,Dissolved,Private limited by guarantee without share capital,,19/09/2017,02/06/2016,,, ,3 Belgrave Place Edinburgh EH4 3AN,"1,473,409",1
 ABC (SCOT) LIMITED,SC560808,Dissolved,Private limited company,,07/05/2019,17/03/2017,,,56103,385 Aikenhead Road Glasgow G42 0QG,"97,124",1
-ABC BOOKKEEPING SERVICES LIMITED,SC573792,Dissolved,Private limited company,,26/11/2019,15/08/2017,,,69202 69203,124 Fleming Way Hamilton ML3 9QH,"103,264",2
-ABC SCOTLAND LTD,SC531590,Dissolved,Private limited company,,03/09/2019,04/04/2016,,,71121,"First Floor, Unit 4 Earls Court Earls Gate Business Park Grangemouth FK3 8ZE","25,094,357",57
-ABC TELECOMMUNICATIONS LIMITED,SC585648,Dissolved,Private limited company,,18/06/2019,15/01/2018,,,46520,18 Saughton Mains Terrace Flat 3 Edinburgh EH11 3NT,"40,236,095",84
-ABC MEDICAL EDUCATION LIMITED,SC466645,Dissolved,Private limited company,,26/06/2015,06/01/2014,,, ,39 Burnett Place Aberdeen ,"1,907,124",11
-ABC TRAINING SCOTLAND LIMITED,SC500651,Dissolved,Private limited company,,30/08/2016,17/03/2015,,, ,37 Wellpark Crescent Stirling FK7 9HF,"45,038,354",229
-ABC CAPITAL LTD,12726337,Dissolved,Private limited company,,06/07/2021,07/07/2020,,,68100 68209 68320,71-75 Shelton Street Covent Garden London WC2H 9JQ,"50,236,095",97
-ABC DRYLINING LIMITED,12741929,Active,Private limited company,,,14/07/2020,,,41201,119 Charlton Lane London SE7 8HL,"67,236,095",90
-ABC-RS NEWS AND MEDIA AGENCY LTD,13264528,Dissolved,Private limited company,,16/08/2022,12/03/2021,,,63910 73120,20-22 Wenlock Road London N1 7GU,"15,023,164",150
-ABC CARE SOLUTIONS LIMITED,5375028,Dissolved,Private limited company,,09/08/2022,24/02/2005,,,87900,The Old Exchange 234 Southchurch Road Southend On Sea SS1 2EG,"195,346",5
-ABC AV LTD,10881402,Active,Private limited company,,,24/07/2017,,,96090,The Courtyard Shoreham Road Upper Beeding Steyning BN44 3TN,"45,038,354",684
-ABC SOFTPLAY LTD,12849263,Active,Private limited company,,,01/09/2020,,,43999,Kemp House 160 City Road London EC1V 2NX,"1,473,409",109
+ABC BOOKKEEPING SERVICES LIMITED,SC573792,Dissolved,Private limited company,,26/11/2019,15/08/2017,,,69202 69203,124 Fleming Way Hamilton ML3 9QH,"103,264",3
+ABC SCOTLAND LTD,SC531590,Dissolved,Private limited company,,03/09/2019,04/04/2016,,,71121,"First Floor, Unit 4 Earls Court Earls Gate Business Park Grangemouth FK3 8ZE","25,094,357",3
+ABC TELECOMMUNICATIONS LIMITED,SC585648,Dissolved,Private limited company,,18/06/2019,15/01/2018,,,46520,18 Saughton Mains Terrace Flat 3 Edinburgh EH11 3NT,"40,236,095",4
+ABC MEDICAL EDUCATION LIMITED,SC466645,Dissolved,Private limited company,,26/06/2015,06/01/2014,,, ,39 Burnett Place Aberdeen ,"1,907,124",5
+ABC TRAINING SCOTLAND LIMITED,SC500651,Dissolved,Private limited company,,30/08/2016,17/03/2015,,, ,37 Wellpark Crescent Stirling FK7 9HF,"45,038,354",1
+ABC CAPITAL LTD,12726337,Dissolved,Private limited company,,06/07/2021,07/07/2020,,,68100 68209 68320,71-75 Shelton Street Covent Garden London WC2H 9JQ,"50,236,095",5
+ABC DRYLINING LIMITED,12741929,Active,Private limited company,,,14/07/2020,,,41201,119 Charlton Lane London SE7 8HL,"67,236,095",3
+ABC-RS NEWS AND MEDIA AGENCY LTD,13264528,Dissolved,Private limited company,,16/08/2022,12/03/2021,,,63910 73120,20-22 Wenlock Road London N1 7GU,"15,023,164",9
+ABC CARE SOLUTIONS LIMITED,5375028,Dissolved,Private limited company,,09/08/2022,24/02/2005,,,87900,The Old Exchange 234 Southchurch Road Southend On Sea SS1 2EG,"195,346",4
+ABC AV LTD,10881402,Active,Private limited company,,,24/07/2017,,,96090,The Courtyard Shoreham Road Upper Beeding Steyning BN44 3TN,"45,038,354",3
+ABC SOFTPLAY LTD,12849263,Active,Private limited company,,,01/09/2020,,,43999,Kemp House 160 City Road London EC1V 2NX,"1,473,409",7
 ABC LONDON PROPERTY FINDERS LTD,13548840,Active,Private limited company,,,05/08/2021,,,82990,First Floor 14-16 Powis Street Woolwich SE18 6LF,"97,124",1
-ABC-ARTIZANA LTD,14305291,Active,Private limited company,,,18/08/2022,,,43390,6 Carr Mills Buslingthorpe Lane Leeds LS7 2DD,"103,264",2
-ABC CONSULTING GROUP (SHROPSHIRE) LIMITED,9180918,Active,Private limited company,,,19/08/2014,,,70229,Pathways Porth-Y-Waen Blodwell Bank Oswestry SY10 8LY,"25,094,357",57
-ABC (EDI) LTD,SC726174,Active,Private limited company,,,14/03/2022,,,69201,2 Anderson Place Edinburgh EH6 5NP,"40,236,095",84
-ABC ESTATES SALES LIMITED,9161609,Active,Private limited company,,,05/08/2014,,,68310,179 Station Road Edgware HA8 7JX,"1,907,124",11
-ABC HOPCO LIMITED,13011926,Active,Private limited company,,,11/11/2020,,,68100,6th Floor Charlotte Building 17 Gresse Street London W1T 1QL,"45,038,354",229
-ABC PLUMBING LIMITED,5543833,Active,Private limited company,,,23/08/2005,,,33190 81299,18 New Way Road Leicester LE5 5UA,"50,236,095",97
-ABC PROPERTY SERVICES LIMITED,10924263,Active,Private limited company,,,21/08/2017,,,68100,Penny Lane Business Centre 374 Smithdown Road Liverpool L15 5AN,"67,236,095",90
-ABC DOCTOR LTD,14312643,Active,Private limited company,,,23/08/2022,,,84120,27 Stafford Way Market Harborough LE16 7EF,"15,023,164",150
-ABC LEARNING ACADEMY 1 LTD,14084444,Active,Private limited company,,,04/05/2022,,,85600,1 Hillview Gardens London EN8 0PB,"195,346",5
-ABC NURSERY & PRE SCHOOL LTD,4297980,Active,Private limited company,,,03/10/2001,,,85200,C/O Eastcourt House 33a Stradbroke Drive Chigwell IG7 5RB,"45,038,354",684
-ABC SKIP HIRE LIMITED,9802981,Active,Private limited company,,,01/10/2015,,,38110,8 Medcroft Avenue Handsworth Wood Birmingham B20 1NB,"1,473,409",109
-ABC KIDZ OUT OF SCHOOL CARE LTD,SC635057,Active,Private limited company,,,03/07/2019,,,96090,Newton Mearns Parish Church 242 Ayr Road Newton Mearns Glasgow G77 6AA,"97,124",1
-ABC TELEVISION LTD,9278174,Active,Private limited company,,,23/10/2014,,,59112,4 Beaufort Parklands Railton Road Guildford GU2 9JX,"103,264",2
-ABC SKILLS 4 LIFE LIMITED,9534414,Dissolved,Private limited company,,09/08/2022,09/04/2015,,,85590,86 Cyril Street West Taunton TA2 6JE,"25,094,357",57
-ABC LAW LIMITED,9466836,Dissolved,Private limited company,,09/08/2022,03/03/2015,,,69102,The Coach House 217 Harborne Park Road Harborne Birmingham B17 0BQ,"40,236,095",84
-ABC SPACES LIMITED,5844777,Active,Private limited company,,,13/06/2006,,,68209,"Apex House, 23-25 Hythe Road London NW10 6RT","1,907,124",11
-ABC TRAINING ACADEMY LTD,8604433,Active,Private limited company,,,10/07/2013,,,85510,New Avonleigh Halstead Road Eight Ash Green Colchester CO6 3PU,"45,038,354",229
-ABC FAMILY LAW SERVICES LIMITED,10873729,Active,Private limited company,,,19/07/2017,,,69109,"Suit-4, 85-87 Regency House George Street Luton LU1 2AT","50,236,095",97
-ARRIVA ABC GP LIMITED,SC646273,Active,Private limited company,,,05/11/2019,,,70100,Citypoint 65 Haymarket Terrace Edinburgh EH12 5HD,"67,236,095",90
-ABC GLOBAL PVT LTD,12757025,Active,Private limited company,,,20/07/2020,,,47110,39 Longfellow Street Bootle L20 4JR,"15,023,164",150
-ABC PAVING SOLUTIONS LTD,14267715,Active,Private limited company,,,01/08/2022,,,42990,15 Pear Close London NW9 0LJ,"195,346",5
-TIM S. & ABC LTD,14268333,Active,Private limited company,,,01/08/2022,,,47910,56 Emerson Road Poole BH15 1QT,"45,038,354",684
-EDUCATION ABC LIMITED,4847063,Active,Private limited company,,,28/07/2003,,,85590,5 Briar Close Banbury OX16 9DS,"1,473,409",109
-ABC OSSORY ROAD LIMITED,3703697,Dissolved,Private limited company,,22/07/2022,28/01/1999,,,96090,The Silverworks 67-71 Northwood Street Birmingham B3 1TX,"97,124",1
-ABC YORK WAY LIMITED,2799146,Dissolved,Private limited company,,22/07/2022,12/03/1993,,,96090,The Silverworks 67-71 Northwood Street Birmingham B3 1TX,"103,264",2
-ABC GARRATT LANE LIMITED,3378638,Dissolved,Private limited company,,22/07/2022,30/05/1997,,,96090,The Silverworks 67-71 Northwood Street Birmingham B3 1TX,"25,094,357",57
-ABC II (SERVICES) LIMITED,8780894,Active,Private limited company,,,19/11/2013,,,82990,63 High Road Bushey Heath Bushey WD23 1EE,"40,236,095",84
-ABC COMPUTER ENGINEERS LIMITED,3561222,Active,Private limited company,,,11/05/1998,,,47410,36 Cordwallis Road Maidenhead Berkshire SL6 7BR,"1,907,124",11
-ABC ESTATES (LONDON) LTD,9128835,Active,Private limited company,,,14/07/2014,,,68310,51 Brent Street London NW4 2EA,"45,038,354",229
-8 BLOOM GROVE (ABC) LIMITED,11453210,Active,Private limited by guarantee without share capital,,,06/07/2018,,,98000,8a Bloom Grove London SE27 0HZ,"50,236,095",97
-ABC 2001 LTD,9735106,Active,Private limited company,,,16/08/2015,,,68209,C/O Rwb Tax Consultants Ltd F7a Egdon Hall Lynch Lane Offices Weymouth DT4 9DN,"67,236,095",90
-ABC COMMERCIAL ONE LTD,13583680,Active,Private limited company,,,24/08/2021,,,68209,First Floor Winston House 349 Regents Park Road London N3 1DH,"15,023,164",150
-ABC CHILDCARE (MELKSHAM) LTD,9741519,Active,Private limited company,,,20/08/2015,,,85100,Tally House Main Road Christian Malford Chippenham SN15 4BT,"195,346",5
-ABC VASCULAR LIMITED,10811828,Active,Private limited company,,,09/06/2017,,,58190 59112 74909 85320,Centora Ltd Jury Farm Ripley Lane West Horsley KT24 6JT,"45,038,354",684
+ABC-ARTIZANA LTD,14305291,Active,Private limited company,,,18/08/2022,,,43390,6 Carr Mills Buslingthorpe Lane Leeds LS7 2DD,"103,264",8
+ABC CONSULTING GROUP (SHROPSHIRE) LIMITED,9180918,Active,Private limited company,,,19/08/2014,,,70229,Pathways Porth-Y-Waen Blodwell Bank Oswestry SY10 8LY,"25,094,357",6
+ABC (EDI) LTD,SC726174,Active,Private limited company,,,14/03/2022,,,69201,2 Anderson Place Edinburgh EH6 5NP,"40,236,095",2
+ABC ESTATES SALES LIMITED,9161609,Active,Private limited company,,,05/08/2014,,,68310,179 Station Road Edgware HA8 7JX,"1,907,124",4
+ABC HOPCO LIMITED,13011926,Active,Private limited company,,,11/11/2020,,,68100,6th Floor Charlotte Building 17 Gresse Street London W1T 1QL,"45,038,354",5
+ABC PLUMBING LIMITED,5543833,Active,Private limited company,,,23/08/2005,,,33190 81299,18 New Way Road Leicester LE5 5UA,"50,236,095",6
+ABC PROPERTY SERVICES LIMITED,10924263,Active,Private limited company,,,21/08/2017,,,68100,Penny Lane Business Centre 374 Smithdown Road Liverpool L15 5AN,"67,236,095",4
+ABC DOCTOR LTD,14312643,Active,Private limited company,,,23/08/2022,,,84120,27 Stafford Way Market Harborough LE16 7EF,"15,023,164",1
+ABC LEARNING ACADEMY 1 LTD,14084444,Active,Private limited company,,,04/05/2022,,,85600,1 Hillview Gardens London EN8 0PB,"195,346",1
+ABC NURSERY & PRE SCHOOL LTD,4297980,Active,Private limited company,,,03/10/2001,,,85200,C/O Eastcourt House 33a Stradbroke Drive Chigwell IG7 5RB,"45,038,354",3
+ABC SKIP HIRE LIMITED,9802981,Active,Private limited company,,,01/10/2015,,,38110,8 Medcroft Avenue Handsworth Wood Birmingham B20 1NB,"1,473,409",3
+ABC KIDZ OUT OF SCHOOL CARE LTD,SC635057,Active,Private limited company,,,03/07/2019,,,96090,Newton Mearns Parish Church 242 Ayr Road Newton Mearns Glasgow G77 6AA,"97,124",4
+ABC TELEVISION LTD,9278174,Active,Private limited company,,,23/10/2014,,,59112,4 Beaufort Parklands Railton Road Guildford GU2 9JX,"103,264",5
+ABC SKILLS 4 LIFE LIMITED,9534414,Dissolved,Private limited company,,09/08/2022,09/04/2015,,,85590,86 Cyril Street West Taunton TA2 6JE,"25,094,357",1
+ABC LAW LIMITED,9466836,Dissolved,Private limited company,,09/08/2022,03/03/2015,,,69102,The Coach House 217 Harborne Park Road Harborne Birmingham B17 0BQ,"40,236,095",5
+ABC SPACES LIMITED,5844777,Active,Private limited company,,,13/06/2006,,,68209,"Apex House, 23-25 Hythe Road London NW10 6RT","1,907,124",3
+ABC TRAINING ACADEMY LTD,8604433,Active,Private limited company,,,10/07/2013,,,85510,New Avonleigh Halstead Road Eight Ash Green Colchester CO6 3PU,"45,038,354",9
+ABC FAMILY LAW SERVICES LIMITED,10873729,Active,Private limited company,,,19/07/2017,,,69109,"Suit-4, 85-87 Regency House George Street Luton LU1 2AT","50,236,095",4
+ARRIVA ABC GP LIMITED,SC646273,Active,Private limited company,,,05/11/2019,,,70100,Citypoint 65 Haymarket Terrace Edinburgh EH12 5HD,"67,236,095",3
+ABC GLOBAL PVT LTD,12757025,Active,Private limited company,,,20/07/2020,,,47110,39 Longfellow Street Bootle L20 4JR,"15,023,164",7
+ABC PAVING SOLUTIONS LTD,14267715,Active,Private limited company,,,01/08/2022,,,42990,15 Pear Close London NW9 0LJ,"195,346",1
+TIM S. & ABC LTD,14268333,Active,Private limited company,,,01/08/2022,,,47910,56 Emerson Road Poole BH15 1QT,"45,038,354",8
+EDUCATION ABC LIMITED,4847063,Active,Private limited company,,,28/07/2003,,,85590,5 Briar Close Banbury OX16 9DS,"1,473,409",6
+ABC OSSORY ROAD LIMITED,3703697,Dissolved,Private limited company,,22/07/2022,28/01/1999,,,96090,The Silverworks 67-71 Northwood Street Birmingham B3 1TX,"97,124",2
+ABC YORK WAY LIMITED,2799146,Dissolved,Private limited company,,22/07/2022,12/03/1993,,,96090,The Silverworks 67-71 Northwood Street Birmingham B3 1TX,"103,264",4
+ABC GARRATT LANE LIMITED,3378638,Dissolved,Private limited company,,22/07/2022,30/05/1997,,,96090,The Silverworks 67-71 Northwood Street Birmingham B3 1TX,"25,094,357",5
+ABC II (SERVICES) LIMITED,8780894,Active,Private limited company,,,19/11/2013,,,82990,63 High Road Bushey Heath Bushey WD23 1EE,"40,236,095",6
+ABC COMPUTER ENGINEERS LIMITED,3561222,Active,Private limited company,,,11/05/1998,,,47410,36 Cordwallis Road Maidenhead Berkshire SL6 7BR,"1,907,124",4
+ABC ESTATES (LONDON) LTD,9128835,Active,Private limited company,,,14/07/2014,,,68310,51 Brent Street London NW4 2EA,"45,038,354",1
+8 BLOOM GROVE (ABC) LIMITED,11453210,Active,Private limited by guarantee without share capital,,,06/07/2018,,,98000,8a Bloom Grove London SE27 0HZ,"50,236,095",1
+ABC 2001 LTD,9735106,Active,Private limited company,,,16/08/2015,,,68209,C/O Rwb Tax Consultants Ltd F7a Egdon Hall Lynch Lane Offices Weymouth DT4 9DN,"67,236,095",3
+ABC COMMERCIAL ONE LTD,13583680,Active,Private limited company,,,24/08/2021,,,68209,First Floor Winston House 349 Regents Park Road London N3 1DH,"15,023,164",3
+ABC CHILDCARE (MELKSHAM) LTD,9741519,Active,Private limited company,,,20/08/2015,,,85100,Tally House Main Road Christian Malford Chippenham SN15 4BT,"195,346",4
+ABC VASCULAR LIMITED,10811828,Active,Private limited company,,,09/06/2017,,,58190 59112 74909 85320,Centora Ltd Jury Farm Ripley Lane West Horsley KT24 6JT,"45,038,354",5
 ABC CONSTRUCTION 2020 LTD,14316591,Active,Private limited by guarantee without share capital,,,24/08/2022,,,41201,102a London Road Romford RM7 9QU,"1,473,409",109
 ABC TOOL HIRE LIMITED,13032542,Active,Private limited company,,,19/11/2020,,,77320,6-10 Blue Ribbon Park Coventry CV6 5RE,"97,124",1
 ABC LIFE SUPPORT C.I.C.,7861425,Active,Private limited company,Community Interest Company (CIC),,25/11/2011,,,85590,5a The Loft Fishers Yard St. Neots PE19 2AG,"103,264",2
