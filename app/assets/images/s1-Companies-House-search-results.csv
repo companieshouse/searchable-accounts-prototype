@@ -1,7 +1,7 @@
 company_name,company_number,company_status,company_type,company_subtype,dissolution_date,incorporation_date,removed_date,registered_date,nature_of_business,registered_office_address,balance_sheet_total,number_of_employees
-ABC LIMITED,12789015,Dissolved,Private limited by guarantee without share capital,,24/05/2022,03/08/2020,,,93120,14 Whinmoor Road High Green Sheffield S35 4LJ,"5,478",1
-ABC INTERNATIONAL LIMITED,12798818,Dissolved,Private limited company,,11/01/2022,07/08/2020,,,73110,16a Melbourn Street Royston SG8 7BZ,"195,346",5
-ABC COMMODITIES LTD,SC623626,Dissolved,Private limited company,,05/01/2021,08/03/2019,,,16230 42990,17 Egilsay Terrace Glasgow G22 7PQ,"45,038,354",3
+DELTA LIMITED,12789015,Dissolved,Private limited by guarantee without share capital,,24/05/2022,03/08/2020,,,93120,14 Whinmoor Road High Green Sheffield S35 4LJ,"5,478",1
+GAMMA INTERNATIONAL LIMITED,12798818,Dissolved,Private limited company,,11/01/2022,07/08/2020,,,73110,16a Melbourn Street Royston SG8 7BZ,"195,346",5
+ZETA COMMODITIES LTD,SC623626,Dissolved,Private limited company,,05/01/2021,08/03/2019,,,16230 42990,17 Egilsay Terrace Glasgow G22 7PQ,"45,038,354",3
 PROPERTY ABC LTD,SC644149,Dissolved,Private limited company,,13/04/2021,10/10/2019,,,68310,1 Bullwood Road Dunoon PA23 7QJ,"1,473,409",9
 ABC WELDING SERVICES LIMITED,SC658318,Dissolved,Private limited company,,01/02/2022,26/03/2020,,,96090,2a New Dock Lane Custom House Place Greenock PA15 1EJ,"97,124",4
 ABC MOBILITY LIMITED,NI648646,Dissolved,Private limited company,,26/03/2019,13/10/2017,,,87300,63 Old Newry Road Banbridge Old Newry Road Banbridge BT32 4LH,"103,264",3
