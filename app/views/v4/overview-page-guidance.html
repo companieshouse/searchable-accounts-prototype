@@ -128,32 +128,42 @@ ABC LIMITED overview - Find and update company information
 
 
 
+
+
+
+
+
+
+
+
 {# ******  FINANCIAL OVERVIEW TAB ***** #}
 {% set accountsTabHtml %}
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
 
-    <!-- Notes for content - have moved blue caveat into /includes as it sits on different pages for tesing-->
-     {% include "app/includes/blue-banner.html" %}
-      <p class="govuk-body-m">Overview of accounts from <strong>1 July 2022</strong> to <strong>30 June 2023</strong></p>
+    <p class="govuk-body-m">Overview of accounts from <strong>1 July 2022</strong> to <strong>30 June 2023</strong></p>
 
-    <div class="govuk-grid-column-two-thirds govuk-!-margin-bottom-2">
+  <!-- Notes for content - have moved blue caveat into /includes as it sits on different pages for tesing-->
+     {# {% include "app/includes/blue-banner.html" %} #}
     
-    
-      <details class="govuk-details" data-module="govuk-details">
-        <summary class="govuk-details__summary">
-          <span class="govuk-details__summary-text">
-            Why some data may be missing from the accounts overview
-          </span>
-        </summary>
+
+  <div class="govuk-grid-column-three-quarters govuk-inset-text chs-inset-text govuk-!-margin-top-0">
+    <p>This data is taken automatically from the latest annual accounts filed for the company. Data can be missing or incorrect.
+    </p>
+    <details class="govuk-details" data-module="govuk-details">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+          Why some data may be missing from the accounts overview
+        </span>
+      </summary>
  <div class="govuk-details__text">
     <p class="govuk-body">
       This data is not available for all companies. This can be for different reasons, including if:
     </p>
   <ul class="govuk-list govuk-list--bullet">
   <li>
-we cannot access the accounts data automatically - for example, if the company has filed on paper
+  we cannot access the accounts data automatically - for example, if the company has filed on paper
   </li>
   <li>
     it's a new company that has not filed accounts yet
@@ -164,60 +174,27 @@ we cannot access the accounts data automatically - for example, if the company h
 </ul>
 
   </div>
-    </div></div>
+    </div>
+    </div>
 
 </details>
-
-
-{# <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible"> #}
-
-
-    
-
+   <div>
+  
 
 {# <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible"> #}
-
-
-
-<hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
-
 
  
-
 <div class="govuk-grid-column-full">
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-half">
           <p>Number of employees</br />
           <strong>150</strong></p>
-
-            <details class="govuk-details" data-module="govuk-details">
-            <summary class="govuk-details__summary">
-              <span class="govuk-details__summary-text">
-                What is the number of employees?
-              </span>
-            </summary>
-            <div class="govuk-details__text">
-                This is the average number of people a company employs during a financial year.
-            </div>
-          </details>
         </div>
 
 
         <div class="govuk-grid-column-one-half">
           <p>Balance sheet total<br />
           <strong>&pound;15,023,164</strong></p>
-           <details class="govuk-details" data-module="govuk-details">
-            <summary class="govuk-details__summary">
-              <span class="govuk-details__summary-text">
-                What is the balance sheet total?
-              </span>
-            </summary>
-            <div class="govuk-details__text">
-               This shows the value of the company's assets minus its liabilities at the end of its financial year.
-                <br><br>
-               The company's assets are things the company owns, such as buildings and stock. Liabilities are debts the company owes.
-            </div>
-          </details>
         </div>
         </div>
 
@@ -229,25 +206,58 @@ we cannot access the accounts data automatically - for example, if the company h
         <div class="govuk-grid-column-one-half">
           <p>Profit and loss<br />
           <strong>&pound;25,987,003</strong></p>
-
-           <details class="govuk-details" data-module="govuk-details">
-            <summary class="govuk-details__summary">
-              <span class="govuk-details__summary-text">
-                What is profit and loss?
-              </span>
-            </summary>
-            <div class="govuk-details__text">
-            This shows how much a company has made from sales minus how much it spent on running costs at the end of its financial year.
-          </div>
-          </details>
         </div>
         </div>
 
   </div>
-</div> <!--govuk-grid-row-->
+</div> <!--govuk-grid-row-->  </div>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+    What does this terminology mean?
+    </span>
+  </summary>
+  <p class="govuk-body"> <strong>
+    Number of employees
+    <strong>
+  </p>
+    <p>
+    This is the average number of people a company employs during a financial year.
+    </p>
+
+    <p class="govuk-body"> <strong>
+  Balance sheet total
+    <strong></p>
+    <p>
+               This shows the value of the company's assets minus its liabilities at the end of its financial year.
+                <br><br>
+               The company's assets are things the company owns, such as buildings and stock. Liabilities are debts the company owes.
+</p>
+    <p class="govuk-body"> <strong>
+  Profit and loss
+    <strong>
+  </p>
+  <p>
+  This shows how much a company has made from sales minus how much it spent on running costs at the end of its financial year.
+  </p>
+
+          </details>
+
+<a href="/public/images/abc-limited-accounts.pdf" download="abc-limited-accounts.pdf">
+<button class="govuk-button govuk-button--secondary" data-module="govuk-button">
+  View the accounts PDF
+</button> </a>
+
+ {# <a href="/public/images/abc-limited-accounts.pdf" download="abc-limited-accounts.pdf" class="govuk-link--no-visited-state">View the accounts PDF</a> for more information. #}
 
 
 {% endset -%}
+
+
+
+
+
 
 
 
