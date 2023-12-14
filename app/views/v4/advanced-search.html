@@ -33,7 +33,7 @@
   <a id="open-all-link" href="#">Open all</a>
 </p> #}
 
-<h2 class="govuk-heading-m">Company information</h1>
+<h2 class="govuk-heading-m">Company information</h2>
 
 
 <p class="open-all-link-container"> <a id="open-all-link" href="#">Open all</a></p>
@@ -45,11 +45,11 @@
 
 <div class="accordion-wrapper">
   <div class="accordion" onclick="toggleAccordion(this)">
-    <h2 class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+    <p class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-!-margin-top-0 govuk-!-margin-bottom-0" aria="Company name">
       <a href="#" class="govuk-link--no-underline govuk-link--no-visited-state">
         Company name
       </a>
-    </h2>
+    </p>
     <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
   </div> <!--div class="accordion"-->
 
@@ -71,7 +71,7 @@
 
     <div class="govuk-form-group">
       <p class="govuk-label-wrapper">
-        <label class="accordion-label govuk-body-m" for="excludes-company-name">
+        <label class="accordion-label govuk-body-m" for="excludes-company-name" aria="ompany names that exclude">
         Company names that exclude
         </label>
       </p>
@@ -91,11 +91,11 @@
 
 <div class="accordion-wrapper">
   <div class="accordion" onclick="toggleAccordion(this)">
-    <h2 class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-!-margin-top-0 govuk-!-margin-bottom-0">
+    <p class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-!-margin-top-0 govuk-!-margin-bottom-0">
       <a href="#" class="govuk-link--no-underline govuk-link--no-visited-state">
         Registered office address
       </a>
-    </h2>
+    </p>
     <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
   </div>
 
@@ -122,22 +122,24 @@
 
 <div class="accordion-wrapper">
   <div class="accordion" onclick="toggleAccordion(this)">
+    <p class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-!-margin-top-0 govuk-!-margin-bottom-0">
     <a href="#" class="govuk-!-font-weight-bold govuk-link--no-underline govuk-!-font-size-19 govuk-link--no-visited-state">
       Incorporation date</a>
+    </p>
     <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
   </div>
 
 
   <div class="content">
     <div class="govuk-form-group">
-      <p class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="incorporation-date-from" aria-describedby="companies incorporated">
+      <p class="govuk-label-wrapper"><label class="accordion-label govuk-label--s" for="incorporation-date-from" aria="Incorporation date from">
          From
           </label>
         </p>
-     <div id="incorporation-date-from-hint" class="govuk-hint">
+     <div id="incorporation-date-from" class="govuk-hint">
        For example, 27/3/2007
        </div>
-    <input class="govuk-input govuk-input--width-10" id="incorporation-date-from" name="incorporation-date-from" type="text" spellcheck="false" aria-describedby="incorporation-date-hint" pattern="[0-9]*" inputmode="numeric">
+    <input class="govuk-input govuk-input--width-10" id="incorporation-date-from" name="incorporation-date-from" type="text" spellcheck="false" aria="Incorporation date from" pattern="[0-9]*" inputmode="numeric">
   </div>
 
 
@@ -159,8 +161,10 @@
 {# ******* Company status ****** #}
 <div class="accordion-wrapper">
   <div class="accordion" onclick="toggleAccordion(this)">
+    <p class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-!-margin-top-0 govuk-!-margin-bottom-0">
      <a href="#" class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-link--no-underline govuk-link--no-visited-state">
       Company status</a>
+      </p>
     <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
   </div>
   <div class="content">
@@ -173,7 +177,7 @@
 
                             <div class="govuk-checkboxes__item">
                               <input class="govuk-checkboxes__input" id="active-companies" name="active-companies" type="checkbox" value="active-companies">
-                              <label class="govuk-label govuk-checkboxes__label" for="active-companies">
+                              <label class="govuk-label govuk-checkboxes__label" for="active-companies" aria="Active">
                                 Active
                               </label>
                             </div>
