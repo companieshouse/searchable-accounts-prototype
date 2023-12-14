@@ -159,7 +159,7 @@ ABC LIMITED overview - Find and update company information
     </p>
 
 
-    
+
 
     {# <details class="govuk-details" data-module="govuk-details">
       <summary class="govuk-details__summary">
@@ -238,12 +238,19 @@ ABC LIMITED overview - Find and update company information
 
           </details>
 
-<a href="/public/images/abc-limited-accounts.pdf" download="abc-limited-accounts.pdf">
-<button class="govuk-button govuk-button--secondary" data-module="govuk-button">
-  View the accounts PDF
-</button> </a>
 
- {# <a href="/public/images/abc-limited-accounts.pdf" download="abc-limited-accounts.pdf" class="govuk-link--no-visited-state">View the accounts PDF</a> for more information. #}
+{# <a href="/public/images/abc-limited-accounts.pdf" download="abc-limited-accounts.pdf"> #}
+
+<div class="govuk-button-group">
+  {{ govukButton({
+    text: "View the accounts PDF",
+    classes: "govuk-button--secondary",
+    href: "/public/images/abc-limited-accounts.pdf"
+  }) }}
+
+ <p>View the <a class="govuk-link" href="#">latest filed accounts</a></p>
+</div>
+
 
 
 {% endset -%}
