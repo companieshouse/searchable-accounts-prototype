@@ -144,6 +144,7 @@ ABC LIMITED overview - Find and update company information
 
     <p class="govuk-body-m">Overview of accounts from <strong>1 July 2022</strong> to <strong>30 June 2023</strong></p>
 
+
   <!-- Notes for content - have moved blue caveat into /includes as it sits on different pages for tesing-->
      {# {% include "app/includes/blue-banner.html" %} #}
     
@@ -155,10 +156,9 @@ ABC LIMITED overview - Find and update company information
   Notes for content - anchor link here to caveat page 
   <a href="service-information#CompanyInfoSupplied"> </a>
   #}
-   
+  
     </p>
-
-
+    
 
 
     {# <details class="govuk-details" data-module="govuk-details">
@@ -183,10 +183,11 @@ ABC LIMITED overview - Find and update company information
   </div>
   </div>
   </details> #}
-
-  </div>
+    </div>
     </div>
    <div>
+
+    
   
 
 {# <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible"> #}
@@ -209,7 +210,7 @@ ABC LIMITED overview - Find and update company information
 </div>
 
 
-  <div class="govuk-grid-column-full">
+  <div class="govuk-grid-column-full govuk-!-margin-bottom-4">
     <div class="govuk-grid-row govuk-!-margin-top-4">
         <div class="govuk-grid-column-one-half">
           <p>Profit and loss<br />
@@ -220,7 +221,7 @@ ABC LIMITED overview - Find and update company information
   </div>
 </div> <!--govuk-grid-row-->  </div>
 
-<details class="govuk-details" data-module="govuk-details">
+<details class="govuk-details govuk-!-margin-bottom-8" data-module="govuk-details">
   <summary class="govuk-details__summary">
     <span class="govuk-details__summary-text">
     What do these terms mean?
@@ -236,20 +237,20 @@ ABC LIMITED overview - Find and update company information
     <p class="govuk-body"> <strong>Profit and loss</strong> shows how much a company has made from sales minus how much it spent on running costs at the end of its financial year.
   </p>
 
-          </details>
+ </details>
 
 
 {# <a href="/public/images/abc-limited-accounts.pdf" download="abc-limited-accounts.pdf"> #}
 
-<div class="govuk-button-group">
-  {{ govukButton({
-    text: "View the accounts PDF",
-    classes: "govuk-button--secondary",
-    href: "/public/images/abc-limited-accounts.pdf"
-  }) }}
+  <div class="govuk-button-group">
+    {{ govukButton({
+      text: "View the accounts PDF",
+      classes: "govuk-button--secondary",
+      href: "/public/images/abc-limited-accounts.pdf"
+    }) }}
 
- <p>View the <a class="govuk-link" href="#">latest filed accounts</a></p>
-</div>
+    <p>View the <a class="govuk-link" href="#filingHistory">latest filed accounts</a></p>
+  </div>
 
 
 
