@@ -2,7 +2,7 @@
 
 {% block pageTitle %}
 
-ALPHA YOUNG LTD overview - Find and update company information
+BETA END LIMITED overview - Find and update company information
  - {{ serviceName }} - GOV.UK
 {% endblock %}
 
@@ -36,8 +36,8 @@ ALPHA YOUNG LTD overview - Find and update company information
 
 <a class="govuk-body" href="advanced-search">Advanced company search</a>
 
-<h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">ALPHA YOUNG LTD</h1>
-<p class="govuk-body">Company number <strong>14727990</strong></p>
+<h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">BETA END LIMITED</h1>
+<p class="govuk-body">Company number <strong>08511176</strong></p>
 
 <div class="govuk-button-group">
   {{ govukButton({
@@ -60,7 +60,7 @@ ALPHA YOUNG LTD overview - Find and update company information
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
         <p>Registered office address<br />
-        <strong>2nd Floor, Barrack Rd, Newcastle upon Tyne NE1 4ST</strong></p>
+        <strong>27 Leckwith Rd, Cardiff CF11 8AZ</strong></p>
       </div>
     </div>
 
@@ -68,8 +68,13 @@ ALPHA YOUNG LTD overview - Find and update company information
       <div class="govuk-grid-column-full">
       <div class="govuk-grid-row">
       <div class="govuk-grid-column-one-half">
-      <p>Company status<br />
-      <strong>Active</strong></p>
+      <p>Company status<br>
+      <strong>Dissolved</strong></p>
+      </div>
+
+       <div class="govuk-grid-column-one-half">
+      <p>Dissolved on<br>
+      <strong>23 September 2021</strong></p>
       </div>
     </div>
 
@@ -81,7 +86,7 @@ ALPHA YOUNG LTD overview - Find and update company information
 
     <div class="govuk-grid-column-one-half">
     <p>Incorporated on<br />
-    <strong>1 July 2023</strong></p>
+    <strong>18 September 2007</strong></p>
     </div>
     </div>
 
@@ -90,10 +95,7 @@ ALPHA YOUNG LTD overview - Find and update company information
     <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">
     Accounts</h2><br>
 
-    {# <p>Next accounts made up to <strong>30 August 2023</strong><br />
-    due by <strong>31 May 2024</strong></p> #}
-
-    <p>First accounts due <strong>1 July 2024</strong></p>
+    <p>Last accounts made up to <strong>31 August 2021</strong></p>
 
     <!--  <details class="govuk-details">
         <summary class="govuk-details__summary">
@@ -110,13 +112,10 @@ ALPHA YOUNG LTD overview - Find and update company information
     </div>
 
     <div class="govuk-grid-column-one-half">
-    <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">
-    Confirmation statement</h2><br />
+    {# <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">
+    Confirmation statement</h2><br>
 
-    {# <p>Next statement date <strong>15 October 2024</strong><br />
-    due by <strong>24 October 2024</strong></p> #}
-
-    <p>First statement due <strong>1 July 2024</strong></p>
+    <p>Last statement dated <strong>15 October 2021</strong></p> #}
     </div>
     </div>
 
@@ -124,7 +123,7 @@ ALPHA YOUNG LTD overview - Find and update company information
     <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-5">
     Nature of business (SIC)</h2><br />
 
-    <p>47910 - 	Retail sale via mail order houses or via Internet</p>
+    <p>49420 - Removal services</p>
     </div>
     </div>
     </div>
@@ -154,7 +153,7 @@ ALPHA YOUNG LTD overview - Find and update company information
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
 
-    <p class="govuk-body-m">Overview of accounts from <strong>1 April 2020</strong> to <strong>31 March 2021</strong></p>
+    <p class="govuk-body-m">Overview of accounts from <strong>1 September 2021</strong> to <strong>31 August 2020</strong></p>
 
 
   <!-- Notes for content - have moved blue caveat into /includes as it sits on different pages for tesing-->
@@ -210,13 +209,13 @@ ALPHA YOUNG LTD overview - Find and update company information
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-half">
           <p>Number of employees</br />
-          <strong>5</strong></p>
+          <strong>3</strong></p>
         </div>
 
 
         <div class="govuk-grid-column-one-half">
           <p>Balance sheet total<br />
-          <strong>&pound;195,346</strong></p>
+          <strong>&pound;38,337</strong></p>
         </div>
         </div>
 
@@ -227,7 +226,7 @@ ALPHA YOUNG LTD overview - Find and update company information
     <div class="govuk-grid-row govuk-!-margin-top-4">
         <div class="govuk-grid-column-one-half">
           <p>Profit and loss<br />
-          <strong>Data not available for this company</strong></p>
+          <strong>&pound;86,012</strong></p>
         </div>
         </div>
 
@@ -614,6 +613,13 @@ ALPHA YOUNG LTD overview - Find and update company information
       id: "overview",
       panel: {
         html: overviewHtml
+      }
+    },
+    {
+      label: "Accounts summary",
+      id: "accountsTab",
+      panel: {
+        html: accountsTabHtml
       }
     },
     {
