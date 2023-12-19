@@ -190,7 +190,8 @@ ALPHA XA4 INTERNATIONAL overview - Find and update company information
    <div>
     <div class="govuk-grid-column-full">
 
-       <p class="govuk-body-m">Overview of accounts from <strong>1 April 2020</strong> to <strong>31 March 2021</strong></p>
+      <p class="govuk-body-m govuk-!-margin-bottom-6">
+        Overview of accounts from <strong>1 April 2020</strong> to <strong>31 March 2021</strong></p>
 
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-half">
@@ -207,7 +208,7 @@ ALPHA XA4 INTERNATIONAL overview - Find and update company information
 </div>
 
 
-  <div class="govuk-grid-column-full govuk-!-margin-bottom-4">
+  <div class="govuk-grid-column-full govuk-!-margin-bottom-0">
     <div class="govuk-grid-row govuk-!-margin-top-4">
         <div class="govuk-grid-column-one-half">
           <p>Profit and loss<br />
@@ -216,9 +217,17 @@ ALPHA XA4 INTERNATIONAL overview - Find and update company information
         </div>
 
   </div>
-</div> <!--govuk-grid-row-->  </div>
+</div> <!--govuk-grid-row-->
+</div>
 
-    <details class="govuk-details govuk-!-margin-bottom-6" data-module="govuk-details">
+
+     
+
+
+  <main class="govuk-main-wrapper">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+    <details class="govuk-details govuk-!-margin-bottom-0" data-module="govuk-details">
       <summary class="govuk-details__summary">
         <span class="govuk-details__summary-text">
         What do these terms mean?
@@ -229,14 +238,17 @@ ALPHA XA4 INTERNATIONAL overview - Find and update company information
         <p class="govuk-body"><strong>Number of employees</strong> is the average number of people a company employs during a financial year.
         It should include people employed by the company under contracts of service.
         </p>
-
         <p class="govuk-body"> <strong>Balance sheet total</strong> shows the value of the company's assets minus its liabilities at the end of its financial year. The company's assets are things the company owns, such as buildings and stock. Liabilities are debts the company owes.
         </p>
         <p class="govuk-body"> <strong>Profit and loss</strong> shows how much a company has made from sales minus how much it spent on running costs at the end of its financial year.
         </p>
       </div>
-
     </details>
+
+      </div>
+    </div>
+  </main>
+
 
 
 
@@ -246,12 +258,12 @@ ALPHA XA4 INTERNATIONAL overview - Find and update company information
     {{ govukButton({
       text: "View the company accounts",
       classes: "govuk-button--secondary",
-      href: "/public/images/abc-limited-accounts.pdf"
+      href: "overview-page-alpha-xa4#filingHistory"
     }) }}
 </div>
- <div>
+ {# <div>
     <p>These may not be the company's latest accounts. Go to the <a class="govuk-link" href="#filingHistory">filing history</a> to view all accounts that have been filed for the company.</p>
-  </div>
+  </div> #}
 
 
 
