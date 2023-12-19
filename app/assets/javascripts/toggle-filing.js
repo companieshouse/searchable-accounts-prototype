@@ -25,6 +25,8 @@
 //   // Add an event listener to the checkbox after the initial toggle
 //   accountsCheckbox.addEventListener('change', toggleRowsVisibility);
 // });
+
+//working
 document.addEventListener('DOMContentLoaded', function() {
   var accountsCheckbox = document.getElementById('accounts-check');
   var fhAccountsRows = document.querySelectorAll('.govuk-table__row#fhAccounts');
