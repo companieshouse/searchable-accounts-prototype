@@ -1,39 +1,51 @@
+// document.addEventListener('DOMContentLoaded', function() {
+//   var accountsCheckbox = document.getElementById('accounts-check');
+//   var fhAccountsRows = document.querySelectorAll('.govuk-table__row#fhAccounts');
+//   var fhOtherRows = document.querySelectorAll('.govuk-table__row#fhOther');
 
-  document.addEventListener('DOMContentLoaded', function() {
-    var urlParams = new URLSearchParams(window.location.search);
-    var accountsCheckbox = document.getElementById('accounts-check');
-    var fhAccountsRows = document.querySelectorAll('.govuk-table__row#fhAccounts');
-    var fhOtherRows = document.querySelectorAll('.govuk-table__row#fhOther');
+//   function toggleRowsVisibility() {
+//     fhAccountsRows.forEach(function(row) {
+//       row.style.display = accountsCheckbox.checked ? 'table-row' : 'none';
+//     });
 
-    function toggleRowsVisibility() {
-      if (accountsCheckbox.checked) {
-        // When checkbox is selected, show fhAccounts and hide fhOther
-        fhAccountsRows.forEach(function(row) {
-          row.style.display = 'table-row';
-        });
-        fhOtherRows.forEach(function(row) {
-          row.style.display = 'none';
-        });
-      } else {
-        // When checkbox is not selected, show both fhAccounts and fhOther
-        fhAccountsRows.forEach(function(row) {
-          row.style.display = 'table-row';
-        });
-        fhOtherRows.forEach(function(row) {
-          row.style.display = 'table-row';
-        });
-      }
-    }
+//     fhOtherRows.forEach(function(row) {
+//       row.style.display = accountsCheckbox.checked ? 'none' : 'table-row';
+//     });
+//   }
 
-    // Initial toggle based on the checkbox state
-    toggleRowsVisibility();
+//   // Check the checkbox if the "accountsChecked" parameter is present and set to "true"
+//   var urlParams = new URLSearchParams(window.location.search);
+//   if (urlParams.has('accountsChecked') && urlParams.get('accountsChecked') === 'true') {
+//     accountsCheckbox.checked = true;
+//   }
 
-    // Check the checkbox if the "accountsChecked" parameter is present and set to "true"
-    if (urlParams.has('accountsChecked') && urlParams.get('accountsChecked') === 'true') {
-      accountsCheckbox.checked = true;
-      toggleRowsVisibility(); // Trigger visibility based on the checked state
-    }
+//   // Initial toggle based on the checkbox state
+//   toggleRowsVisibility();
 
-    // Add an event listener to the checkbox
-    accountsCheckbox.addEventListener('change', toggleRowsVisibility);
-  });
+//   // Add an event listener to the checkbox after the initial toggle
+//   accountsCheckbox.addEventListener('change', toggleRowsVisibility);
+// });
+document.addEventListener('DOMContentLoaded', function() {
+  var accountsCheckbox = document.getElementById('accounts-check');
+  var fhAccountsRows = document.querySelectorAll('.govuk-table__row#fhAccounts');
+  var fhOtherRows = document.querySelectorAll('.govuk-table__row#fhOther');
+
+  function toggleRowsVisibility() {
+    fhAccountsRows.forEach(function(row) {
+      row.style.display = 'table-row';
+    });
+
+    fhOtherRows.forEach(function(row) {
+      row.style.display = accountsCheckbox.checked ? 'none' : 'table-row';
+    });
+  }
+
+  // Set the checkbox to be checked by default
+  accountsCheckbox.checked = true;
+
+  // Initial toggle based on the checkbox state
+  toggleRowsVisibility();
+
+  // Add an event listener to the checkbox after the initial toggle
+  accountsCheckbox.addEventListener('change', toggleRowsVisibility);
+});
