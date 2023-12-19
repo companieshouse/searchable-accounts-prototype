@@ -154,23 +154,10 @@ ALPHA XA4 INTERNATIONAL overview - Find and update company information
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
 
-    <p class="govuk-body-m">Overview of accounts from <strong>1 April 2020</strong> to <strong>31 March 2021</strong></p>
-
-
   <!-- Notes for content - have moved blue caveat into /includes as it sits on different pages for tesing-->
-     {# {% include "app/includes/blue-banner.html" %} #}
+     {% include "app/includes/blue-banner-v4.html" %} 
     
 
-  <div class="govuk-grid-column-three-quarters govuk-inset-text chs-inset-text govuk-!-margin-top-0">
-    <p>This data is taken automatically from the latest digital accounts filed for the company. Data can be missing or incorrect.</p>
-    <p> <a href="service-information#AccountsInfoSupplied">Read more about accounts data for companies</a>. 
-   
-     {# 
-  Notes for content - anchor link here to caveat page 
-  <a href="service-information#CompanyInfoSupplied"> </a>
-  #}
-  
-    </p>
     
 
 
@@ -196,23 +183,20 @@ ALPHA XA4 INTERNATIONAL overview - Find and update company information
   </div>
   </div>
   </details> #}
-    </div>
-    </div>
-   <div>
-
-    
   
 
-{# <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible"> #}
+    </div>
 
- 
-<div class="govuk-grid-column-full">
+   <div>
+    <div class="govuk-grid-column-full">
+
+       <p class="govuk-body-m">Overview of accounts from <strong>1 April 2020</strong> to <strong>31 March 2021</strong></p>
+
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-half">
           <p>Number of employees</br />
           <strong>5</strong></p>
         </div>
-
 
         <div class="govuk-grid-column-one-half">
           <p>Balance sheet total<br />
@@ -234,30 +218,33 @@ ALPHA XA4 INTERNATIONAL overview - Find and update company information
   </div>
 </div> <!--govuk-grid-row-->  </div>
 
-<details class="govuk-details govuk-!-margin-bottom-8" data-module="govuk-details">
-  <summary class="govuk-details__summary">
-    <span class="govuk-details__summary-text">
-    What do these terms mean?
-    </span>
-  </summary>
- 
-  <p class="govuk-body"><strong>Number of employees</strong> is the average number of people a company employs during a financial year.
-    It should include people employed by the company under contracts of service.
-    </p>
+    <details class="govuk-details govuk-!-margin-bottom-6" data-module="govuk-details">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+        What do these terms mean?
+        </span>
+      </summary>
 
-    <p class="govuk-body"> <strong>Balance sheet total</strong> shows the value of the company's assets minus its liabilities at the end of its financial year. The company's assets are things the company owns, such as buildings and stock. Liabilities are debts the company owes.
-</p>
-    <p class="govuk-body"> <strong>Profit and loss</strong> shows how much a company has made from sales minus how much it spent on running costs at the end of its financial year.
-  </p>
+      <div class="govuk-details__text">
+        <p class="govuk-body"><strong>Number of employees</strong> is the average number of people a company employs during a financial year.
+        It should include people employed by the company under contracts of service.
+        </p>
 
- </details>
+        <p class="govuk-body"> <strong>Balance sheet total</strong> shows the value of the company's assets minus its liabilities at the end of its financial year. The company's assets are things the company owns, such as buildings and stock. Liabilities are debts the company owes.
+        </p>
+        <p class="govuk-body"> <strong>Profit and loss</strong> shows how much a company has made from sales minus how much it spent on running costs at the end of its financial year.
+        </p>
+      </div>
+
+    </details>
+
 
 
 {# <a href="/public/images/abc-limited-accounts.pdf" download="abc-limited-accounts.pdf"> #}
 
   <div class="govuk-button-group">
     {{ govukButton({
-      text: "View the accounts PDF",
+      text: "View the company accounts",
       classes: "govuk-button--secondary",
       href: "/public/images/abc-limited-accounts.pdf"
     }) }}
