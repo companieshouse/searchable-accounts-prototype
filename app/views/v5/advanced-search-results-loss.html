@@ -1,0 +1,171 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  Advanced company search - {{ serviceName }} - GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+
+ <h1 class="govuk-heading-l">Advanced company search</h1>
+
+   <p class="govuk-body"> Fill in one or more fields to search the Companies House register.</p>
+
+<div class="govuk-button-group">
+  {{ govukButton({
+    text: "Update results"
+      }) }}
+
+  {{ govukButton({
+    text: "Clear search",
+    classes: "govuk-button--secondary"
+  }) }}
+</div>
+
+<hr>
+
+
+
+{# ******* Advanced search left column ****** #}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-third">
+    {% include "app/includes/search-fields.html" %} 
+
+    <div class="govuk-button-group govuk-!-margin-top-3">
+      {{ govukButton({
+        text: "Update results"
+          }) }}
+
+      {{ govukButton({
+        text: "Clear search",
+        classes: "govuk-button--secondary"
+      }) }}
+  </div>
+</div>
+
+  
+
+{# ******* Number of results and button right column ****** #}
+<div class="govuk-grid-column-two-thirds">
+  <div class="govuk-grid-column-one-half">
+      <p class="govuk-body-l govuk-!-font-weight-bold govuk-!-margin-bottom-2">3,159 results</p>
+      <div class="govuk-inset-text chs-inset-text govuk-!-margin-top-0 govuk-!-font-weight-bold">
+        Some results may be missing as your search uses accounts data that is not available for all companies. <a href="service-information#AccountsInfoSupplied">Find out more about accounts data for companies.</a>
+      
+        {# 
+  Notes for content - anchor link here to caveat page 
+  <a href="service-information#CompanyInfoSupplied"> </a>
+  #}
+      
+      </div>
+  </div>  
+
+  <div class="govuk-grid-column-one-half" align="right">
+ <a href="/public/images/ABC-Companies-House-search-results.csv" id="downloadLink" style="display: none;"></a>
+    <button class="govuk-button" data-module="govuk-button" id="downloadButton">
+        Download results
+    </button>
+    <p class="search-hint govuk-body-s">Results are downloaded as a CSV file. Only the first 5,000 results can be downloaded.</p>
+  </div>  
+ </div>  
+
+
+    <script>
+        // Function to trigger the download
+        function downloadFile() {
+            // Get the link and simulate a click event
+            var link = document.getElementById('downloadLink');
+            link.click();
+        }
+
+        // Attach the click event handler to the button
+        document.getElementById('downloadButton').addEventListener('click', downloadFile);
+    </script>
+
+      {# <td class="govuk-table__cell"><a href="/public/images/ABC-Companies-House-search-results.csv" target="_blank">View PDF</a> (3 pages) <br><a href="#">Download iXBRL</a> </td> #}
+
+
+
+    {# {% include "app/includes/search-results-caveat.html" %}   #}
+
+
+
+{# ******* Search results right column ****** #}
+<div class="govuk-grid-column-two-thirds">
+  <hr class="govuk-!-margin-bottom-3">
+   <p class="govuk-body-l govuk-!-font-weight-bold govuk-body-link govuk-link--no-visited-state govuk-!-margin-bottom-0"><strong>
+    <a href="#">SKIP LIMITED</a></strong></p>
+    <p class="govuk-body-m govuk-!-font-weight-bold">Active</p>
+      <p class="govuk-body">
+        Private limited company<br>
+        12802758 - Incorporated on 22 September 1998<br>
+        30-36 Green Road, London, E20 5DE<br>
+        SIC codes - 74909 <br>
+        <strong>Accounts summary from 1 July 2022 to 30 June 2023</strong><br>
+        Number of employees: 15<br>
+        Balance sheet total: £14,358<br>
+        Profit and loss: -£8,003<br> 
+      </p>
+
+
+
+
+   <hr class="govuk-!-margin-bottom-3">
+   <p class="govuk-body-l govuk-!-font-weight-bold govuk-body-link govuk-link--no-visited-state govuk-!-margin-bottom-0"><strong>
+    <a href="#">CAPITAL INTERNATIONAL</a></strong></p>
+    <p class="govuk-body-m govuk-!-font-weight-bold">Active</p>
+      <p class="govuk-body">
+        Private limited company<br>
+        07675655 - Incorporated on 10 August 2004<br>
+        {# Dissolved on 18 January 2022<br> #}
+        28-29 Horse St, Oxford OX10 1XB<br>
+        SIC codes - 17230<br>
+      <strong>Accounts summary from 1 April 2020 to 31 March 2021</strong><br>
+        Number of employees: 5<br>
+        Balance sheet total: -£3,358<br>
+        Profit and loss: -£1,522
+      </p>
+
+
+
+   <hr class="govuk-!-margin-bottom-3">
+   <p class="govuk-body-l govuk-!-font-weight-bold govuk-body-link govuk-link--no-visited-state govuk-!-margin-bottom-0"><strong>
+    <a href="#">FACADE LTD</a></strong></p>
+    <p class="govuk-body-m govuk-!-font-weight-bold">Active</p>
+      <p class="govuk-body">
+        Private limited company<br>
+        14727990 - Incorporated on 1 July 2023<br>
+        10 Lewes Rd, Brighton BN1 1AD<br>
+        SIC codes - 47910<br>
+        <strong>Accounts summary from 8 November 2022 to 7 November 2023</strong><br>
+        Number of employees: 3<br>
+        Balance sheet total: £5,358<br>
+        Profit and loss: -£4,522
+      </p>
+
+
+   <hr class="govuk-!-margin-bottom-3">
+   <p class="govuk-body-l govuk-!-font-weight-bold govuk-body-link govuk-link--no-visited-state govuk-!-margin-bottom-0"><strong>
+    <a href="#">FRONT END LIMITED</a></strong></p>
+    <p class="govuk-body-m govuk-!-font-weight-bold">Dissolved</p>
+      <p class="govuk-body">
+        Private limited company<br>
+        08511176 - Dissolved on 23 September 2021<br>
+        27 Somerhill Rd, Hove BN1 2AZ<br>
+        SIC codes - 49420<br>
+        <strong>Accounts summary from 1 September 2020 to 31 August 2021</strong><br>
+        Number of employees: 8<br>
+        Balance sheet total: £8,637<br>
+        Profit and loss: -£2,322<br> 
+      </p>
+
+
+
+
+
+
+
+
+    </div> <!-- two-thirds -->
+</div> <!-- govuk-grid-row -->
+{% endblock %}

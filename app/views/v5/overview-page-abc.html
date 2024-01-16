@@ -1,0 +1,651 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+
+ABC LIMITED overview - Find and update company information
+ - {{ serviceName }} - GOV.UK
+{% endblock %}
+
+{# {% block beforeContent %}
+  {% include "includes/before-content.html" %}
+{% endblock %} #}
+
+{% block pageScripts %}
+  <script src="/public/javascripts/toggle-profile-elements.js"></script>
+  <script src="/public/javascripts/toggle-filing.js"></script>
+
+{% endblock %}
+{% block content %}
+
+
+<div class="govuk-grid-row ">
+  <div class="govuk-grid-column-full">
+    <p>
+    <a class="govuk-body-s govuk-!-margin-top-0" href="https://resources.companieshouse.gov.uk/serviceInformation.shtml#compInfo" target="_blank">
+      Companies House does not verify the accuracy of the information filed</a>
+    <p>
+    <form action="" method="post" novalidate>
+
+
+<div class="govuk-form-group search-bar-active govuk-!-margin-top-3" for="full">
+  <div class="govuk-grid-row search-input-div">
+    <input class="govuk-input" id="event-name" name="event-name" type="text" value="Search for a company or officer">
+      {# <button class="govuk-button search-button" data-module="govuk-button">
+    </button> #}
+  </div>
+</div>
+
+
+<a class="govuk-body" href="advanced-search">Advanced company search</a>
+
+<h1 class="govuk-heading-xl govuk-!-margin-bottom-3 govuk-!-margin-top-7">ABC LIMITED</h1>
+<p class="govuk-body">Company number <strong>12802758</strong></p>
+
+<div class="govuk-button-group">
+  {{ govukButton({
+    text: "Follow this company",
+    href: "#"
+  }) }}
+
+    {{ govukButton({
+    text: "File for this company",
+    href: "#"
+  }) }}
+
+</div>
+
+
+{% set overviewHtml %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <p>Registered office address<br />
+        <strong>Studio 10, Floor 5, Fairgate House, 24 New Oxford Street, London, United
+        Kingdom, WC1A 1HB</strong></p>
+      </div>
+    </div>
+
+    <div class="govuk-grid-row govuk-!-margin-top-7">
+      <div class="govuk-grid-column-full">
+      <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-half">
+      <p>Company status<br />
+      <strong>Active</strong></p>
+      </div>
+    </div>
+
+    <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-half">
+    <p>Company type<br />
+    <strong>Private limited Company</strong></p>
+    </div>
+
+    <div class="govuk-grid-column-one-half">
+    <p>Incorporated on<br />
+    <strong>18 September 2020</strong></p>
+    </div>
+    </div>
+
+    <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-half">
+    <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">
+    Accounts</h2><br>
+
+    <p>Next accounts made up to <strong>30 June 2023</strong><br />
+    due by <strong>31 March 2024</strong></p>
+
+    <p>Last accounts made up to <strong>30 June 2022</strong></p>
+
+    <!--  <details class="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">
+            Find out more about these accounts
+          </span>
+        </summary>
+
+        <div class="govuk-details__text">
+          To see more about these accounts view the filing history or the accounts summary if visible for this company.
+        </div>
+      </details> -->
+
+    </div>
+
+    <div class="govuk-grid-column-one-half">
+    <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-7">
+    Confirmation statement</h2><br />
+
+    <p>Next statement date <strong>23 September 2024</strong><br />
+    due by <strong>7 October 2024</strong></p>
+
+    <p>Last statement dated <strong> 23 September 2023</strong></p>
+    </div>
+    </div>
+
+    <div>
+    <h2 class="govuk-heading-m govuk-!-margin-bottom-0 govuk-!-margin-top-5">
+    Nature of business (SIC)</h2><br />
+
+    <p>74909 - Other professional, scientific and technical activities not elsewhere classified</p>
+    </div>
+    </div>
+    </div>
+  </div><!-- ee -->
+</div>
+
+{% endset -%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{# ******  FINANCIAL OVERVIEW TAB ***** #}
+{% set accountsTabHtml %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+  <!-- Notes for content - have moved blue caveat into /includes as it sits on different pages for tesing-->
+      {% include "app/includes/blue-banner-v4.html" %} 
+    </div>
+
+
+
+    {# <details class="govuk-details" data-module="govuk-details">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+          Why some data may be missing from the accounts overview
+        </span>
+      </summary>
+ <div class="govuk-details__text">
+    <p class="govuk-body">
+      This data is not available for all companies. This can be for different reasons, including if:
+    </p>
+  <ul class="govuk-list govuk-list--bullet">
+  <li>
+  the accounts have been submitted in a format that means we cannot access the data automatically
+  </li>
+
+  <li>
+    the company is not required to file the information - <a href="https://www.gov.uk/government/publications/life-of-a-company-annual-requirements/life-of-a-company-part-1-accounts">read the Companies House accounts guidance</a> for information on what companies must include in their accounts
+  </li>
+</ul>
+  </div>
+  </div>
+  </details> #}
+    
+
+
+      
+  <div>
+  <div class="govuk-grid-column-full">
+
+      <p class="govuk-body-m govuk-!-margin-bottom-6">
+        Overview of accounts from <strong>1 July 2021</strong> to <strong>30 June 2022</strong></p>
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-one-half">
+          <p>Number of employees</br />
+          <strong>150</strong></p>
+        </div>
+
+
+        <div class="govuk-grid-column-one-half">
+          <p>Balance sheet total<br />
+          <strong>&pound;15,023,164</strong></p>
+        </div>
+        </div>
+
+</div>
+
+
+  <div class="govuk-grid-column-full govuk-!-margin-bottom-0">
+    <div class="govuk-grid-row govuk-!-margin-top-4">
+        <div class="govuk-grid-column-one-half">
+          <p>Profit and loss<br />
+          <strong>&pound;25,987,003</strong></p>
+        </div>
+        </div>
+
+  </div>
+</div> <!--govuk-grid-row-->  </div>
+
+  <main class="govuk-main-wrapper">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+    <details class="govuk-details govuk-!-margin-bottom-0" data-module="govuk-details">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+        What do these terms mean?
+        </span>
+      </summary>
+
+      <div class="govuk-details__text">
+        <p class="govuk-body"><strong>Number of employees</strong> is the average number of people a company employs during a financial year.
+        It should include people employed by the company under contracts of service.
+        </p>
+        <p class="govuk-body"> <strong>Balance sheet total</strong> shows the value of the company's assets minus its liabilities at the end of its financial year. The company's assets are things the company owns, such as buildings and stock. Liabilities are debts the company owes.
+        </p>
+        <p class="govuk-body"> <strong>Profit and loss</strong> shows how much a company has made from sales minus how much it spent on running costs at the end of its financial year.
+        </p>
+      </div>
+    </details>
+
+      </div>
+    </div>
+  </main>
+
+
+  <div class="govuk-button-group">
+    {{ govukButton({
+      text: "View the company accounts",
+      classes: "govuk-button--secondary",
+      href: "overview-page-abc#filingHistory"
+    }) }}
+</div>
+
+{# <div>
+    <p>These may not be the company's latest accounts. Go to the <a class="govuk-link" href="#filingHistory">filing history</a> to view all accounts that have been filed for the company.</p>
+  </div> #}
+
+
+
+{% endset -%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{# ******  FILING HISTORY TAB ***** #}
+{% set filingHistoryHtml %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-quarter">
+      <p class="govuk-heading-m">Filter by category</h2>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
+        <label class="govuk-label govuk-checkboxes__label" for="organisation">
+          <strong>Show filing type</strong>
+        </label>
+      </div><!-- checkboxes -->
+    </div><!-- one-third -->
+
+{# ****** CHECKBOXES ***** #}
+    <div class="govuk-grid-column-one-quarter">
+      <div class="govuk-form-group">
+        <fieldset class="govuk-fieldset">
+          </legend>
+          <div class="govuk-checkboxes govuk-checkboxes--small" data-module="govuk-checkboxes">
+
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="accounts-check" name="accounts-check" type="checkbox" value="accountsCheck">
+              <label class="govuk-label govuk-checkboxes__label" for="accounts-check">
+                Accounts
+              </label>
+            </div>
+
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
+              <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
+                Capital
+              </label>
+            </div>
+
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+              <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
+                Charges
+              </label>
+            </div>
+          </div><!-- checkboxes -->
+        </fieldset>
+      </div> <!-- form group -->
+    </div> <!-- one-third -->
+
+  <div class="govuk-grid-column-one-half">
+      <div class="govuk-form-group">
+        <fieldset class="govuk-fieldset">
+          </legend>
+          <div class="govuk-checkboxes govuk-checkboxes--small" data-module="govuk-checkboxes">
+
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
+              <label class="govuk-label govuk-checkboxes__label" for="organisation">
+                Confirmation statements / Annual returns
+              </label>
+            </div>
+
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
+              <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
+                Incorporation
+              </label>
+            </div>
+
+            <div class="govuk-checkboxes__item">
+              <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+              <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
+                Officers
+              </label>
+            </div>
+
+          </div><!-- checkboxes -->
+        </fieldset>
+      </div> <!-- form group -->
+    </div> <!-- one-third -->
+</div>
+
+
+
+
+
+{# ** TABLE ** #}
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Date</th>
+      <th scope="col" class="govuk-table__header">Description</th>
+      <th scope="col" class="govuk-table__header">View / Download</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+      <tr class="govuk-table__row" id="fhOther">
+      <th scope="row" class="govuk-table__cell govuk-body">29 Sep 2023</th>
+      <td class="govuk-table__cell"><strong>Confirmation statement </strong>made on 23 September 2023 with updates</td>
+      <td class="govuk-table__cell"><a href="#">View PDF</a> (4 pages)</td>
+      </tr>
+    <tr class="govuk-table__row" id="fhAccounts">
+      <th scope="row" class="govuk-table__cell govuk-body">22 Mar 2023</th>
+      <td class="govuk-table__cell"><strong>Total exemption full accounts </strong>made up to 30 June 2022</td>
+      <td class="govuk-table__cell"><a href="#">View PDF</a> (11 pages) <br><a href="#">Download iXBRL</a> </td>
+    </tr>
+     <tr class="govuk-table__row" id="fhOther">
+      <th scope="row" class="govuk-table__cell govuk-body">03 Oct 2022</th>
+      <td class="govuk-table__cell"><strong>Confirmation statement </strong>made on 23 September 2022 with updates</td>
+      <td class="govuk-table__cell"><a href="#">View PDF</a> (5 pages)</td>
+      </tr>
+    <tr class="govuk-table__row" id="fhOther">
+      <th scope="row" class="govuk-table__cell govuk-body">16 Jun 2022</th>
+      <td class="govuk-table__cell"><strong>	Change of share class name or designation</strong></td>
+      <td class="govuk-table__cell"><a href="#">View PDF</a> (2 pages)</td>
+    </tr>
+    <tr class="govuk-table__row" id="fhOther">
+      <th scope="row" class="govuk-table__cell govuk-body">31 May 2022</th>
+      <td class="govuk-table__cell"><strong>Termination of appointment</strong> of Joe Bloggs as a director on 31 May 2022</td>
+      <td class="govuk-table__cell"><a href="#">View PDF</a> (1 page)</td>
+    </tr>
+    <tr class="govuk-table__row" id="fhAccounts">
+      <th scope="row" class="govuk-table__cell govuk-body">15 Mar 2022</th>
+      <td class="govuk-table__cell"><strong>Total exemption full accounts </strong>made up to 30 June 2021</td>
+      <td class="govuk-table__cell"><a href="#">View PDF</a> (10 pages) <br><a href="#">Download iXBRL</a> </td>
+    </tr>
+     <tr class="govuk-table__row" id="fhOther">
+      <th scope="row" class="govuk-table__cell govuk-body">03 Oct 2021</th>
+      <td class="govuk-table__cell"><strong>Confirmation statement </strong>made on 23 September 2021 with updates</td>
+      <td class="govuk-table__cell"><a href="#">View PDF</a> (5 pages)</td>
+      </tr>
+    <tr class="govuk-table__row" id="fhOther">
+      <th scope="row" class="govuk-table__cell govuk-body">16 Jun 2021</th>
+      <td class="govuk-table__cell"><strong>Memorandum and Articles of Association</strong></td>
+      <td class="govuk-table__cell"><a href="#">View PDF</a> (21 pages)</td>
+    </tr>
+  </tbody>
+</table>
+
+{% endset -%}
+
+
+
+
+
+
+
+
+
+{# ******  PEOPLE TAB ***** #}
+{% set peopleHtml %}
+<ul class="search-tabs">
+	<li id="general-overview-toggle" class="active">
+	   <a class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="javascript:void(0)">
+      Officers</a>
+	</li>
+
+	<li id="accounts-toggle">
+    <a class="govuk-body-m govuk-link govuk-link--no-underline govuk-link--no-visited-state" href="javascript:void(0)">
+      Persons with significant control</a>
+  </li>
+</ul>
+
+
+
+<!-- toggle between current only or all officers -->
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="toggleCheckbox-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+      <h3 class="govuk-fieldset__heading">
+        Filter officers
+      </h3>
+    </legend>
+    <div class="govuk-checkboxes" data-module="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="toggleCheckbox" name="toggleCheckbox" type="checkbox" value="current">
+        <label class="govuk-label govuk-checkboxes__label" for="toggleCheckbox">
+          Current officers
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+
+
+<div id="All">
+  <!-- Content for the "All" div -->
+  <p class="govuk-heading-s">2 officers / 1 resignations</h2>
+
+  <p class="govuk-heading-s"><a href="javascript:void(0)">ASHCROFT, Daniel</a></h2>
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <p>Correspondence address<br>
+        <strong>Studio 10, Floor 5, Fairgate House, 24 New Oxford Street, London, United Kingdom, WC1A 1HB</strong></p>
+      </div>
+    </div>
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-half">
+      <p>Role <strong class="govuk-tag govuk-tag--green">ACTIVE</strong></br>
+      <strong>Director</strong></p>
+      </div>
+
+      <div class="govuk-grid-column-one-half">
+        <p>Appointed on<br>
+        <strong>18 September 2020</strong></p>
+      </div>
+    </div><!-- class="govuk-grid-row"-->
+
+    <hr class="govuk-!-margin-top-4 govuk-!-margin-bottom-6">
+
+  <p class="govuk-heading-s"><a href="javascript:void(0)">BLOGGS, Joe</a></h2>
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <p>Correspondence address<br>
+        <strong>Studio 10, Floor 5, Fairgate House, 24 New Oxford Street, London, United Kingdom, WC1A 1HB</strong></p>
+      </div>
+    </div>
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-third">
+      <p>Role <strong class="govuk-tag govuk-tag--grey">RESIGNED</strong></br>
+      <strong>Director</strong></p>
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+        <p>Appointed on<br>
+        <strong>18 September 2020</strong></p>
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+        <p>Resigned on<br>
+        <strong>31 May 2022</strong></p>
+      </div>
+
+
+    </div><!-- class="govuk-grid-row"-->
+
+</div><!-- id="All"-->
+
+
+    <div id="CurrentOnly">
+<!-- Content for the "CurrentOnly" div -->
+      <p class="govuk-heading-s">1 current officer</h2>
+      <p class="govuk-heading-s"><a href="javascript:void(0)">ASHCROFT, Daniel</a></h2>
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-full">
+        <p>Correspondence address<br>
+        <strong>Studio 10, Floor 5, Fairgate House, 24 New Oxford Street, London, United Kingdom, WC1A 1HB</strong></p>
+      </div>
+    </div>
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-half">
+      <p>Role <strong class="govuk-tag govuk-tag--green">ACTIVE</strong></br>
+      <strong>Director</strong></p>
+      </div>
+
+      <div class="govuk-grid-column-one-half">
+        <p>Appointed on<br>
+        <strong>25 February 2016</strong></p>
+      </div>
+
+    </div><!-- class="govuk-grid-row"-->
+</div><!-- id="All"-->
+{% endset -%}
+
+
+
+
+
+
+
+
+{# ****** MORE TAB ***** #}
+{% set moreHtml %}
+ <h2 class="govuk-heading-l"> Company snapshot</h2>
+  {{ govukDetails({
+  summaryText: "What's included in the company snapshot",
+  html: "<p class='govuk-body'>The latest 100 entries for:</p>
+  <ul class='govuk-list govuk-list--bullet'>
+    <li>Filing history</li>
+    <li>Officers</li>
+    <li>Persons with significant control</li>
+    <li>Charges</li>
+    <li>Insolvency</li>
+    <li>Registers</li>
+  </ul>"
+}) }}
+  {{ govukButton({
+  text: "View company information snapshot",
+  classes: "govuk-button--secondary"
+  }) }}
+  <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+  <h2 class="govuk-heading-l"> Order a company certificate</h2>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <p class='govuk-body'>Use this service to order a company certificate with certified information about the company. A certificate can be used to prove that a company is incorporated, and that no action is being taken to remove the company from the register.
+ </p>
+
+    {{ govukButton({
+      text: "Order company certificate",
+      href:"order-certified-certificate",
+      classes: "govuk-button--secondary",
+      href:"order-certified-certificate"
+      }) }}
+    </div/>
+</div>
+<hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+  <h2 class="govuk-heading-l"> Order a certified document</h2>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-three-quarters">
+      <p class='govuk-body'>Use this service to order a certified copy of a document from the company's filing history. You can also use this service to order an incorporation package, which includes the documents that were issued when the company was formed.
+      </p>
+
+  {{ govukButton({
+  text: "Order certified document",
+  classes: "govuk-button--secondary",
+  href:"order-certified-document"
+  }) }}
+{% endset -%}
+
+
+
+
+
+{{ govukTabs({
+  items: [
+    {
+      label: "Overview",
+      id: "overview",
+      panel: {
+        html: overviewHtml
+      }
+    },
+    {
+      label: "Accounts summary",
+      id: "accountsTab",
+      panel: {
+        html: accountsTabHtml
+      }
+    },
+    {
+      label: "Filing history",
+      id: "filingHistory",
+      panel: {
+        html: filingHistoryHtml
+      }
+    },
+    {
+      label: "People",
+      id: "people",
+      panel: {
+        html: peopleHtml
+      }
+    },
+    {
+      label: "More",
+      id: "more",
+      panel: {
+        html: moreHtml
+      }
+    }
+  ]
+}) }}
+
+
+
+    </form>
+
+    </div>
+  </div>
+
+
+{% endblock %}
