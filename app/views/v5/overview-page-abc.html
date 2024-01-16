@@ -151,7 +151,7 @@ ABC LIMITED overview - Find and update company information
 
 
 
-{# ******  FINANCIAL OVERVIEW TAB ***** #}
+{# ******  ACCOUNTS SUMMARY TAB ***** #}
 {% set accountsTabHtml %}
 
 <div class="govuk-grid-row">
@@ -159,57 +159,36 @@ ABC LIMITED overview - Find and update company information
   <!-- Notes for content - have moved blue caveat into /includes as it sits on different pages for tesing-->
       {% include "app/includes/blue-banner-v4.html" %} 
     </div>
-
-
-
-    {# <details class="govuk-details" data-module="govuk-details">
-      <summary class="govuk-details__summary">
-        <span class="govuk-details__summary-text">
-          Why some data may be missing from the accounts overview
-        </span>
-      </summary>
- <div class="govuk-details__text">
-    <p class="govuk-body">
-      This data is not available for all companies. This can be for different reasons, including if:
-    </p>
-  <ul class="govuk-list govuk-list--bullet">
-  <li>
-  the accounts have been submitted in a format that means we cannot access the data automatically
-  </li>
-
-  <li>
-    the company is not required to file the information - <a href="https://www.gov.uk/government/publications/life-of-a-company-annual-requirements/life-of-a-company-part-1-accounts">read the Companies House accounts guidance</a> for information on what companies must include in their accounts
-  </li>
-</ul>
-  </div>
-  </div>
-  </details> #}
-    
-
-
       
   <div>
   <div class="govuk-grid-column-full">
 
-      <p class="govuk-body-m govuk-!-margin-bottom-6">
-        Overview of accounts from <strong>1 July 2021</strong> to <strong>30 June 2022</strong></p>
+<!-- Select drop down -->
+    <div class="govuk-form-group">
+      <label class="govuk-label govuk-body-m" for="sort">
+        Overview of accounts from 
+      </label>
+      <select class="govuk-select" id="sort" name="sort">
+        <option value="2022"><strong>1 July 2021 to 30 June 2022</strong></option>
+      </select>
+    </div>
 
+<!-- Number of employees -->
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-one-half">
           <p>Number of employees</br />
           <strong>150</strong></p>
         </div>
 
-
+<!-- Balance sheet total -->
         <div class="govuk-grid-column-one-half">
           <p>Balance sheet total<br />
           <strong>&pound;15,023,164</strong></p>
         </div>
         </div>
+      </div>
 
-</div>
-
-
+<!-- Profit and loss -->
   <div class="govuk-grid-column-full govuk-!-margin-bottom-0">
     <div class="govuk-grid-row govuk-!-margin-top-4">
         <div class="govuk-grid-column-one-half">
@@ -221,6 +200,8 @@ ABC LIMITED overview - Find and update company information
   </div>
 </div> <!--govuk-grid-row-->  </div>
 
+
+<!-- Guidance details -->
   <main class="govuk-main-wrapper">
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
@@ -247,12 +228,13 @@ ABC LIMITED overview - Find and update company information
   </main>
 
 
-  <div class="govuk-button-group">
-    {{ govukButton({
-      text: "View the company accounts",
-      classes: "govuk-button--secondary",
-      href: "overview-page-abc#filingHistory"
-    }) }}
+<!-- Button -->
+    <div class="govuk-button-group">
+      {{ govukButton({
+        text: "View the company accounts",
+        classes: "govuk-button--secondary",
+        href: "overview-page-abc#filingHistory"
+      }) }}
 </div>
 
 {# <div>
