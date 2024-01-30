@@ -45,14 +45,19 @@
 
 <div class="accordion-wrapper">
   <div class="accordion" onclick="toggleAccordion(this)">
-    <p class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-!-margin-top-0 govuk-!-margin-bottom-0" aria="Company name">
-      <a href="#" class="govuk-link--no-underline govuk-link--no-visited-state">
+    <p class="govuk-!-font-weight-bold govuk-!-font-size-19 govuk-!-margin-top-0 govuk-!-margin-bottom-0" aria-label="Show this section">
+      <a href="#" class="govuk-link--no-underline govuk-link--no-visited-state" id="company-name" aria="show this section">
         Company name
-      </a>
+      </a>      
     </p>
-    <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
+    <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24" aria-label="Show this section"><strong>+</strong></span>
   </div> <!--div class="accordion"-->
 
+
+                              {# <input class="govuk-checkboxes__input" id="active-companies" name="active-companies" type="checkbox" value="active-companies">
+                              <label class="govuk-label govuk-checkboxes__label" for="active-companies" aria="Active">
+                                Active
+                              </label> #}
 
 
 
@@ -139,7 +144,7 @@
      <div id="incorporation-date-from" class="govuk-hint">
        For example, 27/3/2007
        </div>
-    <input class="govuk-input govuk-input--width-10" id="incorporation-date-from" name="incorporation-date-from" type="text" spellcheck="false" aria="Incorporation date from" pattern="[0-9]*" inputmode="numeric">
+    <input class="govuk-input govuk-input--width-10" id="incorporation-date-from" name="incorporation-date-from" type="text" spellcheck="false" aria-label="Incorporation date from" pattern="[0-9]*" inputmode="numeric">
   </div>
 
 
@@ -151,7 +156,7 @@
   <div id="incorporation-date-to-hint" class="govuk-hint">
     For example, 27/3/2007
    </div>
-    <input class="govuk-input govuk-input--width-10" id="incorporation-date-to" name="incorporation-date-to" type="text" spellcheck="false" aria-describedby="incorporation-date-to-hint" pattern="[0-9]*" inputmode="numeric">
+    <input class="govuk-input govuk-input--width-10" id="incorporation-date-to" name="incorporation-date-to" type="text" spellcheck="false" aria-describedby="incorporation-date-to-hint" aria-label="Incorporation date to" pattern="[0-9]*" inputmode="numeric">
     </div>
    </div>
 </div> <!--adiv class="accordion-wrapper"-->
@@ -219,7 +224,7 @@
 
                               <div class="govuk-checkboxes__item">
                                 <input class="govuk-checkboxes__input" id="liquidation" name="liquidation" type="checkbox" value="liquidation">
-                                <label class="govuk-label govuk-checkboxes__label" for="liquidations">
+                                <label class="govuk-label govuk-checkboxes__label" for="liquidation">
                                   Liquidation
                                 </label>
                               </div>
@@ -729,45 +734,51 @@
       Number of employees</a>
     <span class="toggle-symbol govuk-!-font-weight-bold govuk-!-font-size-24"><strong>+</strong></span>
   </div>
-  <div class="content">
 
+  <div class="content">
 <div class="govuk-checkboxes__item govuk-checkboxes--small">
-   <input class="govuk-checkboxes__input" id="active-companies" name="active-companies" type="checkbox" value="active-companies">
-      <label class="govuk-label govuk-checkboxes__label" for="active-companies">
+   <input class="govuk-checkboxes__input" id="1-employee" name="1-employee" type="checkbox" value="1-employee">
+      <label class="govuk-label govuk-checkboxes__label" for="1-employee">
          1 employee or less
        </label>
  </div>
 
 <div class="govuk-checkboxes__item govuk-checkboxes--small">
-   <input class="govuk-checkboxes__input" id="active-companies" name="active-companies" type="checkbox" value="active-companies">
-      <label class="govuk-label govuk-checkboxes__label" for="active-companies">
+   <input class="govuk-checkboxes__input" id="10-employees" name="10-employees" type="checkbox" value="10-employees">
+      <label class="govuk-label govuk-checkboxes__label" for="10-employees">
          10 employees or less
        </label>
  </div>
 
      <div class="govuk-checkboxes__item govuk-checkboxes--small">
-           <input class="govuk-checkboxes__input" id="dissolved-companies" name="dissolved-companies" type="checkbox" value="dissolved-companies">
-      <label class="govuk-label govuk-checkboxes__label" for="dissolved-companies">
+           <input class="govuk-checkboxes__input" id="11-50-employees" name="11-50-employees" type="checkbox" value="11-50-employees">
+      <label class="govuk-label govuk-checkboxes__label" for="11-50-employees">
        11 to 50 employees
        </label>
  </div>
 
   <div class="govuk-checkboxes__item govuk-checkboxes--small">
-   <input class="govuk-checkboxes__input" id="dissolved-companies" name="dissolved-companies" type="checkbox" value="dissolved-companies">
-       <label class="govuk-label govuk-checkboxes__label" for="dissolved-companies">
+   <input class="govuk-checkboxes__input" id="51-to-250-employees" name="51-to-250-employees" type="checkbox" value="51-to-250-employees">
+       <label class="govuk-label govuk-checkboxes__label" for="51-to-250-employees">
      51 to 250 employees
      </label>
  </div>
 
  <div class="govuk-checkboxes__item govuk-checkboxes--small govuk-!-margin-bottom-6">
-       <input class="govuk-checkboxes__input" id="dissolved-companies" name="dissolved-companies" type="checkbox" value="dissolved-companies">
-        <label class="govuk-label govuk-checkboxes__label" for="dissolved-companies">
+       <input class="govuk-checkboxes__input" id="251-employees-or-more" name="251-employees-or-more" type="checkbox" value="251-employees-or-more">
+        <label class="govuk-label govuk-checkboxes__label" for="251-employees-or-more">
          251 employees or more
        </label>
  </div>
 
   </div>
 </div> <!--adiv class="accordion-wrapper"-->
+
+
+
+
+
+
 
 
 {# ******* Balance sheet total ****** #}
@@ -784,16 +795,17 @@
 
     <div class="govuk-form-group">
 
-        <div id="more-detail-hint" class="govuk-hint">
+        <div id="bst-minimum" class="govuk-hint">
           Minimum
         </div>
       <div class="govuk-input__wrapper">
-        <div class="govuk-input__prefix" aria-hidden="true">
+        <div class="govuk-input__prefix">
           £
         </div>
-        <input class="govuk-input govuk-input--width-10" for="width-10" id="bst-min" name="bstMin" type="text" spellcheck="false">
+        <input class="govuk-input govuk-input--width-10" for="bst-minimum" id="bst-minimum" name="bst-minimum" type="text" aria-label="Balance sheet total - enter the minimum amount" spellcheck="false">
       </div>
     </div>
+
 <hr class="hr"> 
 
 
@@ -803,14 +815,14 @@
   {#  Second £ input #}
   <div class="govuk-form-group">
 
-        <div id="more-detail-hint" class="govuk-hint">
+        <div id="bst-maximum" class="govuk-hint">
       Maximum
         </div>
       <div class="govuk-input__wrapper">
-        <div class="govuk-input__prefix" aria-hidden="true">
+        <div class="govuk-input__prefix">
           £
         </div>
-        <input class="govuk-input govuk-input--width-10" for="width-10" id="bst-max" name="bstMax" type="text" spellcheck="false">
+        <input class="govuk-input govuk-input--width-10" for="bst-maximum" id="bst-maximum" name="bst-maximum" type="text" aria-label="Balance sheet total - enter the maximum amount" spellcheck="false">
       </div>
     </div>
  </div> <!--div class="govuk-form-group"-->
@@ -841,28 +853,28 @@
   <div class="govuk-form-group">
 <p>Enter the profit and loss amount you want to search for in pounds.</p>
 
-    <div id="more-detail-hint" class="govuk-hint">
+    <div id="pl-minimum" class="govuk-hint">
       Minimium
     </div>
       <div class="govuk-input__wrapper">
         <div class="govuk-input__prefix" aria-hidden="true">
         £
         </div>
-        <input class="govuk-input govuk-input--width-10" for="width-10" id="bst-min" name="bstMin" type="text" spellcheck="false">
+        <input class="govuk-input govuk-input--width-10" for="pl-minimum" id="bst-min" name="pl-minimum" type="text" aria-label="Profit and loss - enter the minimum amount" spellcheck="false">
       </div>
     </div> <!--div class="govuk-form-group"-->
 
   <hr class="hr">
 
     <div class="govuk-form-group">
-      <div id="more-detail-hint" class="govuk-hint">
+      <div id="pl-maximum" class="govuk-hint">
       Maximum
       </div>
       <div class="govuk-input__wrapper">
         <div class="govuk-input__prefix" aria-hidden="true">
         £
         </div>
-          <input class="govuk-input govuk-input--width-10" for="width-10" id="bst-min" name="bstMin" type="text" spellcheck="false">
+          <input class="govuk-input govuk-input--width-10" for="pl-maximum" id="pl-maximum" name="pl-maximum" type="text" aria-label="Profit and loss - enter the maximum amount" spellcheck="false">
       </div>
     </div> <!--div class="govuk-form-group"-->
   </div> <!-- content-->
