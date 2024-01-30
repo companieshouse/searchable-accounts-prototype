@@ -582,15 +582,15 @@
                             <div class="govuk-checkboxes--small">
 
                             <div class="govuk-checkboxes__item govuk-checkboxes--small">
-                              <input class="govuk-checkboxes__input" id="active-companies" name="active-companies" type="checkbox" value="active-companies">
-                              <label class="govuk-label govuk-checkboxes__label" for="active-companies">
+                              <input class="govuk-checkboxes__input" id="community-interest" name="community-interest" type="checkbox" value="community-interest">
+                              <label class="govuk-label govuk-checkboxes__label" for="community-interest">
                                 Community interest company
                               </label>
                             </div>
 
                             <div class="govuk-checkboxes__item govuk-checkboxes--small">
-                                <input class="govuk-checkboxes__input" id="dissolved-companies" name="dissolved-companies" type="checkbox" value="dissolved-companies">
-                                <label class="govuk-label govuk-checkboxes__label" for="dissolved-companies">
+                                <input class="govuk-checkboxes__input" id="private-fund" name="private-fund" type="checkbox" value="private-fund">
+                                <label class="govuk-label govuk-checkboxes__label" for="private-fund">
                                   Private fund limited partnership
                                 </label>
                               </div>
@@ -620,7 +620,7 @@
 
  <p>  We can only show companies dissolved since 01/01/2010.</p>
 <div class="govuk-form-group">
-  <fieldset class="govuk-fieldset" role="group" aria-describedby="passport-issued-hint">
+  <fieldset class="govuk-fieldset" role="group" aria-describedby="diss-date">
     <legend class="govuk-fieldset__legend govuk-body-m">
       <p class="govuk-fieldset__heading">
         From
@@ -629,29 +629,29 @@
     <div id="passport-issued-hint" class="govuk-hint">
       For example, 27 3 2007
     </div>
-    <div class="govuk-date-input" id="passport-issued">
+    <div class="govuk-date-input" id="diss-day-from">
       <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="passport-issued-day">
+          <label class="govuk-label govuk-date-input__label" for="diss-day-from">
             Day
           </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-day" name="passport-issued-day" type="text" inputmode="numeric">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="diss-day-from" name="diss-day-from" type="text" aria-label="Dissolution date from - day" inputmode="numeric">
         </div>
       </div>
       <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="passport-issued-month">
+          <label class="govuk-label govuk-date-input__label" for="diss-month-from">
             Month
           </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-month" name="passport-issued-month" type="text" inputmode="numeric">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="diss-month-from" name="diss-month-from" type="text" aria-label="Dissolution date from - month" inputmode="numeric">
         </div>
       </div>
       <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="passport-issued-year">
+          <label class="govuk-label govuk-date-input__label" for="diss-year-from">
             Year
           </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="passport-issued-year" name="passport-issued-year" type="text" inputmode="numeric">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="diss-year-from" name="diss-year-from" type="text" aria-label="Dissolution date from - year" inputmode="numeric">
         </div>
       </div>
     </div>
@@ -671,26 +671,26 @@
     <div class="govuk-date-input" id="passport-issued">
       <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="passport-issued-day">
+          <label class="govuk-label govuk-date-input__label" for="diss-day-to">
             Day
           </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-day" name="passport-issued-day" type="text" inputmode="numeric">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="diss-day-to" name="diss-day-to" type="text" aria-label="Dissolution date to - day" inputmode="numeric">
         </div>
       </div>
       <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="passport-issued-month">
+          <label class="govuk-label govuk-date-input__label" for="diss-month-to">
             Month
           </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-month" name="passport-issued-month" type="text" inputmode="numeric">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="diss-month-to" name="diss-month-to" type="text" aria-label="Dissolution date to - month" inputmode="numeric">
         </div>
       </div>
       <div class="govuk-date-input__item">
         <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="passport-issued-year">
+          <label class="govuk-label govuk-date-input__label" for="diss-year-to">
             Year
           </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="passport-issued-year" name="passport-issued-year" type="text" inputmode="numeric">
+          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="diss-year-to" name="diss-year-to" type="text" aria-label="Dissolution date to - year" inputmode="numeric">
         </div>
       </div>
     </div>
